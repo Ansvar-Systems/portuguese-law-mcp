@@ -1,0 +1,43 @@
+{
+  "id": "pt-dl-7-2004",
+  "type": "statute",
+  "title": "Decreto-Lei n.º 7/2004, de 7 de janeiro — Comércio eletrónico",
+  "title_en": "Decree-Law 7/2004 — Electronic Commerce (E-Commerce Directive Transposition)",
+  "short_name": "DL 7/2004",
+  "status": "in_force",
+  "issued_date": "2004-01-07",
+  "in_force_date": "2004-01-08",
+  "url": "https://dre.pt/pesquisa/-/search/550006/details/maximized",
+  "description": "Transposes EU E-Commerce Directive 2000/31/EC. Regulates information society services, electronic contracts, intermediary liability, and commercial communications.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "1",
+      "title": "Objeto",
+      "content": "O presente decreto-lei regula determinados aspetos legais do comércio eletrónico no mercado interno, transpondo para o ordenamento jurídico nacional a Diretiva n.º 2000/31/CE, do Parlamento Europeu e do Conselho, de 8 de junho de 2000, relativa a certos aspetos legais dos serviços da sociedade de informação, em especial do comércio eletrónico, no mercado interno."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "2",
+      "title": "Definições",
+      "content": "Para efeitos do presente decreto-lei, entende-se por: a) «Serviços da sociedade da informação» — qualquer serviço prestado à distância, por via eletrónica, mediante remuneração ou pelo menos no âmbito de uma atividade económica na sequência de pedido individual do destinatário; b) «Prestador de serviços» — qualquer pessoa, singular ou coletiva, que preste um serviço da sociedade da informação; c) «Destinatário do serviço» — qualquer pessoa, singular ou coletiva, que, para fins profissionais ou não, utilize um serviço da sociedade da informação, nomeadamente para procurar ou tornar acessível determinada informação; d) «Comunicações comerciais» — qualquer forma de comunicação destinada a promover, direta ou indiretamente, bens, serviços ou a imagem de uma empresa, organização ou pessoa que exerça uma atividade comercial, industrial, artesanal ou uma profissão regulamentada."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "CAPÍTULO II — Prestadores de serviços",
+      "section": "4",
+      "title": "Princípio do país de origem",
+      "content": "O prestador de serviços da sociedade da informação estabelecido em Portugal fica sujeito à lei portuguesa relativamente à atividade de serviços da sociedade da informação por si desenvolvida."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "CAPÍTULO III — Responsabilidade dos prestadores intermediários de serviços",
+      "section": "13",
+      "title": "Mera transmissão",
+      "content": "O prestador intermediário de serviços da sociedade da informação que preste um serviço que consista na transmissão, numa rede de comunicações, de informações prestadas pelo destinatário do serviço, ou que consista na concessão de acesso a uma rede de comunicações, não é responsável pela informação transmitida."
+    }
+  ],
+  "definitions": []
+}

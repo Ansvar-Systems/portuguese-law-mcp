@@ -1,0 +1,57 @@
+{
+  "id": "pt-lei-46-2018",
+  "type": "statute",
+  "title": "Lei n.º 46/2018, de 13 de agosto — Estabelece o regime jurídico da segurança do ciberespaço",
+  "title_en": "Law 46/2018 — Legal Framework for Cyberspace Security (NIS Directive Transposition)",
+  "short_name": "Lei 46/2018",
+  "status": "in_force",
+  "issued_date": "2018-08-13",
+  "in_force_date": "2018-08-14",
+  "url": "https://dre.pt/pesquisa/-/search/116029384/details/maximized",
+  "description": "Transposes NIS Directive (EU) 2016/1148. Establishes CNCS as national cybersecurity authority, defines obligations for operators of essential services and digital service providers.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "1",
+      "title": "Objeto",
+      "content": "A presente lei estabelece o regime jurídico da segurança do ciberespaço, transpondo a Diretiva (UE) 2016/1148, do Parlamento Europeu e do Conselho, de 6 de julho de 2016, relativa a medidas destinadas a garantir um elevado nível comum de segurança das redes e da informação em toda a União Europeia."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "2",
+      "title": "Âmbito de aplicação",
+      "content": "A presente lei aplica-se à Administração Pública, aos operadores de infraestruturas críticas, aos operadores de serviços essenciais e aos prestadores de serviços digitais."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "3",
+      "title": "Definições",
+      "content": "Para efeitos da presente lei, entende-se por: a) «Ciberespaço» — o ambiente complexo, de valores e interesses, materializado numa área de responsabilidade coletiva, que resulta da interação entre pessoas, redes e sistemas de informação; b) «Incidente» — um evento com um efeito adverso real na segurança das redes e dos sistemas de informação; c) «Operador de serviços essenciais» — uma entidade pública ou privada que presta um serviço essencial para a manutenção de atividades societais e/ou económicas cruciais."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "CAPÍTULO II — Estrutura de segurança do ciberespaço",
+      "section": "7",
+      "title": "Centro Nacional de Cibersegurança",
+      "content": "O Centro Nacional de Cibersegurança (CNCS) é a Autoridade Nacional de Cibersegurança, funcionando junto do Gabinete Nacional de Segurança."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "CAPÍTULO III — Segurança das redes e dos sistemas de informação",
+      "section": "12",
+      "title": "Requisitos de segurança",
+      "content": "Os operadores de serviços essenciais adotam medidas técnicas e organizativas adequadas e proporcionadas para gerir os riscos que se colocam à segurança das redes e dos sistemas de informação que utilizam nas suas operações."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "CAPÍTULO III — Segurança das redes e dos sistemas de informação",
+      "section": "13",
+      "title": "Notificação de incidentes",
+      "content": "Os operadores de serviços essenciais notificam o CNCS, sem demora injustificada, dos incidentes com um impacto relevante na continuidade dos serviços essenciais por si prestados."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,71 @@
+{
+  "id": "pt-lei-109-2009",
+  "type": "statute",
+  "title": "Lei n.º 109/2009, de 15 de setembro — Lei do Cibercrime",
+  "title_en": "Law 109/2009 — Cybercrime Law (Budapest Convention Transposition)",
+  "short_name": "Lei 109/2009",
+  "status": "in_force",
+  "issued_date": "2009-09-15",
+  "in_force_date": "2009-10-15",
+  "url": "https://dre.pt/pesquisa/-/search/483437/details/maximized",
+  "description": "Portuguese Cybercrime Law transposing Council of Europe Budapest Convention. Defines computer crimes including illegal access, interception, data interference, system interference, and computer-related fraud.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "1",
+      "title": "Objeto",
+      "content": "A presente lei estabelece as disposições penais materiais e processuais, bem como as disposições relativas à cooperação internacional em matéria penal, relativas ao domínio do cibercrime e da recolha de prova em suporte eletrónico, transpondo para a ordem jurídica interna a Decisão Quadro n.º 2005/222/JAI, do Conselho, de 24 de fevereiro de 2005, relativa a ataques contra sistemas de informação, e adaptando o direito interno à Convenção sobre Cibercrime do Conselho da Europa."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "2",
+      "title": "Definições",
+      "content": "Para efeitos da presente lei, considera-se: a) «Sistema informático» — qualquer dispositivo ou conjunto de dispositivos interligados ou associados, em que um ou mais de entre eles desenvolve, em execução de um programa, o tratamento automatizado de dados informáticos, bem como a rede que suporta a comunicação entre eles e o conjunto de dados informáticos armazenados, tratados, recuperados ou transmitidos por aquele ou aqueles dispositivos, tendo em vista o seu funcionamento, utilização, proteção e manutenção; b) «Dados informáticos» — qualquer representação de factos, informações ou conceitos sob uma forma suscetível de processamento num sistema informático, incluindo os programas aptos a fazerem um sistema informático executar uma função; c) «Dados de tráfego» — os dados informáticos relacionados com uma comunicação efetuada por meio de um sistema informático, gerados por este sistema como elemento de uma cadeia de comunicação, indicando a origem da comunicação, o destino, o trajeto, a hora, a data, o tamanho, a duração ou o tipo de serviço subjacente."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "CAPÍTULO II — Disposições penais materiais",
+      "section": "3",
+      "title": "Falsidade informática",
+      "content": "Quem, com intenção de provocar engano nas relações jurídicas, introduzir, modificar, apagar ou suprimir dados informáticos ou por qualquer outra forma interferir num tratamento informático de dados, produzindo dados ou documentos não genuínos, com a intenção de que estes sejam considerados ou utilizados para finalidades juridicamente relevantes como se o fossem, é punido com pena de prisão até 5 anos ou multa de 120 a 600 dias."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "CAPÍTULO II — Disposições penais materiais",
+      "section": "4",
+      "title": "Dano relativo a programas ou outros dados informáticos",
+      "content": "Quem, sem permissão legal ou sem para tanto estar autorizado pelo proprietário, por outro titular do direito do sistema ou de parte dele, apagar, alterar, destruir, no todo ou em parte, danificar, suprimir ou tornar não utilizáveis ou não acessíveis programas ou outros dados informáticos alheios ou por qualquer forma lhes afetar a capacidade de uso, é punido com pena de prisão até 3 anos ou pena de multa."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "CAPÍTULO II — Disposições penais materiais",
+      "section": "5",
+      "title": "Sabotagem informática",
+      "content": "Quem, sem permissão legal ou sem para tanto estar autorizado pelo proprietário, por outro titular do direito do sistema ou de parte dele, entravar, impedir, interromper ou perturbar gravemente o funcionamento de um sistema informático, através da introdução, transmissão, deterioração, danificação, alteração, apagamento, impedimento do acesso ou supressão de programas ou outros dados informáticos ou de qualquer outra forma de interferência em sistema informático, é punido com pena de prisão até 5 anos ou com pena de multa até 600 dias."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "CAPÍTULO II — Disposições penais materiais",
+      "section": "6",
+      "title": "Acesso ilegítimo",
+      "content": "Quem, sem permissão legal ou sem para tanto estar autorizado pelo proprietário, por outro titular do direito do sistema ou de parte dele, de qualquer modo aceder a um sistema informático, é punido com pena de prisão até 1 ano ou com pena de multa até 120 dias."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "CAPÍTULO II — Disposições penais materiais",
+      "section": "7",
+      "title": "Interceção ilegítima",
+      "content": "Quem, sem permissão legal ou sem para tanto estar autorizado pelo proprietário, por outro titular do direito do sistema ou de parte dele, e através de meios técnicos, intercetar transmissões de dados informáticos que se processam no interior de um sistema informático, a ele destinadas ou dele provenientes, é punido com pena de prisão até 3 anos ou com pena de multa."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "CAPÍTULO II — Disposições penais materiais",
+      "section": "8",
+      "title": "Reprodução ilegítima de programa protegido",
+      "content": "Quem, não estando para tanto autorizado, reproduzir, divulgar ou comunicar ao público um programa informático protegido por lei, é punido com pena de prisão até 3 anos ou com pena de multa."
+    }
+  ],
+  "definitions": []
+}

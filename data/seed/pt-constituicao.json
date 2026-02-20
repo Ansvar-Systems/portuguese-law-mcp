@@ -1,0 +1,57 @@
+{
+  "id": "pt-constituicao",
+  "type": "statute",
+  "title": "Constituição da República Portuguesa",
+  "title_en": "Constitution of the Portuguese Republic",
+  "short_name": "Constituição",
+  "status": "in_force",
+  "issued_date": "1976-04-02",
+  "in_force_date": "1976-04-25",
+  "url": "https://dre.pt/legislacao-consolidada/-/lc/34520775/view",
+  "description": "Portuguese Constitution. Art. 35 (utilização da informática) provides explicit constitutional protection for digital rights and personal data, one of few European constitutions with such provisions.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Princípios fundamentais",
+      "section": "1",
+      "title": "República Portuguesa",
+      "content": "Portugal é uma República soberana, baseada na dignidade da pessoa humana e na vontade popular e empenhada na construção de uma sociedade livre, justa e solidária."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Princípios fundamentais",
+      "section": "2",
+      "title": "Estado de direito democrático",
+      "content": "A República Portuguesa é um Estado de direito democrático, baseado na soberania popular, no pluralismo de expressão e organização política democráticas, no respeito e na garantia de efetivação dos direitos e liberdades fundamentais e na separação e interdependência de poderes, visando a realização da democracia económica, social e cultural e o aprofundamento da democracia participativa."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "26",
+      "title": "Outros direitos pessoais",
+      "content": "A todos são reconhecidos os direitos à identidade pessoal, ao desenvolvimento da personalidade, à capacidade civil, à cidadania, ao bom nome e reputação, à imagem, à palavra, à reserva da intimidade da vida privada e familiar e à proteção legal contra quaisquer formas de discriminação."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "35",
+      "title": "Utilização da informática",
+      "content": "Todos os cidadãos têm o direito de acesso aos dados informatizados que lhes digam respeito, podendo exigir a sua retificação e atualização, e o direito de conhecer a finalidade a que se destinam, nos termos da lei. A lei define o conceito de dados pessoais, bem como as condições aplicáveis ao seu tratamento automatizado, conexão, transmissão e utilização, e garante a sua proteção, designadamente através de entidade administrativa independente. A informática não pode ser utilizada para tratamento de dados referentes a convicções filosóficas ou políticas, filiação partidária ou sindical, fé religiosa, vida privada e origem étnica, salvo mediante consentimento expresso do titular, autorização prevista por lei com garantias de não discriminação ou para processamento de dados estatísticos não individualmente identificáveis. É proibido o acesso a dados pessoais de terceiros, salvo em casos excecionais previstos na lei. É proibida a atribuição de um número nacional único aos cidadãos. A todos é garantido livre acesso às redes informáticas de uso público, definindo a lei o regime aplicável aos fluxos de dados transfronteiras e as formas adequadas de proteção de dados pessoais e de outros cuja salvaguarda se justifique por razões de interesse nacional."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "37",
+      "title": "Liberdade de expressão e informação",
+      "content": "Todos têm o direito de exprimir e divulgar livremente o seu pensamento pela palavra, pela imagem ou por qualquer outro meio, bem como o direito de informar, de se informar e de ser informados, sem impedimentos nem discriminações."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "34",
+      "title": "Inviolabilidade do domicílio e da correspondência",
+      "content": "O domicílio e o sigilo da correspondência e dos outros meios de comunicação privada são invioláveis. A entrada no domicílio dos cidadãos contra a sua vontade só pode ser ordenada pela autoridade judicial competente, nos casos e segundo as formas previstos na lei. Ninguém pode entrar durante a noite no domicílio de qualquer pessoa sem o seu consentimento, salvo em situação de flagrante delito ou mediante autorização judicial em casos de criminalidade especialmente violenta ou altamente organizada, incluindo o terrorismo e o tráfico de pessoas, de armas e de estupefacientes, nos termos previstos na lei. É proibida toda a ingerência das autoridades públicas na correspondência, nas telecomunicações e nos demais meios de comunicação, salvos os casos previstos na lei em matéria de processo criminal."
+    }
+  ],
+  "definitions": []
+}

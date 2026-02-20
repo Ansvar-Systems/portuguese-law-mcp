@@ -1,0 +1,50 @@
+{
+  "id": "pt-lei-67-98",
+  "type": "statute",
+  "title": "Lei n.º 67/98, de 26 de outubro — Lei da Proteção de Dados Pessoais",
+  "title_en": "Law 67/98 — Personal Data Protection Act (Former DPA, Partially in Force)",
+  "short_name": "Lei 67/98",
+  "status": "amended",
+  "issued_date": "1998-10-26",
+  "in_force_date": "1998-10-27",
+  "url": "https://dre.pt/pesquisa/-/search/239857/details/maximized",
+  "description": "Former Portuguese Data Protection Act transposing Directive 95/46/EC. Largely superseded by Lei 58/2019 (GDPR implementation) but some provisions remain in force for specific contexts.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "1",
+      "title": "Objeto",
+      "content": "A presente lei transpõe para a ordem jurídica interna a Diretiva n.º 95/46/CE, do Parlamento Europeu e do Conselho, de 24 de outubro de 1995, relativa à proteção das pessoas singulares no que diz respeito ao tratamento de dados pessoais e à livre circulação desses dados."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "2",
+      "title": "Princípio geral",
+      "content": "O tratamento de dados pessoais deve processar-se de forma transparente e no estrito respeito pela reserva da vida privada, bem como pelos direitos, liberdades e garantias fundamentais."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "3",
+      "title": "Definições",
+      "content": "Para efeitos da presente lei, entende-se por: a) «Dados pessoais» — qualquer informação, de qualquer natureza e independentemente do respetivo suporte, incluindo som e imagem, relativa a uma pessoa singular identificada ou identificável; b) «Tratamento de dados pessoais» — qualquer operação ou conjunto de operações sobre dados pessoais, efetuadas com ou sem meios automatizados."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "CAPÍTULO II — Tratamento de dados pessoais",
+      "section": "7",
+      "title": "Tratamento de dados sensíveis",
+      "content": "É proibido o tratamento de dados pessoais referentes a convicções filosóficas ou políticas, filiação partidária ou sindical, fé religiosa, vida privada e origem racial ou étnica, bem como o tratamento de dados relativos à saúde e à vida sexual, incluindo os dados genéticos."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "21",
+      "title": "Comissão Nacional de Proteção de Dados",
+      "content": "A Comissão Nacional de Proteção de Dados (CNPD) é a entidade administrativa independente com poderes de autoridade que funciona junto da Assembleia da República e tem como atribuição controlar e fiscalizar o cumprimento das disposições legais e regulamentares em matéria de proteção de dados pessoais, em rigoroso respeito pelos direitos do homem e pelas liberdades e garantias consagradas na Constituição e na lei."
+    }
+  ],
+  "definitions": []
+}

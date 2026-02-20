@@ -1,0 +1,43 @@
+{
+  "id": "pt-csc",
+  "type": "statute",
+  "title": "Código das Sociedades Comerciais (CSC)",
+  "title_en": "Commercial Companies Code (CSC)",
+  "short_name": "CSC",
+  "status": "in_force",
+  "issued_date": "1986-09-02",
+  "in_force_date": "1986-11-01",
+  "url": "https://dre.pt/legislacao-consolidada/-/lc/34546475/view",
+  "description": "Main Portuguese company law statute governing all types of commercial companies (SA, Lda, etc.), corporate governance, directors duties, and reporting obligations.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "1",
+      "title": "Âmbito de aplicação",
+      "content": "O presente código aplica-se às sociedades comerciais. São sociedades comerciais aquelas que tenham por objeto a prática de atos de comércio e adotem o tipo de sociedade em nome coletivo, de sociedade por quotas, de sociedade anónima, de sociedade em comandita simples ou de sociedade em comandita por ações."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "2",
+      "title": "Capacidade",
+      "content": "A capacidade da sociedade compreende os direitos e as obrigações necessários ou convenientes à prossecução do seu fim, excetuados aqueles que sejam vedados por lei ou sejam inseparáveis da personalidade singular."
+    },
+    {
+      "provision_ref": "art64",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "64",
+      "title": "Deveres fundamentais",
+      "content": "Os gerentes ou administradores da sociedade devem observar: a) Deveres de cuidado, revelando a disponibilidade, a competência técnica e o conhecimento da atividade da sociedade adequados às suas funções e empregando nesse âmbito a diligência de um gestor criterioso e ordenado; b) Deveres de lealdade, no interesse da sociedade, atendendo aos interesses de longo prazo dos sócios e ponderando os interesses dos outros sujeitos relevantes para a sustentabilidade da sociedade."
+    },
+    {
+      "provision_ref": "art72",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "72",
+      "title": "Responsabilidade de membros da administração para com a sociedade",
+      "content": "Os gerentes ou administradores respondem para com a sociedade pelos danos a esta causados por atos ou omissões praticados com preterição dos deveres legais ou contratuais, salvo se provarem que procederam sem culpa."
+    }
+  ],
+  "definitions": []
+}

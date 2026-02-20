@@ -1,0 +1,50 @@
+{
+  "id": "pt-lei-41-2004",
+  "type": "statute",
+  "title": "Lei n.º 41/2004, de 18 de agosto — Proteção de dados pessoais nas comunicações eletrónicas",
+  "title_en": "Law 41/2004 — Privacy in Electronic Communications (ePrivacy Transposition)",
+  "short_name": "Lei 41/2004",
+  "status": "in_force",
+  "issued_date": "2004-08-18",
+  "in_force_date": "2004-08-19",
+  "url": "https://dre.pt/pesquisa/-/search/480710/details/maximized",
+  "description": "Transposes ePrivacy Directive 2002/58/EC. Regulates processing of personal data and privacy protection in electronic communications, including cookies, traffic data, and unsolicited communications.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "1",
+      "title": "Objeto e âmbito de aplicação",
+      "content": "A presente lei transpõe para a ordem jurídica nacional a Diretiva n.º 2002/58/CE, do Parlamento Europeu e do Conselho, de 12 de julho de 2002, relativa ao tratamento de dados pessoais e à proteção da privacidade no setor das comunicações eletrónicas. A presente lei aplica-se ao tratamento de dados pessoais no contexto da prestação de serviços de comunicações eletrónicas acessíveis ao público em redes de comunicações públicas, especificando e complementando as disposições da Lei n.º 67/98, de 26 de outubro."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "CAPÍTULO II — Segurança e confidencialidade",
+      "section": "3",
+      "title": "Segurança do processamento",
+      "content": "Os prestadores de serviços de comunicações eletrónicas acessíveis ao público devem adotar as medidas técnicas e organizacionais adequadas para salvaguardar a segurança dos seus serviços, se necessário em conjugação com o prestador da rede pública de comunicações no que respeita à segurança da rede."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "CAPÍTULO II — Segurança e confidencialidade",
+      "section": "4",
+      "title": "Inviolabilidade das comunicações eletrónicas",
+      "content": "As empresas que oferecem redes e ou serviços de comunicações eletrónicas devem garantir a inviolabilidade das comunicações e respetivos dados de tráfego realizadas através de redes públicas de comunicações e de serviços de comunicações eletrónicas acessíveis ao público. É proibida a escuta, a instalação de dispositivos de escuta, o armazenamento ou outros meios de interceção ou vigilância de comunicações e dos respetivos dados de tráfego por terceiros sem o consentimento prévio e expresso dos utilizadores."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "CAPÍTULO III — Dados de tráfego e dados de localização",
+      "section": "5",
+      "title": "Dados de tráfego",
+      "content": "Os dados de tráfego relativos aos assinantes e utilizadores tratados e armazenados pelos prestadores de redes públicas de comunicações ou de serviços de comunicações eletrónicas acessíveis ao público devem ser eliminados ou tornados anónimos quando deixem de ser necessários para efeitos da transmissão da comunicação."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "CAPÍTULO IV — Comunicações não solicitadas",
+      "section": "7",
+      "title": "Comunicações não solicitadas",
+      "content": "O envio de mensagens para fins de marketing direto por correio eletrónico ou por qualquer outro meio de comunicação eletrónica só é permitido em relação a assinantes que tenham dado o seu consentimento prévio."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "pt-lei-16-2022",
+  "type": "statute",
+  "title": "Lei n.º 16/2022, de 16 de agosto — Lei das Comunicações Eletrónicas",
+  "title_en": "Law 16/2022 — Electronic Communications Law (EECC Transposition)",
+  "short_name": "Lei 16/2022",
+  "status": "in_force",
+  "issued_date": "2022-08-16",
+  "in_force_date": "2022-10-15",
+  "url": "https://dre.pt/pesquisa/-/search/188619498/details/maximized",
+  "description": "Transposes European Electronic Communications Code (Directive (EU) 2018/1972). Regulates electronic communications networks and services, end-user rights, spectrum management.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "1",
+      "title": "Objeto e âmbito",
+      "content": "A presente lei estabelece o regime jurídico aplicável às redes e serviços de comunicações eletrónicas e aos recursos e serviços conexos, transpondo a Diretiva (UE) 2018/1972, do Parlamento Europeu e do Conselho, de 11 de dezembro de 2018, que estabelece o Código Europeu das Comunicações Eletrónicas."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "2",
+      "title": "Definições",
+      "content": "Para efeitos da presente lei entende-se por: a) «Rede de comunicações eletrónicas» — os sistemas de transmissão, baseados ou não em infraestruturas permanentes ou capacidade de administração centralizada; b) «Serviço de comunicações eletrónicas» — um serviço oferecido em geral mediante remuneração através de redes de comunicações eletrónicas."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "3",
+      "title": "Autoridade reguladora nacional",
+      "content": "A Autoridade Nacional de Comunicações (ANACOM) é a autoridade reguladora nacional para efeitos do disposto na presente lei e na legislação complementar."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "TÍTULO III — Segurança",
+      "section": "40",
+      "title": "Segurança das redes e serviços",
+      "content": "As empresas que oferecem redes públicas de comunicações eletrónicas ou serviços de comunicações eletrónicas acessíveis ao público devem tomar as medidas técnicas e organizacionais adequadas para gerir adequadamente os riscos para a segurança das redes e serviços."
+    }
+  ],
+  "definitions": []
+}
