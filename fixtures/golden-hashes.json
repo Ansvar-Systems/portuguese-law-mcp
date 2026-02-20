@@ -1,0 +1,56 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "Portuguese Law MCP",
+  "jurisdiction": "PT",
+  "provisions": [
+    {
+      "id": "pt-hash-001",
+      "description": "Constituicao da Republica Portuguesa Artigo 35 -- utilizacao da informatica (use of computer data); explicit constitutional digital rights provision",
+      "upstream_url": "https://dre.pt/legislacao-consolidada/-/lc/34520775/view",
+      "selector_hint": "Artigo 35 - Utilizacao da informatica",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "informatica"
+    },
+    {
+      "id": "pt-hash-002",
+      "description": "Lei 58/2019 Artigo 1 -- object and scope of the Portuguese GDPR implementation law",
+      "upstream_url": "https://dre.pt/pesquisa/-/search/123815982/details/maximized",
+      "selector_hint": "Artigo 1 - Objeto",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "protecao"
+    },
+    {
+      "id": "pt-hash-003",
+      "description": "Codigo Penal Artigo 193 -- devassa da vida privada (invasion of privacy)",
+      "upstream_url": "https://dre.pt/legislacao-consolidada/-/lc/34437675/view",
+      "selector_hint": "Artigo 193 - Devassa da vida privada",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "vida privada"
+    },
+    {
+      "id": "pt-hash-004",
+      "description": "Codigo das Sociedades Comerciais (CSC) Artigo 1 -- scope of Portuguese commercial company law",
+      "upstream_url": "https://dre.pt/legislacao-consolidada/-/lc/34546475/view",
+      "selector_hint": "Artigo 1 - Ambito de aplicacao",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "sociedades comerciais"
+    },
+    {
+      "id": "pt-hash-005",
+      "description": "Lei 46/2018 Artigo 1 -- object and scope of the NIS transposition (regime juridico da seguranca do ciberespaco)",
+      "upstream_url": "https://dre.pt/pesquisa/-/search/116029384/details/maximized",
+      "selector_hint": "Artigo 1 - Objeto",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "seguranca"
+    },
+    {
+      "id": "pt-hash-006",
+      "description": "Decreto-Lei 7/2004 Artigo 1 -- scope of the Portuguese eCommerce law (transposition of Directive 2000/31/EC)",
+      "upstream_url": "https://dre.pt/pesquisa/-/search/550006/details/maximized",
+      "selector_hint": "Artigo 1 - Ambito",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "comercio eletronico"
+    }
+  ]
+}

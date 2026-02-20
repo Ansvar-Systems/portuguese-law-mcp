@@ -1,0 +1,183 @@
+{
+  "$schema": "./golden-tests.schema.json",
+  "version": "1.0",
+  "mcp_name": "Portuguese Law MCP",
+  "description": "Golden contract tests for the Portuguese Law MCP covering Lei 58/2019 (GDPR implementation), Lei 46/2018 (NIS transposition), Codigo das Sociedades Comerciais (CSC), Codigo Penal (cybercrime), DL 7/2004 (eCommerce), and Lei 16/2022 (Electronic Communications)",
+  "tests": [
+    {
+      "id": "pt-001",
+      "category": "article_retrieval",
+      "description": "Retrieve Artigo 1 of Lei 58/2019 -- object and scope of the Portuguese GDPR implementation",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Lei 58/2019",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["protecao", "dados pessoais", "tratamento"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "pt-002",
+      "category": "article_retrieval",
+      "description": "Retrieve Artigo 193 of the Codigo Penal -- devassa da vida privada (invasion of privacy)",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Codigo Penal",
+        "article": "193"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["vida privada", "devassa", "intimidade"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "pt-003",
+      "category": "article_retrieval",
+      "description": "Retrieve Artigo 1 of the Codigo das Sociedades Comerciais (CSC) -- scope of commercial company law",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Codigo das Sociedades Comerciais",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["sociedades comerciais", "sociedade"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "pt-004",
+      "category": "article_retrieval",
+      "description": "Retrieve Artigo 1 of Lei 46/2018 -- object and scope of the NIS transposition (regime juridico da seguranca do ciberespaco)",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Lei 46/2018",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["seguranca", "ciberespaco", "redes", "informacao"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "pt-005",
+      "category": "search",
+      "description": "Full-text search for 'dados pessoais' (personal data) returns Lei 58/2019 provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "dados pessoais"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["dados pessoais", "protecao", "tratamento"]
+      }
+    },
+    {
+      "id": "pt-006",
+      "category": "search",
+      "description": "Full-text search for 'ciberseguranca' (cybersecurity) returns NIS law and related provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "ciberseguranca"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["ciberseguranca", "seguranca", "ciberespaco", "redes"]
+      }
+    },
+    {
+      "id": "pt-007",
+      "category": "search",
+      "description": "Full-text search for 'comercio eletronico' (electronic commerce) returns DL 7/2004 provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "comercio eletronico"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["comercio eletronico", "servicos", "informacao"]
+      }
+    },
+    {
+      "id": "pt-008",
+      "category": "citation_roundtrip",
+      "description": "Citation for Lei 58/2019 Artigo 2 includes dre.pt URL pattern",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Lei 58/2019",
+        "article": "2"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "citation_url_pattern": "dre\\.pt",
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "pt-009",
+      "category": "citation_roundtrip",
+      "description": "Citation for DL 7/2004 Artigo 1 includes Diario da Republica reference",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Decreto-Lei 7/2004",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["Diario da Republica"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "pt-010",
+      "category": "eu_cross_reference",
+      "description": "Lei 58/2019 cross-reference to GDPR -- Portuguese GDPR implementation references Regulation (EU) 2016/679",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "Lei 58/2019"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "Regulamento"]
+      }
+    },
+    {
+      "id": "pt-011",
+      "category": "negative_test",
+      "description": "Non-existent Portuguese law returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Lei Ficticia 9999/2099",
+        "article": "1"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    },
+    {
+      "id": "pt-012",
+      "category": "negative_test",
+      "description": "Malformed article number returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Lei 58/2019",
+        "article": "999ZZZ-INVALID"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
+}

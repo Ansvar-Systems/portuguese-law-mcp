@@ -1,0 +1,74 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "Portuguese Law MCP"
+jurisdiction: "PT"
+
+sources:
+  - name: "Diario da Republica Eletronico (DRE)"
+    authority: "Imprensa Nacional-Casa da Moeda (INCM)"
+    official_portal: "https://dre.pt"
+    canonical_identifier: "Diario da Republica reference (Serie, number, date) and Lei/Decreto-Lei number"
+    retrieval_method: "API"
+    api_documentation: "https://dre.pt/opendata"
+    update_frequency: "daily"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Open Data (Portuguese Open Data)"
+      url: "https://dre.pt/termos-de-utilizacao"
+      summary: "DRE is the official electronic journal of the Portuguese Republic, operated by INCM; provides free public access to all legislation published in the Diario da Republica; content is available under Portuguese open data terms for reuse with attribution; structured API available for programmatic access"
+    coverage:
+      scope: "All Portuguese legislation published in the Diario da Republica including Lei 58/2019 (GDPR implementation), Lei 46/2018 (NIS transposition - regime juridico da seguranca do ciberespaco), Codigo das Sociedades Comerciais (CSC), Codigo Penal (cybercrime provisions arts. 193-194, 221), Lei do Comercio Eletronico (DL 7/2004), Lei das Comunicacoes Eletronicas (Lei 16/2022), and Constituicao da Republica Portuguesa"
+      limitations: "Some very recent publications may have a short delay before appearing in the API; historical legislation predating digitization may not have fully structured text; consolidated versions of frequently amended laws may lag slightly behind gazette publication"
+    languages:
+      - "pt"
+
+  - name: "Comissao Nacional de Protecao de Dados (CNPD) Decisions and Guidance"
+    authority: "Comissao Nacional de Protecao de Dados"
+    official_portal: "https://www.cnpd.pt"
+    canonical_identifier: "CNPD deliberation/decision reference number"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: null
+    update_frequency: "monthly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Publication"
+      url: "https://www.cnpd.pt/avisos-legais/"
+      summary: "CNPD deliberations, opinions, and guidelines are publicly available as official regulatory publications; the CNPD is one of Europe's oldest data protection authorities, predating the GDPR"
+    coverage:
+      scope: "CNPD deliberations, opinions on legislative proposals, guidelines on GDPR implementation under Lei 58/2019, and published regulatory guidance"
+      limitations: "Not all historical deliberations may be available digitally; some older decisions may only be in PDF format; internal advisory opinions may not be published"
+    languages:
+      - "pt"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "PENDING_FIRST_INGEST"
+
+# Notes:
+# - Portugal's DRE (dre.pt) is an excellent structured government legal database
+#   with a proper open data API providing JSON responses
+# - Lei 58/2019 is Portugal's GDPR implementation law, covering areas of member
+#   state discretion including age of digital consent (13 years, one of the lowest
+#   in the EU), processing for journalism, and public interest derogations
+# - Lei 46/2018 transposes the NIS Directive, establishing the regime juridico
+#   da seguranca do ciberespaco (legal framework for cyberspace security) and
+#   designating CNCS (Centro Nacional de Ciberseguranca) as the competent authority
+# - The Constituicao da Republica Portuguesa Art. 35 specifically addresses the
+#   use of computer data (utilizacao da informatica), making it one of the few
+#   European constitutions with an explicit digital rights provision
+# - The Codigo Penal contains cybercrime provisions in arts. 193-194 (privacy
+#   violations, interception of communications) and art. 221 (computer fraud)
+# - The Codigo das Sociedades Comerciais (CSC) is the main company law statute,
+#   governing all types of commercial companies in Portugal
+# - DL 7/2004 (Decreto-Lei) transposes the EU E-Commerce Directive 2000/31/EC
+# - Lei 16/2022 is the Electronic Communications Law transposing the European
+#   Electronic Communications Code (EECC)
+# - CNPD (Comissao Nacional de Protecao de Dados) is one of Europe's oldest DPAs,
+#   established in 1994 under the 1991 Data Protection Law (Lei 10/91)
+# - Portuguese legal system is based on civil law; Portuguese is the sole official
+#   language for all legislation
+# - Diario da Republica references are the canonical citation format (e.g.,
+#   Diario da Republica, 1.a serie, N.o 151, de 8 de agosto de 2019)
+# - Portuguese law distinguishes between Lei (Act of Parliament) and Decreto-Lei
+#   (Government decree with force of law); both are published in the DR
