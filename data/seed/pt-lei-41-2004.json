@@ -8,43 +8,277 @@
   "issued_date": "2004-08-18",
   "in_force_date": "2004-08-19",
   "url": "https://dre.pt/pesquisa/-/search/480710/details/maximized",
-  "description": "Transposes ePrivacy Directive 2002/58/EC. Regulates processing of personal data and privacy protection in electronic communications, including cookies, traffic data, and unsolicited communications.",
+  "description": "Transposes ePrivacy Directive 2002/58/EC. Regulates processing of personal data and privacy protection in electronic communications, including cookies, traffic data, location data, spam, and unsolicited communications.",
   "provisions": [
     {
       "provision_ref": "art1",
       "chapter": "CAPÍTULO I — Disposições gerais",
       "section": "1",
       "title": "Objeto e âmbito de aplicação",
-      "content": "A presente lei transpõe para a ordem jurídica nacional a Diretiva n.º 2002/58/CE, do Parlamento Europeu e do Conselho, de 12 de julho de 2002, relativa ao tratamento de dados pessoais e à proteção da privacidade no setor das comunicações eletrónicas. A presente lei aplica-se ao tratamento de dados pessoais no contexto da prestação de serviços de comunicações eletrónicas acessíveis ao público em redes de comunicações públicas, especificando e complementando as disposições da Lei n.º 67/98, de 26 de outubro."
+      "content": "1 — A presente lei transpõe para a ordem jurídica nacional a Diretiva n.º 2002/58/CE, do Parlamento Europeu e do Conselho, de 12 de julho de 2002, relativa ao tratamento de dados pessoais e à proteção da privacidade no setor das comunicações eletrónicas. 2 — A presente lei aplica-se ao tratamento de dados pessoais no contexto da prestação de serviços de comunicações eletrónicas acessíveis ao público em redes de comunicações públicas, especificando e complementando as disposições da Lei n.º 67/98, de 26 de outubro. 3 — As disposições da presente lei asseguram a proteção dos interesses legítimos dos assinantes que sejam pessoas coletivas na medida em que tal proteção seja compatível com a sua natureza."
+    },
+    {
+      "provision_ref": "art1A",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "1-A",
+      "title": "Relação com o RGPD",
+      "content": "A presente lei especifica e complementa as disposições do Regulamento (UE) 2016/679 (RGPD) e da Lei n.º 58/2019, de 8 de agosto, no que respeita ao tratamento de dados pessoais no setor das comunicações eletrónicas."
+    },
+    {
+      "provision_ref": "art3A",
+      "chapter": "CAPÍTULO II — Segurança e confidencialidade",
+      "section": "3-A",
+      "title": "Avaliação de riscos de segurança",
+      "content": "1 — Os prestadores de serviços de comunicações eletrónicas acessíveis ao público devem realizar avaliações periódicas dos riscos de segurança dos seus serviços e redes. 2 — As avaliações referidas no número anterior devem ter em conta o estado da arte e os custos de implementação das medidas de segurança."
+    },
+    {
+      "provision_ref": "art4A",
+      "chapter": "CAPÍTULO II — Segurança e confidencialidade",
+      "section": "4-A",
+      "title": "Exceções à inviolabilidade das comunicações",
+      "content": "O disposto no artigo 4.º não se aplica: a) Às gravações legalmente autorizadas no âmbito de práticas comerciais lícitas; b) Ao armazenamento técnico necessário ao envio de uma comunicação; c) Às interceções de comunicações autorizadas por lei em matéria de processo criminal."
+    },
+    {
+      "provision_ref": "art6A",
+      "chapter": "CAPÍTULO III — Dados de tráfego e dados de localização",
+      "section": "6-A",
+      "title": "Proteção adicional de dados de localização de menores",
+      "content": "O tratamento de dados de localização de menores para a prestação de serviços de valor acrescentado só é permitido mediante o consentimento expresso do titular das responsabilidades parentais."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "CAPÍTULO I — Disposições gerais",
+      "section": "2",
+      "title": "Definições",
+      "content": "Para efeitos da presente lei, entende-se por: a) «Comunicação» — qualquer informação trocada ou enviada entre um número finito de partes através de um serviço de comunicações eletrónicas acessível ao público; b) «Utilizador» — qualquer pessoa singular que utilize um serviço de comunicações eletrónicas acessível ao público para fins privados ou comerciais, não sendo necessariamente assinante desse serviço; c) «Dados de tráfego» — quaisquer dados tratados para efeitos do envio de uma comunicação através de uma rede de comunicações eletrónicas ou para efeitos da faturação da mesma; d) «Dados de localização» — quaisquer dados tratados numa rede de comunicações eletrónicas ou no âmbito de um serviço de comunicações eletrónicas que indiquem a posição geográfica do equipamento terminal de um utilizador de um serviço de comunicações eletrónicas acessível ao público; e) «Correio eletrónico» — qualquer mensagem textual, vocal, sonora ou gráfica enviada através de uma rede pública de comunicações que possa ser armazenada na rede ou no equipamento terminal do destinatário até que este a recolha; f) «Chamada» — a ligação estabelecida através de um serviço telefónico acessível ao público que permite uma comunicação bidirecional."
     },
     {
       "provision_ref": "art3",
       "chapter": "CAPÍTULO II — Segurança e confidencialidade",
       "section": "3",
       "title": "Segurança do processamento",
-      "content": "Os prestadores de serviços de comunicações eletrónicas acessíveis ao público devem adotar as medidas técnicas e organizacionais adequadas para salvaguardar a segurança dos seus serviços, se necessário em conjugação com o prestador da rede pública de comunicações no que respeita à segurança da rede."
+      "content": "1 — Os prestadores de serviços de comunicações eletrónicas acessíveis ao público devem adotar as medidas técnicas e organizacionais adequadas para salvaguardar a segurança dos seus serviços, se necessário em conjugação com o prestador da rede pública de comunicações no que respeita à segurança da rede. 2 — As medidas referidas no número anterior devem ser adequadas à prevenção dos riscos existentes, tendo em conta a proporcionalidade dos custos da sua aplicação e o estado da evolução tecnológica. 3 — Em caso de risco especial de violação da segurança da rede, o prestador de um serviço de comunicações eletrónicas acessível ao público deve informar os assinantes desse risco e, sempre que o risco se situe fora do âmbito das medidas a tomar pelo prestador do serviço, das soluções possíveis, indicando os custos prováveis daí decorrentes."
     },
     {
       "provision_ref": "art4",
       "chapter": "CAPÍTULO II — Segurança e confidencialidade",
       "section": "4",
       "title": "Inviolabilidade das comunicações eletrónicas",
-      "content": "As empresas que oferecem redes e ou serviços de comunicações eletrónicas devem garantir a inviolabilidade das comunicações e respetivos dados de tráfego realizadas através de redes públicas de comunicações e de serviços de comunicações eletrónicas acessíveis ao público. É proibida a escuta, a instalação de dispositivos de escuta, o armazenamento ou outros meios de interceção ou vigilância de comunicações e dos respetivos dados de tráfego por terceiros sem o consentimento prévio e expresso dos utilizadores."
+      "content": "1 — As empresas que oferecem redes e ou serviços de comunicações eletrónicas devem garantir a inviolabilidade das comunicações e respetivos dados de tráfego realizadas através de redes públicas de comunicações e de serviços de comunicações eletrónicas acessíveis ao público. 2 — É proibida a escuta, a instalação de dispositivos de escuta, o armazenamento ou outros meios de interceção ou vigilância de comunicações e dos respetivos dados de tráfego por terceiros sem o consentimento prévio e expresso dos utilizadores, com exceção dos casos previstos na lei. 3 — O disposto no presente artigo não impede as gravações legalmente autorizadas de comunicações e dos respetivos dados de tráfego, quando realizadas no âmbito de práticas comerciais lícitas, para o efeito de prova de uma transação comercial ou de qualquer outra comunicação feita no âmbito de uma relação comercial. 4 — São permitidos o armazenamento técnico necessário ao envio de uma comunicação, sem prejuízo do princípio da confidencialidade."
     },
     {
       "provision_ref": "art5",
       "chapter": "CAPÍTULO III — Dados de tráfego e dados de localização",
       "section": "5",
       "title": "Dados de tráfego",
-      "content": "Os dados de tráfego relativos aos assinantes e utilizadores tratados e armazenados pelos prestadores de redes públicas de comunicações ou de serviços de comunicações eletrónicas acessíveis ao público devem ser eliminados ou tornados anónimos quando deixem de ser necessários para efeitos da transmissão da comunicação."
+      "content": "1 — Os dados de tráfego relativos aos assinantes e utilizadores tratados e armazenados pelos prestadores de redes públicas de comunicações ou de serviços de comunicações eletrónicas acessíveis ao público devem ser eliminados ou tornados anónimos quando deixem de ser necessários para efeitos da transmissão da comunicação. 2 — Os dados de tráfego necessários para efeitos de faturação dos assinantes e de pagamento de interligações podem ser tratados, devendo o tratamento ser lícito apenas até final do período durante o qual a fatura pode ser legalmente contestada ou em que o pagamento pode ser reclamado. 3 — O prestador de serviço pode tratar dados de tráfego para efeitos de comercialização de serviços de comunicações eletrónicas ou para a prestação de serviços de valor acrescentado, na medida e pelo tempo necessários para esses serviços ou essa comercialização, desde que o assinante ou utilizador a quem os dados digam respeito tenha dado o seu consentimento prévio. 4 — Os utilizadores e assinantes devem ser informados sobre os tipos de dados de tráfego que são tratados, bem como sobre a duração do tratamento, antes de ser dado o consentimento previsto no número anterior."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "CAPÍTULO III — Dados de tráfego e dados de localização",
+      "section": "6",
+      "title": "Dados de localização",
+      "content": "1 — Quando forem tratados dados de localização, para além dos dados de tráfego, relativos a utilizadores ou assinantes de redes públicas de comunicações ou de serviços de comunicações eletrónicas acessíveis ao público, esses dados só podem ser tratados se forem tornados anónimos ou mediante o consentimento prévio e expresso dos utilizadores ou assinantes, na medida do necessário e pelo tempo necessário para a prestação de serviços de valor acrescentado. 2 — O prestador de serviço deve informar os utilizadores ou assinantes, antes de obter o seu consentimento, do tipo de dados de localização que será tratado, da finalidade e duração do tratamento e da eventual transmissão a terceiros para efeitos de prestação de serviços de valor acrescentado. 3 — Os utilizadores ou assinantes devem ter a possibilidade de retirar a qualquer momento o consentimento que tenham dado para o tratamento dos dados de localização, por um meio simples e gratuito. 4 — O tratamento dos dados de localização deve ser limitado às pessoas que atuam sob a autoridade do prestador de redes públicas de comunicações ou de serviços de comunicações eletrónicas acessíveis ao público ou do terceiro que presta o serviço de valor acrescentado."
     },
     {
       "provision_ref": "art7",
-      "chapter": "CAPÍTULO IV — Comunicações não solicitadas",
+      "chapter": "CAPÍTULO III — Dados de tráfego e dados de localização",
       "section": "7",
+      "title": "Faturação detalhada",
+      "content": "1 — Os assinantes têm o direito de receber faturas não detalhadas. 2 — Os prestadores de serviços de comunicações eletrónicas acessíveis ao público devem conciliar os direitos dos assinantes que recebem faturas detalhadas com o direito à privacidade dos utilizadores que efetuam chamadas e dos assinantes chamados."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "CAPÍTULO IV — Identificação da linha chamadora e da linha conectada",
+      "section": "8",
+      "title": "Apresentação e restrição da identificação da linha chamadora e da linha conectada",
+      "content": "1 — Quando for oferecida a apresentação da identificação da linha chamadora, o prestador de serviço deve oferecer ao utilizador que efetua a chamada a possibilidade de, através de um meio simples e gratuito, impedir a identificação da linha chamadora, chamada a chamada ou permanentemente. 2 — Quando for oferecida a apresentação da identificação da linha chamadora, o prestador de serviço deve oferecer ao assinante chamado a possibilidade de, através de um meio simples e gratuito, impedir a identificação da linha chamadora nas chamadas recebidas. 3 — Quando for oferecida a apresentação da identificação da linha conectada, o prestador de serviço deve oferecer ao assinante chamado a possibilidade de, através de um meio simples e gratuito, impedir a identificação da linha conectada junto do utilizador que efetua a chamada."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "CAPÍTULO IV — Identificação da linha chamadora e da linha conectada",
+      "section": "9",
+      "title": "Exceções à restrição da identificação da linha chamadora",
+      "content": "1 — Os prestadores de redes públicas de comunicações e de serviços de comunicações eletrónicas acessíveis ao público podem anular a eliminação da identificação da linha chamadora, numa base temporária, quando um assinante solicite a identificação de chamadas mal-intencionadas ou perturbadoras. 2 — Os prestadores de redes públicas de comunicações e de serviços de comunicações eletrónicas acessíveis ao público devem anular a eliminação da identificação da linha chamadora, chamada a chamada, para as organizações que tratem chamadas de emergência, incluindo os serviços de emergência 112."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "CAPÍTULO V — Reencaminhamento automático de chamadas",
+      "section": "10",
+      "title": "Reencaminhamento automático de chamadas",
+      "content": "Os prestadores de redes públicas de comunicações e de serviços de comunicações eletrónicas acessíveis ao público devem garantir a possibilidade de qualquer assinante, através de um meio simples e gratuito, pôr fim ao reencaminhamento automático de chamadas efetuado por um terceiro para o seu equipamento terminal."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "CAPÍTULO VI — Listas de assinantes",
+      "section": "11",
+      "title": "Listas de assinantes",
+      "content": "1 — Os dados pessoais constantes de listas impressas ou eletrónicas de assinantes acessíveis ao público ou que possam ser obtidas através de serviços de informações de listas devem limitar-se ao estritamente necessário para identificar um determinado assinante, salvo se o assinante tiver dado de forma inequívoca o seu consentimento para a publicação de dados pessoais adicionais. 2 — Os assinantes devem ter a possibilidade de, gratuitamente: a) Não figurar numa lista de assinantes; b) Indicar que os seus dados pessoais não podem ser utilizados para fins de marketing direto; c) Solicitar que a sua morada seja parcialmente omitida; d) Não figurar numa lista com a referência ao seu sexo."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "CAPÍTULO VI — Listas de assinantes",
+      "section": "12",
+      "title": "Verificação de dados de listas",
+      "content": "Os prestadores de listas de assinantes disponíveis ao público devem informar os assinantes, gratuitamente e antes da inclusão dos respetivos dados, da ou das finalidades das listas e de quaisquer possibilidades de utilização específicas baseadas em funções de pesquisa incorporadas em versões eletrónicas da lista."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "CAPÍTULO VII — Comunicações não solicitadas",
+      "section": "13",
       "title": "Comunicações não solicitadas",
-      "content": "O envio de mensagens para fins de marketing direto por correio eletrónico ou por qualquer outro meio de comunicação eletrónica só é permitido em relação a assinantes que tenham dado o seu consentimento prévio."
+      "content": "1 — A utilização de sistemas de chamada e comunicação automatizados, aparelhos de fax ou correio eletrónico para fins de marketing direto, apenas é permitida em relação a assinantes ou utilizadores que tenham dado o seu consentimento prévio. 2 — Sem prejuízo do disposto no número anterior, quando uma pessoa singular ou coletiva obtiver dos seus clientes as respetivas coordenadas eletrónicas de contacto, no contexto da venda de um produto ou serviço, pode utilizá-las para fins de marketing direto dos seus próprios produtos ou serviços análogos, desde que aos clientes seja dada clara e explicitamente a possibilidade de recusarem, de forma gratuita e fácil, a utilização de tais coordenadas eletrónicas: a) No momento da respetiva recolha; e b) Por ocasião de cada mensagem, quando o cliente não tenha inicialmente recusado essa utilização. 3 — É proibido o envio de comunicações para fins de marketing direto, através de correio eletrónico, dissimulando ou ocultando a identidade da pessoa em nome da qual é efetuada a comunicação. 4 — É proibido o envio de comunicações para fins de marketing direto por correio eletrónico sem a indicação de um endereço válido para o qual o destinatário possa enviar um pedido para pôr termo a essas comunicações."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "CAPÍTULO VII — Comunicações não solicitadas",
+      "section": "14",
+      "title": "Lista de oposição",
+      "content": "1 — É criada uma lista nacional de oposição a comunicações não solicitadas. 2 — Os assinantes que não desejem receber comunicações para fins de marketing direto podem inscrever-se gratuitamente na lista referida no número anterior. 3 — As entidades que efetuem comunicações para fins de marketing direto devem consultar a lista de oposição previamente ao envio das comunicações."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "CAPÍTULO VIII — Cookies e tecnologias de rastreamento",
+      "section": "15",
+      "title": "Armazenamento e acesso a informação no equipamento terminal",
+      "content": "1 — O armazenamento de informações e a possibilidade de acesso à informação armazenada no equipamento terminal de um assinante ou utilizador apenas são permitidos se o assinante ou utilizador tiver dado o seu consentimento prévio, com base em informações claras e completas nos termos da legislação de proteção de dados pessoais, nomeadamente quanto aos objetivos do processamento. 2 — O disposto no número anterior não impede o armazenamento técnico ou o acesso que tenha como única finalidade efetuar a transmissão de uma comunicação através de uma rede de comunicações eletrónicas, ou que seja estritamente necessário ao fornecedor para fornecer um serviço da sociedade de informação que tenha sido explicitamente solicitado pelo assinante ou utilizador."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "CAPÍTULO VIII — Cookies e tecnologias de rastreamento",
+      "section": "16",
+      "title": "Características técnicas e normalização",
+      "content": "Os prestadores de serviços de comunicações eletrónicas acessíveis ao público e os prestadores de serviços da sociedade da informação devem garantir que os seus serviços são concebidos de forma a limitar ao mínimo a recolha de dados pessoais, oferecendo funcionalidades que permitam ao utilizador controlar o armazenamento de informações no seu equipamento terminal."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "CAPÍTULO IX — Notificação de violação de dados pessoais",
+      "section": "17",
+      "title": "Notificação de violação de dados pessoais",
+      "content": "1 — O prestador de serviços de comunicações eletrónicas acessíveis ao público notifica a CNPD da ocorrência de uma violação de dados pessoais, sem demora injustificada. 2 — Quando a violação de dados pessoais for suscetível de afetar negativamente os dados pessoais ou a privacidade de um assinante ou utilizador, o prestador de serviços deve igualmente notificar o assinante ou utilizador da violação, sem demora injustificada. 3 — A notificação ao assinante ou utilizador não é exigida se o prestador provar, à satisfação da CNPD, que tomou as medidas tecnológicas de proteção adequadas e que essas medidas foram aplicadas aos dados afetados pela violação."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "CAPÍTULO IX — Notificação de violação de dados pessoais",
+      "section": "18",
+      "title": "Registo de violações de dados pessoais",
+      "content": "Os prestadores de serviços de comunicações eletrónicas acessíveis ao público mantêm um inventário atualizado das violações de dados pessoais, incluindo os factos que lhes dizem respeito, os seus efeitos e as medidas de correção adotadas, que permita à CNPD verificar o cumprimento do disposto no artigo anterior."
+    },
+    {
+      "provision_ref": "art13A",
+      "chapter": "CAPÍTULO VII — Comunicações não solicitadas",
+      "section": "13-A",
+      "title": "Chamadas para fins de marketing direto",
+      "content": "1 — As chamadas telefónicas para fins de marketing direto só são permitidas quando os assinantes chamados tenham dado o seu consentimento prévio, ou quando não se tenham oposto nos termos do artigo seguinte. 2 — As chamadas para fins de marketing direto devem ser efetuadas em horário razoável, definido por regulamento da CNPD, e com identificação da linha chamadora."
+    },
+    {
+      "provision_ref": "art14A",
+      "chapter": "CAPÍTULO VII — Comunicações não solicitadas",
+      "section": "14-A",
+      "title": "Gestão da lista de oposição",
+      "content": "1 — A gestão da lista de oposição compete à Direção-Geral do Consumidor. 2 — A lista é atualizada mensalmente e disponibilizada às entidades que efetuam comunicações para fins de marketing direto. 3 — A inscrição na lista produz efeitos no prazo de 30 dias."
+    },
+    {
+      "provision_ref": "art15A",
+      "chapter": "CAPÍTULO VIII — Cookies e tecnologias de rastreamento",
+      "section": "15-A",
+      "title": "Requisitos do consentimento para cookies",
+      "content": "1 — O consentimento previsto no artigo 15.º deve ser livre, específico, informado e inequívoco, nos termos do RGPD. 2 — O consentimento deve ser dado para cada categoria de cookies ou tecnologias de rastreamento utilizadas. 3 — Os utilizadores devem poder retirar o consentimento de forma tão simples como a forma como o deram."
+    },
+    {
+      "provision_ref": "art15B",
+      "chapter": "CAPÍTULO VIII — Cookies e tecnologias de rastreamento",
+      "section": "15-B",
+      "title": "Transparência na utilização de cookies",
+      "content": "1 — Os responsáveis pelos sítios da Internet devem disponibilizar informação clara e acessível sobre: a) Os tipos de cookies e tecnologias de rastreamento utilizados; b) As finalidades do tratamento; c) Os destinatários dos dados recolhidos; d) O período de conservação dos dados; e) A forma de revogar o consentimento."
+    },
+    {
+      "provision_ref": "art16A",
+      "chapter": "CAPÍTULO VIII — Cookies e tecnologias de rastreamento",
+      "section": "16-A",
+      "title": "Proteção dos equipamentos terminais",
+      "content": "1 — Os prestadores de serviços da sociedade da informação não podem condicionar o acesso aos seus serviços à aceitação de cookies não essenciais. 2 — Os utilizadores devem poder aceder aos serviços da sociedade da informação sem serem obrigados a aceitar a instalação de cookies ou outras tecnologias de rastreamento que não sejam estritamente necessários à prestação do serviço."
+    },
+    {
+      "provision_ref": "art17A",
+      "chapter": "CAPÍTULO IX — Notificação de violação de dados pessoais",
+      "section": "17-A",
+      "title": "Conteúdo da notificação de violação",
+      "content": "A notificação à CNPD prevista no artigo 17.º deve incluir: a) A descrição da natureza da violação; b) O nome e os dados de contacto do encarregado de proteção de dados ou outro ponto de contacto; c) A descrição das consequências prováveis da violação; d) A descrição das medidas adotadas ou propostas para resolver a violação e atenuar os seus eventuais efeitos negativos."
+    },
+    {
+      "provision_ref": "art18A",
+      "chapter": "CAPÍTULO IX — Notificação de violação de dados pessoais",
+      "section": "18-A",
+      "title": "Obrigações adicionais dos prestadores de serviços",
+      "content": "1 — Os prestadores de serviços de comunicações eletrónicas acessíveis ao público devem implementar sistemas de deteção e resposta a violações de dados pessoais. 2 — Os prestadores devem realizar avaliações periódicas da eficácia das medidas de segurança implementadas e comunicar à CNPD os resultados dessas avaliações quando solicitado."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "CAPÍTULO X — Regime sancionatório",
+      "section": "19",
+      "title": "Contraordenações",
+      "content": "1 — Constitui contraordenação: a) A violação do disposto no artigo 3.º, punível com coima de 1500 € a 25 000 € ou 50 000 €, consoante o agente seja pessoa singular ou coletiva; b) A violação do disposto no artigo 4.º, punível com coima de 5000 € a 100 000 € ou 500 000 €; c) A violação do disposto nos artigos 5.º e 6.º, punível com coima de 2500 € a 50 000 € ou 250 000 €; d) A violação do disposto no artigo 13.º, punível com coima de 2500 € a 50 000 € ou 250 000 €; e) A violação do disposto no artigo 15.º, punível com coima de 1500 € a 25 000 € ou 50 000 €."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "CAPÍTULO X — Regime sancionatório",
+      "section": "20",
+      "title": "Sanções acessórias",
+      "content": "Podem ser aplicadas, conjuntamente com as coimas previstas no artigo anterior, as seguintes sanções acessórias: a) Perda de objetos, equipamentos ou dispositivos relacionados com a prática da infração; b) Interdição do exercício da atividade; c) Publicidade da decisão condenatória."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "CAPÍTULO X — Regime sancionatório",
+      "section": "21",
+      "title": "Crimes",
+      "content": "1 — Quem não sendo para tal autorizado, intercetar, gravar, divulgar ou utilizar o conteúdo de comunicações eletrónicas, ou dados de tráfego conexos, em violação do disposto no artigo 4.º da presente lei, é punido com pena de prisão até 2 anos ou com pena de multa até 240 dias. 2 — A tentativa é punível."
+    },
+    {
+      "provision_ref": "art20A",
+      "chapter": "CAPÍTULO X — Regime sancionatório",
+      "section": "20-A",
+      "title": "Instrução e aplicação de coimas",
+      "content": "1 — A instrução dos processos de contraordenação previstos na presente lei compete à CNPD. 2 — A aplicação das coimas compete ao presidente da CNPD. 3 — O produto das coimas reverte: a) Em 60% para o Estado; b) Em 40% para a CNPD."
+    },
+    {
+      "provision_ref": "art21A",
+      "chapter": "CAPÍTULO X — Regime sancionatório",
+      "section": "21-A",
+      "title": "Agravação dos crimes",
+      "content": "As penas previstas no artigo 21.º são agravadas de um terço nos seus limites: a) Quando o crime for praticado por funcionário público no exercício das suas funções; b) Quando o crime afetar um número considerável de pessoas; c) Quando o crime envolver dados pessoais sensíveis na aceção do RGPD."
+    },
+    {
+      "provision_ref": "art21B",
+      "chapter": "CAPÍTULO X — Regime sancionatório",
+      "section": "21-B",
+      "title": "Responsabilidade penal das pessoas coletivas",
+      "content": "As pessoas coletivas e entidades equiparadas são penalmente responsáveis pelos crimes previstos na presente lei, nos termos gerais da lei penal."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "CAPÍTULO XI — Disposições finais",
+      "section": "22",
+      "title": "Entrada em vigor",
+      "content": "A presente lei entra em vigor no dia seguinte ao da sua publicação."
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "Comunicação",
+      "definition": "Qualquer informação trocada ou enviada entre um número finito de partes através de um serviço de comunicações eletrónicas acessível ao público"
+    },
+    {
+      "term": "Dados de tráfego",
+      "definition": "Quaisquer dados tratados para efeitos do envio de uma comunicação através de uma rede de comunicações eletrónicas ou para efeitos da faturação da mesma"
+    },
+    {
+      "term": "Dados de localização",
+      "definition": "Quaisquer dados tratados numa rede de comunicações eletrónicas que indiquem a posição geográfica do equipamento terminal de um utilizador"
+    },
+    {
+      "term": "Correio eletrónico",
+      "definition": "Qualquer mensagem textual, vocal, sonora ou gráfica enviada através de uma rede pública de comunicações que possa ser armazenada na rede ou no equipamento terminal do destinatário"
+    }
+  ]
 }

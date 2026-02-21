@@ -8,7 +8,7 @@
   "issued_date": "1976-04-02",
   "in_force_date": "1976-04-25",
   "url": "https://dre.pt/legislacao-consolidada/-/lc/34520775/view",
-  "description": "Portuguese Constitution. Art. 35 (utilização da informática) provides explicit constitutional protection for digital rights and personal data, one of few European constitutions with such provisions.",
+  "description": "Portuguese Constitution. Contains fundamental rights provisions critical to data protection, privacy, and cybersecurity law, including Art. 35 (use of information technology) which provides explicit constitutional protection for digital rights and personal data — one of few European constitutions with such provisions.",
   "provisions": [
     {
       "provision_ref": "art1",
@@ -25,33 +25,399 @@
       "content": "A República Portuguesa é um Estado de direito democrático, baseado na soberania popular, no pluralismo de expressão e organização política democráticas, no respeito e na garantia de efetivação dos direitos e liberdades fundamentais e na separação e interdependência de poderes, visando a realização da democracia económica, social e cultural e o aprofundamento da democracia participativa."
     },
     {
+      "provision_ref": "art3",
+      "chapter": "Princípios fundamentais",
+      "section": "3",
+      "title": "Soberania e legalidade",
+      "content": "1 — A soberania, una e indivisível, reside no povo, que a exerce segundo as formas previstas na Constituição. 2 — O Estado subordina-se à Constituição e funda-se na legalidade democrática. 3 — A validade das leis e dos demais atos do Estado, das regiões autónomas, do poder local e de quaisquer outras entidades públicas depende da sua conformidade com a Constituição."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Princípios fundamentais",
+      "section": "7",
+      "title": "Relações internacionais",
+      "content": "1 — Portugal rege-se nas relações internacionais pelos princípios da independência nacional, do respeito dos direitos do homem, dos direitos dos povos, da igualdade entre os Estados, da solução pacífica dos conflitos internacionais, da não ingerência nos assuntos internos dos outros Estados e da cooperação com todos os outros povos para a emancipação e o progresso da humanidade. 6 — Portugal pode, em condições de reciprocidade, com respeito pelos princípios fundamentais do Estado de direito democrático e pelo princípio da subsidiariedade e tendo em vista a realização da coesão económica, social e territorial, convencionar o exercício, em comum, dos poderes necessários à construção e aprofundamento da união europeia."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Princípios fundamentais",
+      "section": "8",
+      "title": "Direito internacional",
+      "content": "1 — As normas e os princípios de direito internacional geral ou comum fazem parte integrante do direito português. 2 — As normas constantes de convenções internacionais regularmente ratificadas ou aprovadas vigoram na ordem interna após a sua publicação oficial e enquanto vincularem internacionalmente o Estado Português. 3 — As normas emanadas dos órgãos competentes das organizações internacionais de que Portugal seja parte vigoram diretamente na ordem interna, desde que tal se encontre estabelecido nos respetivos tratados constitutivos. 4 — As disposições dos tratados que regem a União Europeia e as normas emanadas das suas instituições, no exercício das respetivas competências, são aplicáveis na ordem interna, nos termos definidos pelo direito da União, com respeito pelos princípios fundamentais do Estado de direito democrático."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "PARTE I — Direitos e deveres fundamentais — TÍTULO I — Princípios gerais",
+      "section": "13",
+      "title": "Princípio da igualdade",
+      "content": "1 — Todos os cidadãos têm a mesma dignidade social e são iguais perante a lei. 2 — Ninguém pode ser privilegiado, beneficiado, prejudicado, privado de qualquer direito ou isento de qualquer dever em razão de ascendência, sexo, raça, língua, território de origem, religião, convicções políticas ou ideológicas, instrução, situação económica, condição social ou orientação sexual."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "PARTE I — Direitos e deveres fundamentais — TÍTULO I — Princípios gerais",
+      "section": "16",
+      "title": "Âmbito e sentido dos direitos fundamentais",
+      "content": "1 — Os direitos fundamentais consagrados na Constituição não excluem quaisquer outros constantes das leis e das regras aplicáveis de direito internacional. 2 — Os preceitos constitucionais e legais relativos aos direitos fundamentais devem ser interpretados e integrados de harmonia com a Declaração Universal dos Direitos do Homem."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "PARTE I — Direitos e deveres fundamentais — TÍTULO I — Princípios gerais",
+      "section": "17",
+      "title": "Regime dos direitos, liberdades e garantias",
+      "content": "O regime dos direitos, liberdades e garantias aplica-se aos enunciados no título II e aos direitos fundamentais de natureza análoga."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "PARTE I — Direitos e deveres fundamentais — TÍTULO I — Princípios gerais",
+      "section": "18",
+      "title": "Força jurídica",
+      "content": "1 — Os preceitos constitucionais respeitantes aos direitos, liberdades e garantias são diretamente aplicáveis e vinculam as entidades públicas e privadas. 2 — A lei só pode restringir os direitos, liberdades e garantias nos casos expressamente previstos na Constituição, devendo as restrições limitar-se ao necessário para salvaguardar outros direitos ou interesses constitucionalmente protegidos. 3 — As leis restritivas de direitos, liberdades e garantias têm de revestir caráter geral e abstrato e não podem ter efeito retroativo nem diminuir a extensão e o alcance do conteúdo essencial dos preceitos constitucionais."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "PARTE I — Direitos e deveres fundamentais — TÍTULO I — Princípios gerais",
+      "section": "20",
+      "title": "Acesso ao direito e tutela jurisdicional efetiva",
+      "content": "1 — A todos é assegurado o acesso ao direito e aos tribunais para defesa dos seus direitos e interesses legalmente protegidos, não podendo a justiça ser denegada por insuficiência de meios económicos. 2 — Todos têm direito, nos termos da lei, à informação e consulta jurídicas, ao patrocínio judiciário e a fazer-se acompanhar por advogado perante qualquer autoridade. 4 — Todos têm direito a que uma causa em que intervenham seja objeto de decisão em prazo razoável e mediante processo equitativo. 5 — Para defesa dos direitos, liberdades e garantias pessoais, a lei assegura aos cidadãos procedimentos judiciais caracterizados pela celeridade e prioridade, de modo a obter tutela efetiva e em tempo útil contra ameaças ou violações desses direitos."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "25",
+      "title": "Direito à integridade pessoal",
+      "content": "1 — A integridade moral e física das pessoas é inviolável. 2 — Ninguém pode ser submetido a tortura, nem a tratos ou penas cruéis, degradantes ou desumanos."
+    },
+    {
       "provision_ref": "art26",
       "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
       "section": "26",
       "title": "Outros direitos pessoais",
-      "content": "A todos são reconhecidos os direitos à identidade pessoal, ao desenvolvimento da personalidade, à capacidade civil, à cidadania, ao bom nome e reputação, à imagem, à palavra, à reserva da intimidade da vida privada e familiar e à proteção legal contra quaisquer formas de discriminação."
+      "content": "1 — A todos são reconhecidos os direitos à identidade pessoal, ao desenvolvimento da personalidade, à capacidade civil, à cidadania, ao bom nome e reputação, à imagem, à palavra, à reserva da intimidade da vida privada e familiar e à proteção legal contra quaisquer formas de discriminação. 2 — A lei estabelecerá garantias efetivas contra a obtenção e utilização abusivas, ou contrárias à dignidade humana, de informações relativas às pessoas e famílias. 3 — A lei garantirá a dignidade pessoal e a identidade genética do ser humano, nomeadamente na criação, desenvolvimento e utilização das tecnologias e na experimentação científica. 4 — A privação da cidadania e as restrições à capacidade civil só podem efetuar-se nos casos e termos previstos na lei, não podendo ter como fundamento motivos políticos."
     },
     {
-      "provision_ref": "art35",
+      "provision_ref": "art27",
       "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
-      "section": "35",
-      "title": "Utilização da informática",
-      "content": "Todos os cidadãos têm o direito de acesso aos dados informatizados que lhes digam respeito, podendo exigir a sua retificação e atualização, e o direito de conhecer a finalidade a que se destinam, nos termos da lei. A lei define o conceito de dados pessoais, bem como as condições aplicáveis ao seu tratamento automatizado, conexão, transmissão e utilização, e garante a sua proteção, designadamente através de entidade administrativa independente. A informática não pode ser utilizada para tratamento de dados referentes a convicções filosóficas ou políticas, filiação partidária ou sindical, fé religiosa, vida privada e origem étnica, salvo mediante consentimento expresso do titular, autorização prevista por lei com garantias de não discriminação ou para processamento de dados estatísticos não individualmente identificáveis. É proibido o acesso a dados pessoais de terceiros, salvo em casos excecionais previstos na lei. É proibida a atribuição de um número nacional único aos cidadãos. A todos é garantido livre acesso às redes informáticas de uso público, definindo a lei o regime aplicável aos fluxos de dados transfronteiras e as formas adequadas de proteção de dados pessoais e de outros cuja salvaguarda se justifique por razões de interesse nacional."
+      "section": "27",
+      "title": "Direito à liberdade e à segurança",
+      "content": "1 — Todos têm direito à liberdade e à segurança. 2 — Ninguém pode ser total ou parcialmente privado da liberdade, a não ser em consequência de sentença judicial condenatória pela prática de ato punido por lei com pena de prisão ou de aplicação judicial de medida de segurança."
     },
     {
-      "provision_ref": "art37",
+      "provision_ref": "art29",
       "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
-      "section": "37",
-      "title": "Liberdade de expressão e informação",
-      "content": "Todos têm o direito de exprimir e divulgar livremente o seu pensamento pela palavra, pela imagem ou por qualquer outro meio, bem como o direito de informar, de se informar e de ser informados, sem impedimentos nem discriminações."
+      "section": "29",
+      "title": "Aplicação da lei criminal",
+      "content": "1 — Ninguém pode ser sentenciado criminalmente senão em virtude de lei anterior que declare punível a ação ou a omissão, nem sofrer medida de segurança cujos pressupostos não estejam fixados em lei anterior. 2 — O disposto no número anterior não impede a punição, nos limites da lei interna, por ação ou omissão que no momento da sua prática seja considerada criminosa segundo os princípios gerais de direito internacional comumente reconhecidos."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "32",
+      "title": "Garantias de processo criminal",
+      "content": "1 — O processo criminal assegura todas as garantias de defesa, incluindo o recurso. 2 — Todo o arguido se presume inocente até ao trânsito em julgado da sentença de condenação, devendo ser julgado no mais curto prazo compatível com as garantias de defesa. 6 — A lei define os casos em que, assegurados os direitos de defesa, pode ser dispensada a presença do arguido ou acusado em atos processuais, incluindo a audiência de julgamento. 8 — São nulas todas as provas obtidas mediante tortura, coação, ofensa da integridade física ou moral da pessoa, abusiva intromissão na vida privada, no domicílio, na correspondência ou nas telecomunicações."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "33",
+      "title": "Expulsão, extradição e direito de asilo",
+      "content": "1 — Não é admitida a expulsão de cidadãos portugueses do território nacional. 3 — A extradição de cidadãos portugueses do território nacional só é admitida, em condições de reciprocidade estabelecidas em convenção internacional, nos casos de terrorismo e de criminalidade internacional organizada, e desde que a ordem jurídica do Estado requisitante consagre garantias de um processo justo e equitativo."
     },
     {
       "provision_ref": "art34",
       "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
       "section": "34",
       "title": "Inviolabilidade do domicílio e da correspondência",
-      "content": "O domicílio e o sigilo da correspondência e dos outros meios de comunicação privada são invioláveis. A entrada no domicílio dos cidadãos contra a sua vontade só pode ser ordenada pela autoridade judicial competente, nos casos e segundo as formas previstos na lei. Ninguém pode entrar durante a noite no domicílio de qualquer pessoa sem o seu consentimento, salvo em situação de flagrante delito ou mediante autorização judicial em casos de criminalidade especialmente violenta ou altamente organizada, incluindo o terrorismo e o tráfico de pessoas, de armas e de estupefacientes, nos termos previstos na lei. É proibida toda a ingerência das autoridades públicas na correspondência, nas telecomunicações e nos demais meios de comunicação, salvos os casos previstos na lei em matéria de processo criminal."
+      "content": "1 — O domicílio e o sigilo da correspondência e dos outros meios de comunicação privada são invioláveis. 2 — A entrada no domicílio dos cidadãos contra a sua vontade só pode ser ordenada pela autoridade judicial competente, nos casos e segundo as formas previstos na lei. 3 — Ninguém pode entrar durante a noite no domicílio de qualquer pessoa sem o seu consentimento, salvo em situação de flagrante delito ou mediante autorização judicial em casos de criminalidade especialmente violenta ou altamente organizada, incluindo o terrorismo e o tráfico de pessoas, de armas e de estupefacientes, nos termos previstos na lei. 4 — É proibida toda a ingerência das autoridades públicas na correspondência, nas telecomunicações e nos demais meios de comunicação, salvos os casos previstos na lei em matéria de processo criminal."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "35",
+      "title": "Utilização da informática",
+      "content": "1 — Todos os cidadãos têm o direito de acesso aos dados informatizados que lhes digam respeito, podendo exigir a sua retificação e atualização, e o direito de conhecer a finalidade a que se destinam, nos termos da lei. 2 — A lei define o conceito de dados pessoais, bem como as condições aplicáveis ao seu tratamento automatizado, conexão, transmissão e utilização, e garante a sua proteção, designadamente através de entidade administrativa independente. 3 — A informática não pode ser utilizada para tratamento de dados referentes a convicções filosóficas ou políticas, filiação partidária ou sindical, fé religiosa, vida privada e origem étnica, salvo mediante consentimento expresso do titular, autorização prevista por lei com garantias de não discriminação ou para processamento de dados estatísticos não individualmente identificáveis. 4 — É proibido o acesso a dados pessoais de terceiros, salvo em casos excecionais previstos na lei. 5 — É proibida a atribuição de um número nacional único aos cidadãos. 6 — A todos é garantido livre acesso às redes informáticas de uso público, definindo a lei o regime aplicável aos fluxos de dados transfronteiras e as formas adequadas de proteção de dados pessoais e de outros cuja salvaguarda se justifique por razões de interesse nacional. 7 — Os dados pessoais constantes de ficheiros manuais gozam de proteção idêntica à prevista nos números anteriores, nos termos da lei."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "36",
+      "title": "Família, casamento e filiação",
+      "content": "1 — Todos têm o direito de constituir família e de contrair casamento em condições de plena igualdade."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "37",
+      "title": "Liberdade de expressão e informação",
+      "content": "1 — Todos têm o direito de exprimir e divulgar livremente o seu pensamento pela palavra, pela imagem ou por qualquer outro meio, bem como o direito de informar, de se informar e de ser informados, sem impedimentos nem discriminações. 2 — O exercício destes direitos não pode ser impedido ou limitado por qualquer tipo ou forma de censura. 3 — As infrações cometidas no exercício destes direitos ficam submetidas aos princípios gerais de direito criminal ou do ilícito de mera ordenação social, sendo a sua apreciação respetivamente da competência dos tribunais judiciais ou de entidade administrativa independente, nos termos da lei."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "38",
+      "title": "Liberdade de imprensa e meios de comunicação social",
+      "content": "1 — É garantida a liberdade de imprensa. 2 — A liberdade de imprensa implica: a) A liberdade de expressão e criação dos jornalistas e colaboradores, bem como a intervenção dos primeiros na orientação editorial dos respetivos órgãos de comunicação social, salvo quando estes pertençam ao Estado ou a outras entidades públicas; b) O direito dos jornalistas, nos termos da lei, ao acesso às fontes de informação e à proteção da independência e do sigilo profissionais, bem como o direito de elegerem conselhos de redação; c) O direito de fundação de jornais e de quaisquer outras publicações, independentemente de autorização administrativa, caução ou habilitação prévias."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "41",
+      "title": "Liberdade de consciência, de religião e de culto",
+      "content": "1 — A liberdade de consciência, de religião e de culto é inviolável. 6 — É garantido o direito à objeção de consciência, nos termos da lei."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "47",
+      "title": "Liberdade de escolha de profissão e acesso à função pública",
+      "content": "1 — Todos têm o direito de escolher livremente a profissão ou o género de trabalho, salvas as restrições legais impostas pelo interesse coletivo ou inerentes à sua própria capacidade. 2 — Todos os cidadãos têm o direito de acesso à função pública, em condições de igualdade e liberdade, em regra por via de concurso."
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "TÍTULO III — Direitos e deveres económicos — CAPÍTULO I — Direitos e deveres económicos",
+      "section": "61",
+      "title": "Iniciativa privada, cooperativa e autogestionária",
+      "content": "1 — A iniciativa económica privada exerce-se livremente nos quadros definidos pela Constituição e pela lei e tendo em conta o interesse geral."
+    },
+    {
+      "provision_ref": "art62",
+      "chapter": "TÍTULO III — Direitos e deveres económicos — CAPÍTULO I — Direitos e deveres económicos",
+      "section": "62",
+      "title": "Direito de propriedade privada",
+      "content": "1 — A todos é garantido o direito à propriedade privada e à sua transmissão em vida ou por morte, nos termos da Constituição. 2 — A requisição e a expropriação por utilidade pública só podem ser efetuadas com base na lei e mediante o pagamento de justa indemnização."
+    },
+    {
+      "provision_ref": "art202",
+      "chapter": "TÍTULO V — Tribunais — CAPÍTULO I — Princípios gerais",
+      "section": "202",
+      "title": "Função jurisdicional",
+      "content": "1 — Os tribunais são os órgãos de soberania com competência para administrar a justiça em nome do povo. 2 — Na administração da justiça incumbe aos tribunais assegurar a defesa dos direitos e interesses legalmente protegidos dos cidadãos, reprimir a violação da legalidade democrática e dirimir os conflitos de interesses públicos e privados."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "PARTE I — Direitos e deveres fundamentais — TÍTULO I — Princípios gerais",
+      "section": "19",
+      "title": "Suspensão do exercício de direitos",
+      "content": "1 — Os órgãos de soberania não podem, conjunta ou separadamente, suspender o exercício dos direitos, liberdades e garantias, salvo em caso de estado de sítio ou de estado de emergência, declarados na forma prevista na Constituição. 2 — O estado de sítio ou o estado de emergência só podem ser declarados, no todo ou em parte do território nacional, nos casos de agressão efetiva ou iminente por forças estrangeiras, de grave ameaça ou perturbação da ordem constitucional democrática ou de calamidade pública."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "PARTE I — Direitos e deveres fundamentais — TÍTULO I — Princípios gerais",
+      "section": "22",
+      "title": "Responsabilidade das entidades públicas",
+      "content": "O Estado e as demais entidades públicas são civilmente responsáveis, em forma solidária com os titulares dos seus órgãos, funcionários ou agentes, por ações ou omissões praticadas no exercício das suas funções e por causa desse exercício, de que resulte violação dos direitos, liberdades e garantias ou prejuízo para outrem."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "PARTE I — Direitos e deveres fundamentais — TÍTULO I — Princípios gerais",
+      "section": "23",
+      "title": "Provedor de Justiça",
+      "content": "1 — Os cidadãos podem apresentar queixas por ações ou omissões dos poderes públicos ao Provedor de Justiça, que as apreciará sem poder decisório, dirigindo aos órgãos competentes as recomendações necessárias para prevenir e reparar injustiças. 2 — A atividade do Provedor de Justiça é independente dos meios graciosos e contenciosos previstos na Constituição e nas leis."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "24",
+      "title": "Direito à vida",
+      "content": "1 — A vida humana é inviolável. 2 — Em caso algum haverá pena de morte."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "28",
+      "title": "Prisão preventiva",
+      "content": "1 — A detenção será submetida, no prazo máximo de quarenta e oito horas, a apreciação judicial, para restituição à liberdade ou imposição de medida de coação adequada, devendo o juiz conhecer das causas que a determinaram e comunicá-las ao detido, interrogá-lo e dar-lhe oportunidade de defesa. 2 — A prisão preventiva tem natureza excecional, não sendo decretada nem mantida sempre que possa ser aplicada caução ou outra medida mais favorável prevista na lei."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "30",
+      "title": "Limites das penas e das medidas de segurança",
+      "content": "1 — Não pode haver penas nem medidas de segurança privativas ou restritivas da liberdade com caráter perpétuo ou de duração ilimitada ou indefinida. 2 — Em caso de periculosidade baseada em grave anomalia psíquica, e na impossibilidade de terapêutica em meio aberto, poderão as medidas de segurança privativas da liberdade ser prorrogadas sucessivamente enquanto tal estado se mantiver, mas sempre mediante decisão judicial. 5 — Os condenados a quem sejam aplicadas pena ou medida de segurança privativas da liberdade mantêm a titularidade dos direitos fundamentais, salvas as limitações inerentes ao sentido da condenação e às exigências próprias da respetiva execução."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "31",
+      "title": "Habeas corpus",
+      "content": "1 — Haverá habeas corpus contra o abuso de poder, por virtude de prisão ou detenção ilegal, a requerer perante o tribunal competente. 2 — A providência de habeas corpus pode ser requerida pelo próprio ou por qualquer cidadão no gozo dos seus direitos políticos."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "39",
+      "title": "Regulação da comunicação social",
+      "content": "1 — Cabe a uma entidade administrativa independente assegurar nos meios de comunicação social: a) O direito à informação e a liberdade de imprensa; b) A não concentração da titularidade dos meios de comunicação social; c) A independência perante o poder político e o poder económico; d) O respeito pelos direitos, liberdades e garantias pessoais; e) O respeito pelas normas reguladoras das atividades de comunicação social; f) A possibilidade de expressão e confronto das diversas correntes de opinião."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "42",
+      "title": "Liberdade de criação cultural",
+      "content": "1 — É livre a criação intelectual, artística e científica. 2 — Esta liberdade compreende o direito à invenção, produção e divulgação da obra científica, literária ou artística, incluindo a proteção legal dos direitos de autor."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "43",
+      "title": "Liberdade de aprender e de ensinar",
+      "content": "1 — É garantida a liberdade de aprender e de ensinar. 2 — O Estado não pode programar a educação e a cultura segundo quaisquer diretrizes filosóficas, estéticas, políticas, ideológicas ou religiosas."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "44",
+      "title": "Direito de deslocação e de emigração",
+      "content": "1 — A todos os cidadãos é garantido o direito de se deslocarem e fixarem livremente em qualquer parte do território nacional. 2 — A todos é garantido o direito de emigrar ou de sair do território nacional e o direito de regressar."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "45",
+      "title": "Direito de reunião e de manifestação",
+      "content": "1 — Os cidadãos têm o direito de se reunir, pacificamente e sem armas, mesmo em lugares abertos ao público, sem necessidade de qualquer autorização. 2 — A todos os cidadãos é reconhecido o direito de manifestação."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO I — Direitos, liberdades e garantias pessoais",
+      "section": "46",
+      "title": "Liberdade de associação",
+      "content": "1 — Os cidadãos têm o direito de, livremente e sem dependência de qualquer autorização, constituir associações, desde que estas não se destinem a promover a violência e os respetivos fins não sejam contrários à lei penal."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO II — Direitos, liberdades e garantias de participação política",
+      "section": "48",
+      "title": "Participação na vida pública",
+      "content": "1 — Todos os cidadãos têm o direito de tomar parte na vida política e na direção dos assuntos públicos do país, diretamente ou por intermédio de representantes livremente eleitos. 2 — Todos os cidadãos têm o direito de ser esclarecidos objetivamente sobre atos do Estado e demais entidades públicas e de ser informados pelo Governo e outras autoridades acerca da gestão dos assuntos públicos."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO II — Direitos, liberdades e garantias de participação política",
+      "section": "49",
+      "title": "Direito de sufrágio",
+      "content": "1 — Têm direito de sufrágio todos os cidadãos maiores de dezoito anos, ressalvadas as incapacidades previstas na lei geral. 2 — O exercício do direito de sufrágio é pessoal e constitui um dever cívico."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO II — Direitos, liberdades e garantias de participação política",
+      "section": "52",
+      "title": "Direito de petição e direito de ação popular",
+      "content": "1 — Todos os cidadãos têm o direito de apresentar, individual ou coletivamente, aos órgãos de soberania, aos órgãos de governo próprio das regiões autónomas ou a quaisquer autoridades petições, representações, reclamações ou queixas para defesa dos seus direitos, da Constituição, das leis ou do interesse geral e, bem assim, o direito de serem informados, em prazo razoável, sobre o resultado da respetiva apreciação. 2 — A lei fixa as condições em que as petições apresentadas coletivamente à Assembleia da República e às Assembleias Legislativas das regiões autónomas são apreciadas em plenário. 3 — É conferido a todos, pessoalmente ou através de associações de defesa dos interesses em causa, o direito de ação popular nos casos e termos previstos na lei."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "TÍTULO II — Direitos, liberdades e garantias — CAPÍTULO III — Direitos, liberdades e garantias dos trabalhadores",
+      "section": "53",
+      "title": "Segurança no emprego",
+      "content": "É garantida aos trabalhadores a segurança no emprego, sendo proibidos os despedimentos sem justa causa ou por motivos políticos ou ideológicos."
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "TÍTULO III — Direitos e deveres económicos — CAPÍTULO I — Direitos e deveres económicos",
+      "section": "58",
+      "title": "Direito ao trabalho",
+      "content": "1 — Todos têm direito ao trabalho. 2 — Para assegurar o direito ao trabalho, incumbe ao Estado promover: a) A execução de políticas de pleno emprego; b) A igualdade de oportunidades na escolha da profissão ou género de trabalho e condições para que não seja vedado ou limitado, em função do sexo, o acesso a quaisquer cargos, trabalho ou categorias profissionais; c) A formação cultural e técnica e a valorização profissional dos trabalhadores."
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "TÍTULO III — Direitos e deveres económicos — CAPÍTULO I — Direitos e deveres económicos",
+      "section": "59",
+      "title": "Direitos dos trabalhadores",
+      "content": "1 — Todos os trabalhadores, sem distinção de idade, sexo, raça, cidadania, território de origem, religião, convicções políticas ou ideológicas, têm direito: a) À retribuição do trabalho, segundo a quantidade, natureza e qualidade, observando-se o princípio de que para trabalho igual salário igual; b) A organização do trabalho em condições socialmente dignificantes, de forma a facultar a realização pessoal e a permitir a conciliação da atividade profissional com a vida familiar; c) A prestação do trabalho em condições de higiene, segurança e saúde; d) Ao repouso e aos lazeres, a um limite máximo da jornada de trabalho, ao descanso semanal e a férias periódicas pagas."
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "TÍTULO III — Direitos e deveres económicos — CAPÍTULO I — Direitos e deveres económicos",
+      "section": "60",
+      "title": "Direitos dos consumidores",
+      "content": "1 — Os consumidores têm direito à qualidade dos bens e serviços consumidos, à formação e à informação, à proteção da saúde, da segurança e dos seus interesses económicos, bem como à reparação de danos. 2 — A publicidade é disciplinada por lei, sendo proibidas todas as formas de publicidade oculta, indireta ou dolosa."
+    },
+    {
+      "provision_ref": "art73",
+      "chapter": "TÍTULO III — Direitos e deveres culturais",
+      "section": "73",
+      "title": "Educação, cultura e ciência",
+      "content": "1 — Todos têm direito à educação e à cultura. 2 — O Estado promove a democratização da educação e as demais condições para que a educação, realizada através da escola e de outros meios formativos, contribua para a igualdade de oportunidades, a superação das desigualdades económicas, sociais e culturais, o desenvolvimento da personalidade e do espírito de tolerância, de compreensão mútua, de solidariedade e de responsabilidade, para o progresso social e para a participação democrática na vida coletiva."
+    },
+    {
+      "provision_ref": "art199",
+      "chapter": "TÍTULO IV — Governo — CAPÍTULO III — Competência",
+      "section": "199",
+      "title": "Competência administrativa do Governo",
+      "content": "Compete ao Governo, no exercício de funções administrativas: a) Elaborar os planos, com base nas leis das respetivas grandes opções, e fazê-los executar; b) Fazer executar o Orçamento do Estado; c) Fazer os regulamentos necessários à boa execução das leis; d) Dirigir os serviços e a atividade da administração direta do Estado, civil e militar, superintender na administração indireta e exercer a tutela sobre esta e sobre a administração autónoma; e) Praticar todos os atos e tomar todas as providências necessárias à promoção do desenvolvimento económico-social e à satisfação das necessidades coletivas."
+    },
+    {
+      "provision_ref": "art203",
+      "chapter": "TÍTULO V — Tribunais — CAPÍTULO I — Princípios gerais",
+      "section": "203",
+      "title": "Independência dos tribunais",
+      "content": "Os tribunais são independentes e apenas estão sujeitos à lei."
+    },
+    {
+      "provision_ref": "art204",
+      "chapter": "TÍTULO V — Tribunais — CAPÍTULO I — Princípios gerais",
+      "section": "204",
+      "title": "Apreciação da inconstitucionalidade",
+      "content": "Nos feitos submetidos a julgamento não podem os tribunais aplicar normas que infrinjam o disposto na Constituição ou os princípios nela consignados."
+    },
+    {
+      "provision_ref": "art205",
+      "chapter": "TÍTULO V — Tribunais — CAPÍTULO I — Princípios gerais",
+      "section": "205",
+      "title": "Decisões dos tribunais",
+      "content": "1 — As decisões dos tribunais que não sejam de mero expediente são fundamentadas na forma prevista na lei. 2 — As decisões dos tribunais são obrigatórias para todas as entidades públicas e privadas e prevalecem sobre as de quaisquer outras autoridades."
+    },
+    {
+      "provision_ref": "art266",
+      "chapter": "TÍTULO IX — Administração Pública",
+      "section": "266",
+      "title": "Princípios fundamentais da Administração Pública",
+      "content": "1 — A Administração Pública visa a prossecução do interesse público, no respeito pelos direitos e interesses legalmente protegidos dos cidadãos. 2 — Os órgãos e agentes administrativos estão subordinados à Constituição e à lei e devem atuar, no exercício das suas funções, com respeito pelos princípios da igualdade, da proporcionalidade, da justiça, da imparcialidade e da boa-fé."
+    },
+    {
+      "provision_ref": "art267",
+      "chapter": "TÍTULO IX — Administração Pública",
+      "section": "267",
+      "title": "Estrutura da Administração",
+      "content": "1 — A Administração Pública será estruturada de modo a evitar a burocratização, a aproximar os serviços das populações e a assegurar a participação dos interessados na sua gestão efetiva, designadamente por intermédio de associações públicas, organizações de moradores e outras formas de representação democrática. 2 — Para efeito do disposto no número anterior, a lei estabelecerá adequadas formas de descentralização e desconcentração administrativas, sem prejuízo da necessária eficácia e unidade de ação da Administração e dos poderes de direção, superintendência e tutela dos órgãos competentes. 5 — O processamento da atividade administrativa será objeto de lei especial, que assegurará a racionalização dos meios a utilizar pelos serviços e a participação dos cidadãos na formação das decisões ou deliberações que lhes disserem respeito. 6 — As entidades privadas que exerçam poderes públicos podem ser sujeitas, nos termos da lei, a fiscalização administrativa."
+    },
+    {
+      "provision_ref": "art269",
+      "chapter": "TÍTULO IX — Administração Pública",
+      "section": "269",
+      "title": "Regime da função pública",
+      "content": "1 — No exercício das suas funções, os trabalhadores da Administração Pública e demais agentes do Estado e outras entidades públicas estão exclusivamente ao serviço do interesse público, tal como é definido, nos termos da lei, pelos órgãos competentes da Administração. 2 — Os trabalhadores da Administração Pública e demais agentes do Estado e outras entidades públicas não podem ser prejudicados ou beneficiados em virtude do exercício de quaisquer direitos políticos previstos na Constituição, nomeadamente por opção partidária."
+    },
+    {
+      "provision_ref": "art270",
+      "chapter": "TÍTULO IX — Administração Pública",
+      "section": "270",
+      "title": "Restrições ao exercício de direitos",
+      "content": "A lei pode estabelecer, na estrita medida das exigências próprias das respetivas funções, restrições ao exercício dos direitos de expressão, reunião, manifestação, associação e petição coletiva e à capacidade eleitoral passiva dos militares e agentes militarizados dos quadros permanentes em serviço efetivo, bem como por agentes dos serviços e das forças de segurança."
+    },
+    {
+      "provision_ref": "art271",
+      "chapter": "TÍTULO IX — Administração Pública",
+      "section": "271",
+      "title": "Responsabilidade dos funcionários e agentes",
+      "content": "1 — Os funcionários e agentes do Estado e das demais entidades públicas são responsáveis civil, criminal e disciplinarmente pelas ações ou omissões praticadas no exercício das suas funções e por causa desse exercício de que resulte violação dos direitos ou interesses legalmente protegidos dos cidadãos, não dependendo a ação ou procedimento, em qualquer fase, de autorização hierárquica. 2 — É excluída a responsabilidade do funcionário ou agente que atue no cumprimento de ordens ou instruções emanadas de legítimo superior hierárquico e em matéria de serviço, se previamente delas tiver reclamado ou tiver exigido a sua transmissão ou confirmação por escrito. 3 — Cessa o dever de obediência sempre que o cumprimento das ordens ou instruções implique a prática de qualquer crime."
+    },
+    {
+      "provision_ref": "art268",
+      "chapter": "TÍTULO IX — Administração Pública",
+      "section": "268",
+      "title": "Direitos e garantias dos administrados",
+      "content": "1 — Os cidadãos têm o direito de ser informados pela Administração, sempre que o requeiram, sobre o andamento dos processos em que sejam diretamente interessados, bem como o de conhecer as resoluções definitivas que sobre eles forem tomadas. 2 — Os cidadãos têm também o direito de acesso aos arquivos e registos administrativos, sem prejuízo do disposto na lei em matérias relativas à segurança interna e externa, à investigação criminal e à intimidade das pessoas. 3 — Os atos administrativos estão sujeitos a notificação aos interessados, na forma prevista na lei, e carecem de fundamentação expressa e acessível quando afetem direitos ou interesses legalmente protegidos. 4 — É garantido aos administrados tutela jurisdicional efetiva dos seus direitos ou interesses legalmente protegidos, incluindo, nomeadamente, o reconhecimento desses direitos ou interesses, a impugnação de quaisquer atos administrativos que os lesem, independentemente da sua forma, a determinação da prática de atos administrativos legalmente devidos e a adoção de medidas cautelares adequadas. 5 — Os cidadãos têm igualmente direito de impugnar as normas administrativas com eficácia externa lesivas dos seus direitos ou interesses legalmente protegidos. 6 — Para efeitos dos n.ºs 1 e 2 do presente artigo, a lei fixará um prazo máximo de resposta por parte da Administração."
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "Estado de direito democrático",
+      "definition": "República baseada na soberania popular, no pluralismo de expressão e organização política democráticas, no respeito e na garantia de efetivação dos direitos e liberdades fundamentais"
+    },
+    {
+      "term": "Dados pessoais (constitucional)",
+      "definition": "A Constituição remete para a lei a definição do conceito de dados pessoais (Art. 35.º, n.º 2), mas proíbe constitucionalmente o tratamento de dados referentes a convicções filosóficas ou políticas, filiação partidária ou sindical, fé religiosa, vida privada e origem étnica"
+    }
+  ]
 }

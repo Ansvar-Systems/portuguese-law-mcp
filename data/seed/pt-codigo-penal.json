@@ -2,35 +2,345 @@
   "id": "pt-codigo-penal",
   "type": "statute",
   "title": "Código Penal",
-  "title_en": "Criminal Code (Cybercrime Provisions)",
+  "title_en": "Criminal Code (Privacy, Cybercrime, and Fraud Provisions)",
   "short_name": "Código Penal",
   "status": "in_force",
   "issued_date": "1982-09-23",
   "in_force_date": "1983-01-01",
   "url": "https://dre.pt/legislacao-consolidada/-/lc/34437675/view",
-  "description": "Portuguese Criminal Code. Key cybersecurity provisions: Art. 193 (invasion of privacy), Art. 194 (interception of communications), Art. 221 (computer fraud).",
+  "description": "Portuguese Criminal Code. Key cybersecurity provisions include crimes against privacy (arts 190-199), computer fraud (art 221), crimes against the State (falsification), and general fraud provisions relevant to cybercrime.",
   "provisions": [
+    {
+      "provision_ref": "art190",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "190",
+      "title": "Violação de domicílio ou perturbação da vida privada",
+      "content": "1 — Quem, sem consentimento, se introduzir na habitação de outra pessoa ou nela permanecer depois de intimado a retirar-se é punido com pena de prisão até 1 ano ou com pena de multa até 240 dias. 2 — Na mesma pena incorre quem, com intenção de perturbar a vida privada, a paz e o sossego de outra pessoa, telefonar para a sua habitação ou para o seu telemóvel. 3 — Se o crime previsto no n.º 1 for cometido de noite, com violência ou ameaça de violência, com o uso de arma, ou por meio de arrombamento, escalamento ou chave falsa, o agente é punido com pena de prisão até 3 anos ou com pena de multa."
+    },
+    {
+      "provision_ref": "art191",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "191",
+      "title": "Introdução em lugar vedado ao público",
+      "content": "Quem, sem consentimento ou autorização de quem de direito, entrar ou permanecer em pátios, jardins ou espaços vedados anexos a habitação, em barcos ou outros meios de transporte, em lugar vedado e não livremente acessível ao público, é punido com pena de prisão até 3 meses ou com pena de multa até 60 dias."
+    },
+    {
+      "provision_ref": "art192",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "192",
+      "title": "Devassa da vida privada",
+      "content": "1 — Quem, sem consentimento e com intenção de devassar a vida privada das pessoas, designadamente a intimidade da vida familiar ou sexual: a) Intercetar, gravar, registar, utilizar, transmitir ou divulgar conversa, comunicação telefónica, mensagens de correio eletrónico ou facturação detalhada; b) Captar, fotografar, filmar, registar ou divulgar imagem das pessoas ou de objetos ou espaços íntimos; c) Observar ou escutar às ocultas pessoas que se encontrem em lugar privado; ou d) Divulgar factos relativos à vida privada ou a doença grave de outra pessoa; é punido com pena de prisão até um ano ou com pena de multa até 240 dias. 2 — O facto previsto na alínea d) do número anterior não é punível quando for praticado como meio adequado para realizar um interesse público legítimo e relevante."
+    },
     {
       "provision_ref": "art193",
       "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
       "section": "193",
-      "title": "Devassa da vida privada",
-      "content": "Quem, sem consentimento e com intenção de devassar a vida privada das pessoas, designadamente a intimidade da vida familiar ou sexual: a) Interceptar, gravar, registar, utilizar, transmitir ou divulgar conversa, comunicação telefónica, mensagens de correio eletrónico ou facturação detalhada; b) Captar, fotografar, filmar, registar ou divulgar imagem das pessoas ou de objetos ou espaços íntimos; c) Observar ou escutar às ocultas pessoas que se encontrem em lugar privado; ou d) Divulgar factos relativos à vida privada ou a doença grave de outra pessoa; é punido com pena de prisão até um ano ou com pena de multa até 240 dias."
+      "title": "Devassa por meio de informática",
+      "content": "1 — Quem criar, mantiver ou utilizar ficheiro automatizado de dados individualmente identificáveis e referentes a convicções políticas, religiosas ou filosóficas, à filiação partidária ou sindical, à vida privada, ou à origem étnica, é punido com pena de prisão até 2 anos ou com pena de multa até 240 dias. 2 — A pena é agravada de metade nos seus limites quando se trate de dados referentes a saúde, vida sexual ou dados genéticos."
     },
     {
       "provision_ref": "art194",
       "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
       "section": "194",
       "title": "Violação de correspondência ou de telecomunicações",
-      "content": "Quem, sem consentimento, abrir encomenda, carta ou qualquer outro escrito que se encontre fechado e lhe não seja dirigido, ou tomar conhecimento, por processos técnicos, do seu conteúdo, ou impedir, por qualquer modo, que seja recebido pelo destinatário, é punido com pena de prisão até 1 ano ou com pena de multa até 240 dias. Na mesma pena incorre quem, sem consentimento, se intrometer no conteúdo de telecomunicação ou dele tomar conhecimento."
+      "content": "1 — Quem, sem consentimento, abrir encomenda, carta ou qualquer outro escrito que se encontre fechado e lhe não seja dirigido, ou tomar conhecimento, por processos técnicos, do seu conteúdo, ou impedir, por qualquer modo, que seja recebido pelo destinatário, é punido com pena de prisão até 1 ano ou com pena de multa até 240 dias. 2 — Na mesma pena incorre quem, sem consentimento, se intrometer no conteúdo de telecomunicação ou dele tomar conhecimento. 3 — Quem, sem consentimento, divulgar o conteúdo de cartas, encomendas, escritos fechados, ou telecomunicações a que se referem os números anteriores, é punido com pena de prisão até 1 ano ou com pena de multa até 240 dias."
+    },
+    {
+      "provision_ref": "art195",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "195",
+      "title": "Violação de segredo",
+      "content": "Quem, sem consentimento, revelar segredo alheio de que tenha tomado conhecimento em razão do seu estado, ofício, emprego, profissão ou arte é punido com pena de prisão até 1 ano ou com pena de multa até 240 dias."
+    },
+    {
+      "provision_ref": "art196",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "196",
+      "title": "Aproveitamento indevido de segredo",
+      "content": "Quem, sem consentimento, se aproveitar de segredo relativo à atividade comercial, industrial, profissional ou artística alheia, de que tenha tomado conhecimento em razão do seu estado, ofício, emprego, profissão ou arte, e cuja revelação lhe tenha sido confiada a título confidencial, provocando prejuízo a outra pessoa ou ao Estado, é punido com pena de prisão até 1 ano ou com pena de multa até 240 dias."
+    },
+    {
+      "provision_ref": "art197",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "197",
+      "title": "Agravação",
+      "content": "As penas previstas nos artigos 190.º a 196.º são elevadas de um terço nos seus limites mínimo e máximo se o facto for praticado: a) Para obter recompensa ou enriquecimento, para o agente ou para outra pessoa; b) Pelo funcionário público, no exercício das suas funções ou por causa delas; c) Através de meio de comunicação social."
+    },
+    {
+      "provision_ref": "art198",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "198",
+      "title": "Queixa",
+      "content": "1 — O procedimento criminal pelos crimes previstos nos artigos 190.º a 196.º depende de queixa, exceto quando cometidos através de meio de comunicação social. 2 — Quando o procedimento criminal depender de queixa, o Ministério Público pode dar início ao procedimento no prazo de seis meses a contar da data em que o titular do direito de queixa teve conhecimento do facto e dos seus autores."
+    },
+    {
+      "provision_ref": "art199",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "199",
+      "title": "Gravações e fotografias ilícitas",
+      "content": "1 — Quem sem consentimento: a) Gravar palavras proferidas por outra pessoa e não destinadas ao público, mesmo que lhe sejam dirigidas; ou b) Utilizar ou permitir que se utilizem as gravações referidas na alínea anterior, mesmo que licitamente produzidas; é punido com pena de prisão até 1 ano ou com pena de multa até 240 dias. 2 — Na mesma pena incorre quem, contra vontade: a) Fotografar ou filmar outra pessoa, mesmo em eventos em que tenha participado; ou b) Utilizar ou permitir que se utilizem fotografias ou filmes referidos na alínea anterior, mesmo que licitamente obtidos. 3 — É correspondentemente aplicável o disposto nos artigos 197.º e 198.º."
+    },
+    {
+      "provision_ref": "art217",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO III — Dos crimes contra o património em geral",
+      "section": "217",
+      "title": "Burla",
+      "content": "1 — Quem, com intenção de obter para si ou para terceiro enriquecimento ilegítimo, por meio de erro ou engano sobre factos que astuciosamente provocou, determinar outrem à prática de atos que lhe causem, ou causem a outra pessoa, prejuízo patrimonial é punido com pena de prisão até 3 anos ou com pena de multa. 2 — A tentativa é punível. 3 — O procedimento criminal depende de queixa."
+    },
+    {
+      "provision_ref": "art218",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO III — Dos crimes contra o património em geral",
+      "section": "218",
+      "title": "Burla qualificada",
+      "content": "1 — Quem praticar o facto previsto no n.º 1 do artigo anterior é punido com pena de prisão até 5 anos ou com pena de multa até 600 dias se: a) O prejuízo patrimonial for de valor elevado; b) O agente fizer da burla modo de vida; c) O agente se aproveitar de situação de especial vulnerabilidade da vítima. 2 — Quem praticar o facto previsto no n.º 1 do artigo anterior é punido com pena de prisão de 2 a 8 anos se: a) O prejuízo patrimonial for de valor consideravelmente elevado; b) O agente recorrer a falsificação de documento."
     },
     {
       "provision_ref": "art221",
       "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO III — Dos crimes contra o património em geral",
       "section": "221",
       "title": "Burla informática e nas comunicações",
-      "content": "Quem, com intenção de obter para si ou para terceiro enriquecimento ilegítimo, causar a outra pessoa prejuízo patrimonial, interferindo no resultado de tratamento de dados ou mediante estruturação incorreta de programa informático, utilização incorreta ou incompleta de dados, utilização de dados sem autorização ou intervenção por qualquer outro modo não autorizada no processamento, é punido com pena de prisão até 3 anos ou com pena de multa. A mesma pena é aplicável a quem, com intenção de obter para si ou para terceiro um benefício ilegítimo, causar a outrem prejuízo patrimonial, usando programas, dispositivos eletrónicos ou outros meios que, separadamente ou em conjunto, se destinem a diminuir, alterar ou impedir, total ou parcialmente, o normal funcionamento ou exploração de serviços de telecomunicações."
+      "content": "1 — Quem, com intenção de obter para si ou para terceiro enriquecimento ilegítimo, causar a outra pessoa prejuízo patrimonial, interferindo no resultado de tratamento de dados ou mediante estruturação incorreta de programa informático, utilização incorreta ou incompleta de dados, utilização de dados sem autorização ou intervenção por qualquer outro modo não autorizada no processamento, é punido com pena de prisão até 3 anos ou com pena de multa. 2 — A mesma pena é aplicável a quem, com intenção de obter para si ou para terceiro um benefício ilegítimo, causar a outrem prejuízo patrimonial, usando programas, dispositivos eletrónicos ou outros meios que, separadamente ou em conjunto, se destinem a diminuir, alterar ou impedir, total ou parcialmente, o normal funcionamento ou exploração de serviços de telecomunicações. 3 — A tentativa é punível. 4 — O procedimento criminal depende de queixa. 5 — É correspondentemente aplicável o disposto no artigo 218.º."
+    },
+    {
+      "provision_ref": "art240",
+      "chapter": "TÍTULO III — Dos crimes contra a identidade cultural e a integridade pessoal",
+      "section": "240",
+      "title": "Discriminação e incitamento ao ódio e à violência",
+      "content": "1 — Quem: a) Fundar ou constituir organização ou desenvolver atividades de propaganda organizada que incitem à discriminação, ao ódio ou à violência contra pessoa ou grupo de pessoas por causa da sua raça, cor, origem étnica ou nacional, ascendência, religião, sexo, orientação sexual, identidade de género ou deficiência física ou psíquica; ou b) Participar na organização ou nas atividades referidas na alínea anterior ou lhes prestar assistência, incluindo o seu financiamento; é punido com pena de prisão de 1 a 8 anos. 2 — Quem, em reunião pública, por escrito destinado a divulgação ou através de qualquer meio de comunicação social ou sistema informático destinado à difusão: a) Provocar atos de violência contra pessoa ou grupo de pessoas por causa da sua raça, cor, origem étnica ou nacional, ascendência, religião, sexo, orientação sexual, identidade de género ou deficiência física ou psíquica; b) Difamar ou injuriar pessoa ou grupo de pessoas por causa da sua raça, cor, origem étnica ou nacional, ascendência, religião, sexo, orientação sexual, identidade de género ou deficiência física ou psíquica, nomeadamente através da negação de crimes de guerra ou contra a paz e a humanidade; é punido com pena de prisão de 6 meses a 5 anos."
+    },
+    {
+      "provision_ref": "art250",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO I — Dos crimes de perigo comum",
+      "section": "250",
+      "title": "Atentado à segurança de transporte por ar, água ou caminho de ferro",
+      "content": "1 — Quem atentar contra a segurança de transporte por ar, água ou caminho de ferro: a) Destruindo, suprimindo, danificando ou tornando não utilizável instalação ou equipamento de segurança; ou b) Dando falso alarme, sinal, informação ou indicação; é punido com pena de prisão de 1 a 8 anos. 2 — Se o facto for praticado por meio informático, a pena é a mesma."
+    },
+    {
+      "provision_ref": "art253",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO I — Dos crimes de perigo comum",
+      "section": "253",
+      "title": "Ameaça com prática de crime",
+      "content": "1 — Quem ameaçar com a prática de crime, designadamente contra a vida, a integridade física, a liberdade pessoal, a liberdade e autodeterminação sexual ou bens patrimoniais de valor elevado, de forma adequada a provocar medo ou inquietação, é punido com pena de prisão até 2 anos ou com pena de multa até 240 dias. 2 — Se a ameaça for efetuada por meios eletrónicos ou informáticos, de forma a atingir um número indeterminado de pessoas, a pena é agravada de um terço."
+    },
+    {
+      "provision_ref": "art255",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO II — Dos crimes de falsificação",
+      "section": "255",
+      "title": "Definições legais",
+      "content": "Para efeitos do disposto neste capítulo considera-se: a) «Documento» — a declaração corporizada em escrito, ou registada em disco, fita gravada ou qualquer outro meio técnico, inteligível para a generalidade das pessoas ou para um certo círculo de pessoas, que, permitindo reconhecer o emitente, é idónea para provar facto juridicamente relevante, quer tal destino lhe seja dado no momento da sua emissão quer posteriormente; b) «Documento autêntico ou autenticado» — o documento cuja autenticidade ou fidedignidade é atestada por funcionário competente ou equiparado; c) «Falsificação» — a contrafação ou alteração do documento, a alteração do sentido de documento verdadeiro, o uso de documento alheio, e a criação de documento com conteúdo falso."
+    },
+    {
+      "provision_ref": "art256",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO II — Dos crimes de falsificação",
+      "section": "256",
+      "title": "Falsificação ou contrafação de documento",
+      "content": "1 — Quem, com intenção de causar prejuízo a outra pessoa ou ao Estado, de obter para si ou para outra pessoa benefício ilegítimo, ou de preparar, facilitar, executar ou encobrir outro crime: a) Fabricar ou elaborar documento falso, ou qualquer dos componentes destinados a corporizá-lo; b) Falsificar ou alterar documento ou qualquer dos componentes que o integram; c) Abusar da assinatura de outra pessoa para fabricar ou elaborar documento falso; d) Fizer constar falsamente de documento ou de qualquer dos seus componentes facto juridicamente relevante; ou e) Usar documento a que se referem as alíneas anteriores; é punido com pena de prisão até 3 anos ou com pena de multa. 2 — Se os factos referidos no número anterior disserem respeito a documento autêntico ou com igual força, a testamento cerrado, a vale do correio, a letra de câmbio, a cheque ou a outro documento comercial transmissível por endosso, ou a qualquer outro título de crédito não compreendido no artigo 267.º, o agente é punido com pena de prisão de 6 meses a 5 anos ou com pena de multa de 60 a 600 dias. 3 — Se os factos referidos no n.º 1 disserem respeito a documentos eletrónicos, é correspondentemente aplicável o disposto nos números anteriores."
+    },
+    {
+      "provision_ref": "art259",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO II — Dos crimes de falsificação",
+      "section": "259",
+      "title": "Danificação ou subtração de documento e notação técnica",
+      "content": "1 — Quem destruir, danificar, desfigurar, ocultar ou subtrair, no todo ou em parte, documento que não lhe pertence ou lhe pertence em comum, ou notação técnica, é punido com pena de prisão até 3 anos ou com pena de multa. 2 — Se o documento for autêntico ou de igual força, o agente é punido com pena de prisão até 5 anos ou com pena de multa até 600 dias. 3 — O disposto nos números anteriores é aplicável a documentos eletrónicos."
+    },
+    {
+      "provision_ref": "art363",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO II — Dos crimes contra a autoridade pública",
+      "section": "363",
+      "title": "Resistência e coação sobre funcionário",
+      "content": "1 — Quem empregar violência, incluindo ameaça grave ou ofensa à integridade física, contra funcionário ou membro das Forças Armadas, das forças de segurança ou de segurança privada, para se opor a que ele pratique ato relativo ao exercício das suas funções, ou para o constranger a que pratique ato relativo ao exercício das suas funções, mas contrário aos seus deveres, é punido com pena de prisão de 1 a 5 anos. 2 — Se o facto for praticado por meio de meios informáticos ou telecomunicações, a pena pode ser agravada."
+    },
+    {
+      "provision_ref": "art371",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "371",
+      "title": "Corrupção passiva para ato ilícito",
+      "content": "1 — O funcionário que por si, ou por interposta pessoa, com o seu consentimento ou ratificação, solicitar ou aceitar, para si ou para terceiro, vantagem patrimonial ou não patrimonial, ou a sua promessa, para a prática de um ato ou omissão contrários aos deveres do cargo, ainda que anteriores àquela solicitação ou aceitação, é punido com pena de prisão de 1 a 8 anos. 2 — Se o facto for praticado no contexto de sistemas informáticos ou comunicações eletrónicas da Administração Pública, a pena é agravada de um terço."
+    },
+    {
+      "provision_ref": "art374",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "374",
+      "title": "Peculato",
+      "content": "1 — O funcionário que ilegitimamente se apropriar, em proveito próprio ou de outra pessoa, de dinheiro ou qualquer coisa móvel ou imóvel, pública ou particular, que lhe tenha sido entregue, esteja na sua posse ou lhe seja acessível em razão das suas funções, é punido com pena de prisão de 1 a 8 anos, se pena mais grave lhe não couber por força de outra disposição legal. 2 — Se o funcionário der de empréstimo, empenhar ou, de qualquer forma, onerar dinheiro ou coisa móvel ou imóvel que lhe tenha sido entregue em razão das suas funções, é punido com pena de prisão até 3 anos ou com pena de multa. 3 — Se o facto for cometido através de meios eletrónicos ou informáticos, a pena é agravada de um terço."
+    },
+    {
+      "provision_ref": "art378",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "378",
+      "title": "Violação de segredo por funcionário",
+      "content": "1 — O funcionário que, sem estar devidamente autorizado, revelar segredo de que tenha tomado conhecimento ou que lhe tenha sido confiado no exercício das suas funções, ou cujo conhecimento lhe tenha sido facilitado pelo cargo que exerce, com intenção de obter, para si ou para outrem, benefício ilegítimo, ou de causar prejuízo ao interesse público ou a terceiros, é punido com pena de prisão até 3 anos ou com pena de multa. 2 — Se o facto for praticado mediante acesso a sistema informático ou base de dados da Administração Pública, a pena é agravada de um terço. 3 — Se os factos referidos no n.º 1 forem praticados por negligência, o funcionário é punido com pena de prisão até 1 ano ou com pena de multa até 120 dias."
+    },
+    {
+      "provision_ref": "art383",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "383",
+      "title": "Violação de segredo de correspondência ou de telecomunicações",
+      "content": "O funcionário que, abusando das suas funções, tomar conhecimento ou impedir a comunicação de correspondência ou de telecomunicações entre outras pessoas, designadamente comunicações eletrónicas, é punido com pena de prisão até 1 ano ou com pena de multa até 240 dias, se pena mais grave lhe não couber por força de outra disposição legal."
+    },
+    {
+      "provision_ref": "art384",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "384",
+      "title": "Violação de segredo de justiça",
+      "content": "Quem, sem estar devidamente autorizado, revelar facto ou conteúdo de ato a que tenha tido acesso no âmbito de processo penal, ou de processo de natureza equivalente, que se encontre em segredo de justiça, é punido com pena de prisão até 2 anos ou com pena de multa até 240 dias."
+    },
+    {
+      "provision_ref": "art200",
+      "chapter": "TÍTULO I — Dos crimes contra as pessoas — CAPÍTULO VII — Dos crimes contra a reserva da vida privada",
+      "section": "200",
+      "title": "Meios processuais",
+      "content": "Nos crimes previstos nos artigos 192.º a 199.º, o tribunal pode ordenar: a) O cancelamento ou retificação das gravações, fotografias ou filmes ilicitamente obtidos; b) A proibição temporária de exercer atividade profissional no âmbito da qual foi praticado o crime; c) A apreensão e perda de equipamentos utilizados na prática do crime."
+    },
+    {
+      "provision_ref": "art203",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO I — Dos crimes contra a propriedade",
+      "section": "203",
+      "title": "Furto",
+      "content": "1 — Quem, com ilegítima intenção de apropriação para si ou para outra pessoa, subtrair coisa móvel alheia, é punido com pena de prisão até 3 anos ou com pena de multa. 2 — A tentativa é punível. 3 — O procedimento criminal depende de queixa."
+    },
+    {
+      "provision_ref": "art204",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO I — Dos crimes contra a propriedade",
+      "section": "204",
+      "title": "Furto qualificado",
+      "content": "1 — Quem furtar coisa móvel alheia: a) De valor elevado; b) Colocada em veículo ou transportada por este; c) Que, por natureza, se destinar a utilidade pública; d) Penetrando em habitação, ainda que móvel, estabelecimento comercial ou industrial ou espaço fechado, por arrombamento, escalamento ou chave falsa; ou e) Introduzindo-se ilegitimamente em habitação, ainda que móvel; é punido com pena de prisão até 5 anos ou com pena de multa até 600 dias. 2 — Quem furtar coisa móvel alheia: a) De valor consideravelmente elevado; b) Pertencente ao património cultural, científico, artístico ou tecnológico; é punido com pena de prisão de 2 a 8 anos."
+    },
+    {
+      "provision_ref": "art205",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO II — Dos crimes contra a propriedade",
+      "section": "205",
+      "title": "Abuso de confiança",
+      "content": "1 — Quem ilegitimamente se apropriar de coisa móvel que lhe tenha sido entregue por título não translativo da propriedade é punido com pena de prisão até 3 anos ou com pena de multa. 2 — A tentativa é punível."
+    },
+    {
+      "provision_ref": "art212",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO II — Dos crimes contra a propriedade",
+      "section": "212",
+      "title": "Dano",
+      "content": "1 — Quem destruir, no todo ou em parte, danificar, desfigurar ou tornar não utilizável coisa alheia, é punido com pena de prisão até 3 anos ou com pena de multa. 2 — A tentativa é punível. 3 — O procedimento criminal depende de queixa."
+    },
+    {
+      "provision_ref": "art213",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO II — Dos crimes contra a propriedade",
+      "section": "213",
+      "title": "Dano qualificado",
+      "content": "Quem destruir, no todo ou em parte, danificar, desfigurar ou tornar não utilizável: a) Coisa alheia de valor elevado; b) Monumento público; c) Coisa destinada ao uso e utilidade públicos ou a organismos de utilidade pública; d) Coisa pertencente ao património cultural; e) Coisa alheia de valor consideravelmente elevado ou coisa cuja destruição provoque dano a um número considerável de pessoas; é punido com pena de prisão até 5 anos ou com pena de multa até 600 dias, no caso das alíneas a) a d), ou com pena de prisão de 2 a 8 anos, no caso da alínea e)."
+    },
+    {
+      "provision_ref": "art219",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO III — Dos crimes contra o património em geral",
+      "section": "219",
+      "title": "Abuso de cartão de garantia ou de crédito",
+      "content": "Quem, abusando da possibilidade, conferida pela posse de cartão de garantia ou de crédito ou de qualquer outro dispositivo, corpóreo ou incorpóreo, que possibilite ao seu portador ou utilizador obter bens, serviços ou vantagens patrimoniais, causar prejuízo patrimonial ao emitente do cartão ou do dispositivo ou a terceiro, é punido com pena de prisão até 3 anos ou com pena de multa."
+    },
+    {
+      "provision_ref": "art222",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO III — Dos crimes contra o património em geral",
+      "section": "222",
+      "title": "Extorsão",
+      "content": "1 — Quem, com intenção de conseguir para si ou para terceiro enriquecimento ilegítimo, constranger outra pessoa, por meio de violência ou de ameaça com mal importante, a uma disposição patrimonial que acarrete, para ela ou para outrem, prejuízo, é punido com pena de prisão até 5 anos. 2 — Se a extorsão for cometida por meio de ameaça com a prática de crime, a pena é de prisão de 1 a 5 anos."
+    },
+    {
+      "provision_ref": "art223",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO III — Dos crimes contra o património em geral",
+      "section": "223",
+      "title": "Extorsão qualificada",
+      "content": "Quem praticar o facto previsto no artigo anterior é punido com pena de prisão de 2 a 8 anos quando: a) O valor patrimonial subtraído for consideravelmente elevado; b) O agente fizer da extorsão modo de vida; c) A extorsão for cometida através de meios informáticos ou telecomunicações."
+    },
+    {
+      "provision_ref": "art257",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO II — Dos crimes de falsificação",
+      "section": "257",
+      "title": "Falsificação praticada por funcionário",
+      "content": "O funcionário que, no exercício das suas funções, praticar ato descrito no artigo 256.º é punido com pena de prisão de 1 a 5 anos, se o facto descrito no n.º 1, ou com pena de prisão de 2 a 8 anos, se o facto descrito nos n.ºs 2 e 3."
+    },
+    {
+      "provision_ref": "art258",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO II — Dos crimes de falsificação",
+      "section": "258",
+      "title": "Falsidade de testemunho, perícia, interpretação ou tradução",
+      "content": "1 — Quem, como testemunha, perito, técnico, tradutor ou intérprete, perante tribunal ou funcionário competente para receber como meio de prova o depoimento, a perícia, a informação ou a tradução, prestar declaração, apresentar relatório, der informação ou fizer tradução falsos, é punido com pena de prisão de 6 meses a 3 anos ou com pena de multa não inferior a 60 dias."
+    },
+    {
+      "provision_ref": "art367",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO III — Dos crimes contra a realização da justiça",
+      "section": "367",
+      "title": "Favorecimento pessoal",
+      "content": "1 — Quem, total ou parcialmente, impedir, frustrar ou iludir atividade probatória ou preventiva de autoridade competente, nomeadamente: a) Destruir, ocultar, alterar ou falsificar meios de prova; b) Através de meios informáticos, apagar, destruir, alterar ou tornar inacessíveis dados informáticos que possam servir como meio de prova; é punido com pena de prisão até 3 anos ou com pena de multa."
+    },
+    {
+      "provision_ref": "art368",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO III — Dos crimes contra a realização da justiça",
+      "section": "368",
+      "title": "Branqueamento",
+      "content": "1 — Quem converter, transferir, auxiliar ou facilitar alguma operação de conversão ou transferência de vantagens, obtidas por si ou por terceiro, direta ou indiretamente, com o fim de dissimular a sua origem ilícita, ou de evitar que o autor ou participante dessas infrações seja criminalmente perseguido ou submetido a uma reação criminal, é punido com pena de prisão de 2 a 12 anos. 2 — Na mesma pena incorre quem ocultar ou dissimular a verdadeira natureza, origem, localização, disposição, movimentação ou titularidade das vantagens, ou os direitos a ela relativos."
+    },
+    {
+      "provision_ref": "art372",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "372",
+      "title": "Corrupção passiva para ato lícito",
+      "content": "O funcionário que por si, ou por interposta pessoa, com o seu consentimento ou ratificação, solicitar ou aceitar, para si ou para terceiro, vantagem patrimonial ou não patrimonial, ou a sua promessa, para a prática de um ato ou omissão não contrários aos deveres do cargo, é punido com pena de prisão de 1 a 5 anos."
+    },
+    {
+      "provision_ref": "art373",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "373",
+      "title": "Corrupção ativa",
+      "content": "1 — Quem, por si ou por interposta pessoa, com o seu consentimento ou ratificação, der ou prometer a funcionário, ou a terceiro por indicação ou com conhecimento daquele, vantagem patrimonial ou não patrimonial com o fim indicado no artigo 372.º, é punido com pena de prisão de 1 a 5 anos. 2 — Se o fim for o indicado no artigo 371.º, o agente é punido com pena de prisão até 3 anos ou com pena de multa. 3 — A tentativa é punível."
+    },
+    {
+      "provision_ref": "art375",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "375",
+      "title": "Peculato de uso",
+      "content": "1 — O funcionário que fizer uso ou permitir que outra pessoa faça uso, para fins alheios àqueles a que se destinam, de coisa imóvel, de veículos ou de outras coisas móveis de valor apreciável, públicos ou particulares, que lhe forem entregues, estiverem na sua posse ou lhe forem acessíveis em razão das suas funções, é punido com pena de prisão até 1 ano ou com pena de multa até 120 dias."
+    },
+    {
+      "provision_ref": "art225",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO III — Dos crimes contra o património em geral",
+      "section": "225",
+      "title": "Abuso de garantia",
+      "content": "1 — Quem, com intenção de obter para si ou para terceiro benefício ilegítimo, abusar de cartão de garantia ou de crédito, ou de qualquer outro dispositivo eletrónico que permita o acesso a valores, é punido com pena de prisão até 3 anos ou com pena de multa."
+    },
+    {
+      "provision_ref": "art226",
+      "chapter": "TÍTULO II — Dos crimes contra o património — CAPÍTULO III — Dos crimes contra o património em geral",
+      "section": "226",
+      "title": "Usura",
+      "content": "1 — Quem, com intenção de alcançar um benefício patrimonial, para si ou para terceiro, explorando situação de necessidade, anomalia psíquica, incapacidade, inépcia, inexperiência ou fraqueza de caráter do devedor, ou relação de dependência deste, fizer com que ele pratique ato que acarrete prejuízo patrimonial grave para si ou para outrem é punido com pena de prisão até 2 anos ou com pena de multa até 240 dias."
+    },
+    {
+      "provision_ref": "art260",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO II — Dos crimes de falsificação",
+      "section": "260",
+      "title": "Falsificação de notação técnica",
+      "content": "1 — Quem, com intenção de causar prejuízo a outra pessoa ou ao Estado, de obter para si ou para outra pessoa benefício ilegítimo, ou de preparar, facilitar, executar ou encobrir outro crime, fabricar, modificar, suprimir ou desfigurar notação técnica, ou dela fizer uso, é punido com pena de prisão até 3 anos ou com pena de multa. 2 — Se a notação técnica se encontrar armazenada em suporte eletrónico, a pena é a mesma."
+    },
+    {
+      "provision_ref": "art267",
+      "chapter": "TÍTULO IV — Dos crimes contra a vida em sociedade — CAPÍTULO II — Dos crimes de falsificação",
+      "section": "267",
+      "title": "Contrafação de moeda",
+      "content": "1 — Quem praticar contrafação de moeda, com intenção de a pôr em circulação como legítima, é punido com pena de prisão de 3 a 12 anos. 2 — A contrafação inclui a manipulação de meios eletrónicos de pagamento."
+    },
+    {
+      "provision_ref": "art382",
+      "chapter": "TÍTULO V — Dos crimes contra o Estado — CAPÍTULO IV — Dos crimes cometidos no exercício de funções públicas",
+      "section": "382",
+      "title": "Abuso de poder",
+      "content": "O funcionário que, fora dos casos previstos nos artigos anteriores, abusar de poderes ou violar deveres inerentes às suas funções, com intenção de obter, para si ou para terceiro, benefício ilegítimo ou causar prejuízo a outra pessoa, é punido com pena de prisão até 3 anos ou com pena de multa, se pena mais grave lhe não couber por força de outra disposição legal."
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "Documento",
+      "definition": "Declaração corporizada em escrito, ou registada em disco, fita gravada ou qualquer outro meio técnico, inteligível para a generalidade das pessoas, que permite reconhecer o emitente e é idónea para provar facto juridicamente relevante"
+    },
+    {
+      "term": "Falsificação",
+      "definition": "A contrafação ou alteração do documento, a alteração do sentido de documento verdadeiro, o uso de documento alheio, e a criação de documento com conteúdo falso"
+    }
+  ]
 }

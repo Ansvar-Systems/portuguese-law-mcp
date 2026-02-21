@@ -8,36 +8,375 @@
   "issued_date": "2022-08-16",
   "in_force_date": "2022-10-15",
   "url": "https://dre.pt/pesquisa/-/search/188619498/details/maximized",
-  "description": "Transposes European Electronic Communications Code (Directive (EU) 2018/1972). Regulates electronic communications networks and services, end-user rights, spectrum management.",
+  "description": "Transposes European Electronic Communications Code (Directive (EU) 2018/1972). Regulates electronic communications networks and services, end-user rights, spectrum management, security requirements, and ANACOM's regulatory powers.",
   "provisions": [
     {
       "provision_ref": "art1",
       "chapter": "TÍTULO I — Disposições gerais",
       "section": "1",
       "title": "Objeto e âmbito",
-      "content": "A presente lei estabelece o regime jurídico aplicável às redes e serviços de comunicações eletrónicas e aos recursos e serviços conexos, transpondo a Diretiva (UE) 2018/1972, do Parlamento Europeu e do Conselho, de 11 de dezembro de 2018, que estabelece o Código Europeu das Comunicações Eletrónicas."
+      "content": "1 — A presente lei estabelece o regime jurídico aplicável às redes e serviços de comunicações eletrónicas e aos recursos e serviços conexos, transpondo a Diretiva (UE) 2018/1972, do Parlamento Europeu e do Conselho, de 11 de dezembro de 2018, que estabelece o Código Europeu das Comunicações Eletrónicas. 2 — A presente lei aplica-se igualmente à utilização do espetro radioelétrico e à instalação e utilização de estações de radiocomunicações."
     },
     {
       "provision_ref": "art2",
       "chapter": "TÍTULO I — Disposições gerais",
       "section": "2",
       "title": "Definições",
-      "content": "Para efeitos da presente lei entende-se por: a) «Rede de comunicações eletrónicas» — os sistemas de transmissão, baseados ou não em infraestruturas permanentes ou capacidade de administração centralizada; b) «Serviço de comunicações eletrónicas» — um serviço oferecido em geral mediante remuneração através de redes de comunicações eletrónicas."
+      "content": "Para efeitos da presente lei entende-se por: a) «Rede de comunicações eletrónicas» — os sistemas de transmissão, baseados ou não em infraestruturas permanentes ou capacidade de administração centralizada, e, se for caso disso, o equipamento de comutação ou encaminhamento e os demais recursos, incluindo os elementos de rede que não estão ativos, que permitem o envio de sinais por cabo, por via hertziana, por meios óticos ou por outros meios eletromagnéticos; b) «Serviço de comunicações eletrónicas» — um serviço oferecido em geral mediante remuneração através de redes de comunicações eletrónicas, que inclui os serviços de acesso à Internet, os serviços de comunicações interpessoais e os serviços que consistem total ou principalmente no envio de sinais; c) «Serviço de comunicações interpessoais» — um serviço normalmente prestado mediante remuneração que permite a troca interpessoal e interativa direta de informações através de redes de comunicações eletrónicas entre um número finito de pessoas; d) «Utilizador final» — um utilizador que não fornece redes públicas de comunicações eletrónicas nem serviços de comunicações eletrónicas acessíveis ao público."
     },
     {
       "provision_ref": "art3",
       "chapter": "TÍTULO I — Disposições gerais",
       "section": "3",
       "title": "Autoridade reguladora nacional",
-      "content": "A Autoridade Nacional de Comunicações (ANACOM) é a autoridade reguladora nacional para efeitos do disposto na presente lei e na legislação complementar."
+      "content": "1 — A Autoridade Nacional de Comunicações (ANACOM) é a autoridade reguladora nacional para efeitos do disposto na presente lei e na legislação complementar. 2 — A ANACOM exerce as suas funções com independência e não pode solicitar nem receber instruções de qualquer outro organismo relativamente ao desempenho das funções que lhe são atribuídas pela presente lei."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "4",
+      "title": "Objetivos gerais da regulação",
+      "content": "A ANACOM prossegue, na sua atividade reguladora, os seguintes objetivos gerais: a) Promover a conectividade e o acesso a redes de muito alta capacidade; b) Promover a concorrência no fornecimento de redes e serviços de comunicações eletrónicas; c) Contribuir para o desenvolvimento do mercado interno; d) Promover os interesses dos cidadãos da União Europeia."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "5",
+      "title": "Princípios regulatórios",
+      "content": "A regulação das comunicações eletrónicas observa os seguintes princípios: a) Proporcionalidade; b) Transparência; c) Não discriminação; d) Previsibilidade regulatória; e) Neutralidade tecnológica."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "TÍTULO I — Disposições gerais",
+      "section": "6",
+      "title": "Cooperação com outras autoridades",
+      "content": "A ANACOM coopera com a Autoridade da Concorrência, com a CNPD e com as demais autoridades reguladoras nacionais e da União Europeia, no exercício das competências que lhe são atribuídas pela presente lei."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "7",
+      "title": "Autorização geral",
+      "content": "1 — O fornecimento de redes e serviços de comunicações eletrónicas é livre, sem prejuízo do cumprimento das condições gerais aplicáveis. 2 — As empresas que pretendam fornecer redes ou serviços de comunicações eletrónicas devem notificar a ANACOM previamente ao início da atividade."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "8",
+      "title": "Condições da autorização geral",
+      "content": "A ANACOM pode estabelecer condições ligadas à autorização geral, incluindo: a) Contribuições financeiras para o financiamento do serviço universal; b) Obrigações de interoperabilidade dos serviços; c) Obrigações de proteção dos utilizadores finais; d) Obrigações relativas à proteção de dados pessoais e da privacidade."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "9",
+      "title": "Direitos de utilização de frequências",
+      "content": "A utilização de frequências do espetro radioelétrico está sujeita a atribuição de direitos de utilização individuais pela ANACOM, nos termos da lei."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "10",
+      "title": "Direitos de utilização de números",
+      "content": "A utilização de recursos de numeração está sujeita a atribuição de direitos de utilização pela ANACOM, nos termos do Plano Nacional de Numeração."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "11",
+      "title": "Acesso e interligação",
+      "content": "1 — As empresas autorizadas a fornecer redes públicas de comunicações eletrónicas têm o direito e, quando solicitado por outras empresas assim autorizadas, a obrigação de negociar entre si a interligação. 2 — A ANACOM pode impor obrigações de acesso e interligação a empresas que controlem o acesso aos utilizadores finais."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "12",
+      "title": "Obrigações de transparência",
+      "content": "A ANACOM pode impor obrigações de transparência em relação à interligação e ao acesso, exigindo que os operadores tornem públicas determinadas informações, incluindo informações contabilísticas, especificações técnicas, características da rede e condições de oferta e de utilização."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "13",
+      "title": "Obrigações de não discriminação",
+      "content": "A ANACOM pode impor obrigações de não discriminação relativamente à interligação e ao acesso, assegurando que um operador com poder de mercado significativo aplique condições equivalentes em circunstâncias equivalentes."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "14",
+      "title": "Separação contabilística",
+      "content": "A ANACOM pode impor obrigações de separação contabilística a operadores verticalmente integrados com poder de mercado significativo."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "15",
+      "title": "Obrigações de acesso a elementos específicos de rede",
+      "content": "A ANACOM pode impor a operadores com poder de mercado significativo obrigações de conceder acesso a elementos específicos de rede e a recursos conexos, incluindo o acesso desagregado ao lacete local."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "TÍTULO II — Regime de acesso",
+      "section": "16",
+      "title": "Controlo de preços e contabilidade de custos",
+      "content": "A ANACOM pode impor obrigações relativas à recuperação de custos e ao controlo de preços, incluindo obrigações de orientação dos preços para os custos."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "TÍTULO III — Segurança das redes e serviços",
+      "section": "17",
+      "title": "Segurança das redes e serviços",
+      "content": "1 — As empresas que oferecem redes públicas de comunicações eletrónicas ou serviços de comunicações eletrónicas acessíveis ao público devem tomar as medidas técnicas e organizacionais adequadas para gerir adequadamente os riscos para a segurança das redes e serviços. 2 — Tendo em conta os progressos técnicos mais recentes, essas medidas devem assegurar um nível de segurança adequado ao risco existente, considerando: a) A segurança dos sistemas e das instalações; b) A gestão de incidentes de segurança; c) A gestão da continuidade das atividades; d) A monitorização, a auditoria e os testes; e) A conformidade com normas internacionais."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "TÍTULO III — Segurança das redes e serviços",
+      "section": "18",
+      "title": "Notificação de incidentes de segurança",
+      "content": "1 — As empresas que oferecem redes públicas de comunicações eletrónicas ou serviços de comunicações eletrónicas acessíveis ao público notificam à ANACOM os incidentes de segurança que tenham tido um impacto significativo no funcionamento das redes ou serviços. 2 — A ANACOM pode definir as circunstâncias, o formato e os procedimentos aplicáveis a essa notificação. 3 — A ANACOM pode informar o público ou exigir que as empresas o façam, quando considere que a divulgação do incidente de segurança é do interesse público."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "TÍTULO III — Segurança das redes e serviços",
+      "section": "19",
+      "title": "Avaliação de riscos e auditorias de segurança",
+      "content": "1 — A ANACOM pode exigir que as empresas que oferecem redes públicas de comunicações eletrónicas ou serviços de comunicações eletrónicas acessíveis ao público: a) Forneçam as informações necessárias para avaliar a segurança dos seus serviços e redes; b) Se submetam a uma auditoria de segurança realizada por um organismo qualificado ou pela ANACOM. 2 — Os custos das auditorias são suportados pelas empresas auditadas."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "TÍTULO III — Segurança das redes e serviços",
+      "section": "20",
+      "title": "Segurança e integridade das redes 5G",
+      "content": "1 — Os operadores de redes 5G devem adotar medidas adicionais de segurança para garantir a resiliência e a integridade das redes de quinta geração. 2 — A ANACOM pode restringir a utilização de equipamentos de fornecedores específicos quando tal seja necessário para garantir a segurança nacional, após consulta às autoridades competentes."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "21",
+      "title": "Contrato de prestação de serviços",
+      "content": "1 — Os prestadores de serviços de comunicações eletrónicas acessíveis ao público celebram com os utilizadores finais contratos que incluam, de forma clara, compreensível e acessível: a) A identidade e o endereço do prestador; b) Os serviços prestados e os parâmetros de qualidade; c) Os preços e tarifas; d) A duração do contrato e as condições de renovação e cessação; e) As indemnizações e reembolsos aplicáveis; f) Os meios de resolução de litígios."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "22",
+      "title": "Transparência e publicação de informações",
+      "content": "Os prestadores de serviços de comunicações eletrónicas acessíveis ao público publicam informações adequadas, atualizadas e comparáveis sobre a qualidade dos seus serviços, as condições de acesso e utilização, os preços e as tarifas."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "23",
+      "title": "Qualidade de serviço",
+      "content": "1 — A ANACOM pode exigir que os prestadores de serviços de comunicações eletrónicas publiquem informações comparáveis, adequadas e atualizadas sobre a qualidade dos seus serviços. 2 — A ANACOM pode definir os parâmetros mínimos de qualidade de serviço, bem como os mecanismos e as metodologias de medição."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "24",
+      "title": "Portabilidade de números",
+      "content": "1 — Os utilizadores finais que o solicitem têm o direito de conservar o seu número de telefone, independentemente da empresa que presta o serviço. 2 — A portabilidade dos números deve ser assegurada no prazo máximo de um dia útil. 3 — A ANACOM regulamenta o processo de portabilidade de números."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "25",
+      "title": "Mudança de prestador",
+      "content": "1 — Os utilizadores finais têm o direito de mudar de prestador de serviços de comunicações eletrónicas de forma eficiente e célere. 2 — O prestador cedente não pode cobrar qualquer encargo ao utilizador final pela mudança de prestador, exceto nos casos previstos na lei."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "26",
+      "title": "Período de fidelização",
+      "content": "1 — O período de fidelização dos contratos de prestação de serviços de comunicações eletrónicas não pode exceder 24 meses. 2 — Os prestadores de serviços devem oferecer a possibilidade de celebrar contratos sem período de fidelização."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "27",
+      "title": "Acesso aos serviços de emergência",
+      "content": "1 — Os utilizadores finais, incluindo os utilizadores de serviços de comunicações interpessoais baseados em números, têm acesso gratuito aos serviços de emergência através do número de emergência europeu 112. 2 — As empresas que oferecem serviços de comunicações eletrónicas acessíveis ao público disponibilizam aos serviços de emergência as informações sobre a localização do chamador."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "28",
+      "title": "Acessibilidade para utilizadores com deficiência",
+      "content": "Os prestadores de serviços de comunicações eletrónicas acessíveis ao público asseguram que os utilizadores finais com deficiência beneficiam de acesso a serviços de comunicações eletrónicas equivalente ao gozado pela maioria dos utilizadores finais."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "TÍTULO V — Regime sancionatório",
+      "section": "29",
+      "title": "Contraordenações",
+      "content": "1 — Constitui contraordenação a violação das disposições da presente lei, punível com coima de 500 € a 5 000 000 €, consoante a gravidade da infração e a natureza do infrator. 2 — A instrução dos processos de contraordenação compete à ANACOM e a aplicação das coimas ao conselho de administração da ANACOM."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "TÍTULO V — Regime sancionatório",
+      "section": "30",
+      "title": "Sanções acessórias",
+      "content": "Podem ser aplicadas, conjuntamente com as coimas previstas no artigo anterior, as seguintes sanções acessórias: a) Apreensão e perda de equipamentos; b) Interdição do exercício da atividade, por período não superior a 2 anos; c) Publicidade da decisão condenatória; d) Suspensão de autorizações, licenças e alvarás."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "34",
+      "title": "Neutralidade da rede",
+      "content": "1 — Os prestadores de serviços de acesso à Internet tratam todo o tráfego de forma equitativa, sem discriminação, restrição ou interferência, e independentemente do emissor e do destinatário, do conteúdo consultado ou distribuído, das aplicações ou dos serviços utilizados ou fornecidos, ou do equipamento terminal utilizado. 2 — O disposto no número anterior não impede que os prestadores de serviços de acesso à Internet apliquem medidas razoáveis de gestão de tráfego, desde que sejam transparentes, não discriminatórias e proporcionadas."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "35",
+      "title": "Proteção de dados pessoais e privacidade",
+      "content": "1 — Os prestadores de serviços de comunicações eletrónicas asseguram a proteção dos dados pessoais e da privacidade dos utilizadores finais, em conformidade com o RGPD e com a legislação nacional em matéria de proteção de dados. 2 — Os prestadores de serviços devem implementar medidas técnicas e organizativas adequadas para garantir a confidencialidade das comunicações."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "36",
+      "title": "Serviço universal",
+      "content": "1 — É assegurado a todos os utilizadores finais no território nacional um conjunto mínimo de serviços de comunicações eletrónicas de qualidade especificada e a preço acessível, constituindo o serviço universal. 2 — O serviço universal inclui: a) O acesso a uma ligação à rede pública de comunicações eletrónicas num local fixo; b) Acesso adequado à Internet de banda larga; c) Serviços de comunicações vocais."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "37",
+      "title": "Acessibilidade de preços",
+      "content": "A ANACOM pode exigir que as empresas designadas para a prestação do serviço universal ofereçam opções ou pacotes tarifários que difiram dos oferecidos em condições comerciais normais, de modo a assegurar que pessoas com baixos rendimentos ou com necessidades sociais especiais não sejam impedidas de aceder aos serviços incluídos no serviço universal."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "38",
+      "title": "Controlo de despesas",
+      "content": "1 — As empresas que fornecem redes públicas de comunicações eletrónicas ou serviços de comunicações eletrónicas acessíveis ao público devem disponibilizar aos utilizadores finais os meios adequados para o controlo das suas despesas, incluindo alertas gratuitos quando determinados limites de consumo sejam atingidos."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "TÍTULO IV — Direitos dos utilizadores finais",
+      "section": "39",
+      "title": "Resolução de litígios",
+      "content": "1 — Os utilizadores finais têm o direito de recorrer a procedimentos extrajudiciais, transparentes, não discriminatórios, simples e pouco onerosos, para a resolução de litígios com os prestadores de serviços de comunicações eletrónicas. 2 — A ANACOM pode estabelecer procedimentos de resolução de litígios entre utilizadores finais e prestadores de serviços."
     },
     {
       "provision_ref": "art40",
       "chapter": "TÍTULO III — Segurança",
       "section": "40",
-      "title": "Segurança das redes e serviços",
-      "content": "As empresas que oferecem redes públicas de comunicações eletrónicas ou serviços de comunicações eletrónicas acessíveis ao público devem tomar as medidas técnicas e organizacionais adequadas para gerir adequadamente os riscos para a segurança das redes e serviços."
+      "title": "Segurança das redes e serviços — requisitos adicionais",
+      "content": "1 — As empresas que oferecem redes públicas de comunicações eletrónicas ou serviços de comunicações eletrónicas acessíveis ao público devem tomar as medidas técnicas e organizacionais adequadas para gerir adequadamente os riscos para a segurança das redes e serviços. 2 — Estas medidas devem ter em conta as orientações técnicas emitidas pela ENISA e as normas internacionais aplicáveis."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "TÍTULO III — Segurança",
+      "section": "41",
+      "title": "Obrigações de segurança da cadeia de abastecimento",
+      "content": "1 — As empresas devem ter em conta os riscos de segurança associados à cadeia de abastecimento dos seus equipamentos, sistemas e serviços de comunicações eletrónicas. 2 — A ANACOM pode, em articulação com as autoridades competentes em matéria de segurança nacional, impor requisitos de segurança adicionais relativos à cadeia de abastecimento, designadamente a restrição da utilização de equipamentos de fornecedores específicos."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "TÍTULO III — Segurança",
+      "section": "42",
+      "title": "Cooperação em matéria de segurança",
+      "content": "1 — A ANACOM coopera com o CNCS e com as autoridades competentes dos outros Estados-Membros em matéria de segurança das redes e dos serviços de comunicações eletrónicas. 2 — A ANACOM pode celebrar protocolos de cooperação com autoridades de supervisão de outros setores, designadamente do setor financeiro e da energia, para a coordenação de respostas a incidentes de segurança com impacto transversal."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "TÍTULO V — Espetro radioelétrico",
+      "section": "43",
+      "title": "Gestão do espetro radioelétrico",
+      "content": "1 — A gestão do espetro radioelétrico compete ao Estado, sendo exercida pela ANACOM. 2 — A gestão do espetro radioelétrico deve assegurar a utilização eficiente e eficaz do espetro, promover a concorrência e evitar distorções do mercado."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "TÍTULO V — Espetro radioelétrico",
+      "section": "44",
+      "title": "Procedimentos de atribuição de frequências",
+      "content": "A atribuição de direitos de utilização de frequências pode ser efetuada por: a) Procedimento de seleção por concurso; b) Procedimento de leilão; c) Procedimento misto que combine elementos de concurso e de leilão."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "TÍTULO V — Espetro radioelétrico",
+      "section": "45",
+      "title": "Condições ligadas aos direitos de utilização de frequências",
+      "content": "A ANACOM pode associar condições aos direitos de utilização de frequências, incluindo: a) Obrigações de cobertura geográfica e de qualidade de serviço; b) Obrigações de partilha de infraestruturas; c) Compromissos específicos de investimento; d) Requisitos técnicos para evitar interferências prejudiciais."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "TÍTULO V — Espetro radioelétrico",
+      "section": "46",
+      "title": "Duração dos direitos de utilização de frequências",
+      "content": "1 — Os direitos de utilização de frequências são atribuídos por um período adequado à natureza do serviço em causa, tendo em conta o objetivo prosseguido e a necessidade de garantir um período adequado de amortização do investimento. 2 — O período de validade dos direitos de utilização de frequências harmonizadas para redes ou serviços de comunicações eletrónicas sem fios é de, pelo menos, 15 anos."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "TÍTULO VI — Mercados e obrigações",
+      "section": "47",
+      "title": "Análise de mercados",
+      "content": "1 — A ANACOM realiza análises dos mercados de comunicações eletrónicas, de forma a determinar se cada mercado é efetivamente concorrencial. 2 — Caso a ANACOM conclua que um mercado não é efetivamente concorrencial, identifica as empresas com poder de mercado significativo nesse mercado e impõe-lhes obrigações regulatórias específicas adequadas."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "TÍTULO VI — Mercados e obrigações",
+      "section": "48",
+      "title": "Poder de mercado significativo",
+      "content": "Considera-se que uma empresa tem poder de mercado significativo quando, individualmente ou juntamente com outras empresas, goza de uma posição equivalente à posição dominante, ou seja, de uma posição de força económica que lhe permite comportar-se de modo independente dos concorrentes, dos clientes e, em última análise, dos consumidores."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "TÍTULO VI — Mercados e obrigações",
+      "section": "49",
+      "title": "Consulta pública",
+      "content": "1 — A ANACOM submete a consulta pública os projetos de decisão que se enquadrem no âmbito da presente lei e que tenham impacto significativo no mercado relevante. 2 — A consulta pública tem uma duração não inferior a 20 dias úteis. 3 — Os resultados das consultas públicas são publicados pela ANACOM."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "TÍTULO VI — Mercados e obrigações",
+      "section": "50",
+      "title": "Consulta à Comissão Europeia",
+      "content": "A ANACOM comunica à Comissão Europeia e ao ORECE os projetos de decisão relativos à definição de mercados relevantes, à identificação de empresas com poder de mercado significativo e à imposição de obrigações regulatórias."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "TÍTULO VI — Disposições finais e transitórias",
+      "section": "31",
+      "title": "Norma revogatória",
+      "content": "É revogada a Lei n.º 5/2004, de 10 de fevereiro, na sua redação atual, e demais legislação que contrarie o disposto na presente lei."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "TÍTULO VI — Disposições finais e transitórias",
+      "section": "32",
+      "title": "Disposições transitórias",
+      "content": "1 — As empresas que, à data de entrada em vigor da presente lei, exerçam atividades de fornecimento de redes e serviços de comunicações eletrónicas ao abrigo de autorizações anteriores mantêm os direitos e obrigações decorrentes dessas autorizações. 2 — As empresas referidas no número anterior dispõem de um prazo de seis meses para se conformarem com as novas exigências da presente lei."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "TÍTULO VI — Disposições finais e transitórias",
+      "section": "33",
+      "title": "Entrada em vigor",
+      "content": "A presente lei entra em vigor 60 dias após a data da sua publicação."
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "Rede de comunicações eletrónicas",
+      "definition": "Os sistemas de transmissão que permitem o envio de sinais por cabo, por via hertziana, por meios óticos ou por outros meios eletromagnéticos"
+    },
+    {
+      "term": "Serviço de comunicações eletrónicas",
+      "definition": "Um serviço oferecido em geral mediante remuneração através de redes de comunicações eletrónicas"
+    },
+    {
+      "term": "Serviço de comunicações interpessoais",
+      "definition": "Um serviço que permite a troca interpessoal e interativa direta de informações entre um número finito de pessoas"
+    },
+    {
+      "term": "Utilizador final",
+      "definition": "Um utilizador que não fornece redes públicas de comunicações eletrónicas nem serviços de comunicações eletrónicas acessíveis ao público"
+    }
+  ]
 }

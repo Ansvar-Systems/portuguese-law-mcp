@@ -22,43 +22,529 @@
       "chapter": "CAPÍTULO I — Disposições gerais",
       "section": "2",
       "title": "Âmbito de aplicação",
-      "content": "A presente lei aplica-se ao tratamento de dados pessoais realizados no território nacional, independentemente da natureza pública ou privada do responsável pelo tratamento ou do subcontratante, mesmo que o tratamento de dados pessoais seja efetuado em cumprimento de obrigações legais ou no âmbito de relações contratuais ou de outras relações jurídicas."
+      "content": "1 — A presente lei aplica-se ao tratamento de dados pessoais realizados no território nacional, independentemente da natureza pública ou privada do responsável pelo tratamento ou do subcontratante, mesmo que o tratamento de dados pessoais seja efetuado em cumprimento de obrigações legais ou no âmbito de relações contratuais ou de outras relações jurídicas. 2 — A presente lei aplica-se igualmente ao tratamento de dados pessoais de cidadãos nacionais que residam fora do território nacional. 3 — A presente lei aplica-se ao tratamento de dados pessoais efetuado por pessoa singular no exercício de atividades exclusivamente pessoais ou domésticas, nos termos e com as exceções previstas no RGPD."
     },
     {
       "provision_ref": "art3",
       "chapter": "CAPÍTULO I — Disposições gerais",
       "section": "3",
       "title": "Definições",
-      "content": "Para efeitos da presente lei e além das definições constantes do artigo 4.º do RGPD, entende-se por: a) «Autoridade de controlo» — a Comissão Nacional de Proteção de Dados (CNPD); b) «Dados de saúde» — os dados pessoais relativos à saúde física ou mental de uma pessoa singular, incluindo a prestação de serviços de saúde, que revelem informações sobre o seu estado de saúde."
+      "content": "Para efeitos da presente lei e além das definições constantes do artigo 4.º do RGPD, entende-se por: a) «Autoridade de controlo» — a Comissão Nacional de Proteção de Dados (CNPD); b) «Dados de saúde» — os dados pessoais relativos à saúde física ou mental de uma pessoa singular, incluindo a prestação de serviços de saúde, que revelem informações sobre o seu estado de saúde; c) «Dados genéticos» — os dados pessoais relativos às características genéticas, hereditárias ou adquiridas, de uma pessoa singular, que deem informações únicas sobre a fisiologia ou a saúde dessa pessoa e que resultem, designadamente, de uma análise de uma amostra biológica proveniente da pessoa em causa; d) «Dados biométricos» — dados pessoais resultantes de um tratamento técnico específico relativo às características físicas, fisiológicas ou comportamentais de uma pessoa singular que permitam ou confirmem a identificação única dessa pessoa."
     },
     {
       "provision_ref": "art4",
       "chapter": "CAPÍTULO I — Disposições gerais",
       "section": "4",
       "title": "Consentimento de menores",
-      "content": "Em aplicação do disposto no artigo 8.º, n.º 1, do RGPD, os serviços da sociedade da informação podem ser oferecidos diretamente a menores com pelo menos 13 anos de idade."
+      "content": "1 — Em aplicação do disposto no artigo 8.º, n.º 1, do RGPD, os serviços da sociedade da informação podem ser oferecidos diretamente a menores com pelo menos 13 anos de idade. 2 — O tratamento de dados pessoais de menores com idade inferior a 13 anos, com base no consentimento, só é lícito se o consentimento for dado ou autorizado pelos representantes legais do menor. 3 — O responsável pelo tratamento desenvolve esforços razoáveis para verificar que o consentimento foi dado ou autorizado pelo titular das responsabilidades parentais da criança, tendo em conta a tecnologia disponível."
     },
     {
       "provision_ref": "art5",
       "chapter": "CAPÍTULO II — Tratamento de categorias especiais de dados pessoais",
       "section": "5",
       "title": "Tratamento de categorias especiais de dados pessoais",
-      "content": "Para efeitos do disposto no artigo 9.º, n.º 2, do RGPD, o tratamento de dados pessoais referidos no n.º 1 do mesmo artigo é permitido quando for necessário por motivos de interesse público importante, nos termos da lei."
+      "content": "1 — Para efeitos do disposto no artigo 9.º, n.º 2, do RGPD, o tratamento de dados pessoais referidos no n.º 1 do mesmo artigo é permitido quando for necessário por motivos de interesse público importante, nos termos da lei. 2 — O tratamento de dados pessoais sensíveis deve ser estritamente necessário e proporcional à finalidade prosseguida. 3 — O responsável pelo tratamento assegura as medidas adequadas e específicas para a defesa dos direitos fundamentais e dos interesses do titular dos dados."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "CAPÍTULO II — Tratamento de categorias especiais de dados pessoais",
+      "section": "6",
+      "title": "Tratamento de dados de saúde",
+      "content": "1 — Os dados de saúde, incluindo dados genéticos, podem ser tratados para fins de medicina preventiva ou do trabalho, para a avaliação da capacidade de trabalho do empregado, o diagnóstico médico, a prestação de cuidados ou tratamentos de saúde ou de ação social ou a gestão de sistemas e serviços de saúde ou de ação social. 2 — O tratamento dos dados referidos no número anterior é efetuado por um profissional sujeito à obrigação de sigilo profissional, ou por outra pessoa igualmente sujeita a uma obrigação de confidencialidade ao abrigo do direito da União ou dos Estados-Membros ou de uma regulamentação estabelecida pelos organismos nacionais competentes, ou sob a sua responsabilidade. 3 — Os dados de saúde são tratados para efeitos do exercício de funções em matéria de proteção social, incluindo a gestão de regimes de proteção social, e para efeitos de interesse público no domínio da saúde pública."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "CAPÍTULO II — Tratamento de categorias especiais de dados pessoais",
+      "section": "7",
+      "title": "Tratamento de dados biométricos",
+      "content": "1 — O tratamento de dados biométricos dos trabalhadores só pode ser considerado legítimo para controlo de assiduidade e para controlo de acessos às instalações do empregador, devendo assegurar-se que apenas se utilizem representações dos dados biométricos e que o respetivo processo de recolha não permita a reversão dos dados. 2 — O tratamento de dados biométricos dos trabalhadores que não respeite o disposto no número anterior carece de autorização da CNPD."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "CAPÍTULO II — Tratamento de categorias especiais de dados pessoais",
+      "section": "8",
+      "title": "Tratamento de dados genéticos",
+      "content": "1 — Os dados genéticos só podem ser tratados para as finalidades previstas na lei, incluindo para fins de investigação científica, devendo o tratamento respeitar as normas aplicáveis em matéria de proteção de dados genéticos humanos. 2 — É proibido o tratamento de dados genéticos para efeitos de seleção ou discriminação de pessoas com base em informações genéticas."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "CAPÍTULO II — Tratamento de categorias especiais de dados pessoais",
+      "section": "9",
+      "title": "Tratamento para fins de arquivo de interesse público, investigação científica ou histórica ou fins estatísticos",
+      "content": "1 — O tratamento de dados pessoais para fins de arquivo de interesse público, de investigação científica ou histórica ou de fins estatísticos está sujeito a garantias adequadas dos direitos e liberdades do titular dos dados. 2 — As garantias referidas no número anterior incluem medidas técnicas e organizativas, nomeadamente a pseudonimização, desde que as finalidades em causa possam ser alcançadas desse modo. 3 — Sempre que as finalidades possam ser alcançadas mediante o tratamento de dados que não permita a identificação do titular dos dados, essas finalidades devem ser alcançadas desse modo."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "CAPÍTULO II — Tratamento de categorias especiais de dados pessoais",
+      "section": "10",
+      "title": "Tratamento de dados relativos a condenações penais e infrações",
+      "content": "1 — O tratamento de dados pessoais relativos a condenações penais e a infrações ou a medidas de segurança conexas, nos termos do artigo 10.º do RGPD, só pode ser efetuado sob o controlo de uma autoridade pública ou quando o tratamento for autorizado pelo direito da União ou dos Estados-Membros que preveja garantias adequadas para os direitos e liberdades dos titulares dos dados. 2 — Os registos de condenações penais são conservados sob o controlo da autoridade pública competente."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "CAPÍTULO II — Tratamento de categorias especiais de dados pessoais",
+      "section": "11",
+      "title": "Tratamento de dados pessoais de pessoas falecidas",
+      "content": "1 — Os direitos previstos no RGPD relativos ao acesso, retificação, apagamento e portabilidade dos dados pessoais de pessoas falecidas podem ser exercidos pelas pessoas designadas pelo titular dos dados ou, na sua falta, pelos herdeiros. 2 — O exercício dos direitos referidos no número anterior pode ser limitado pelo titular dos dados, por disposição testamentária ou equivalente."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "CAPÍTULO III — Direitos do titular dos dados e do responsável pelo tratamento",
+      "section": "12",
+      "title": "Limitações aos direitos dos titulares dos dados",
+      "content": "1 — Os direitos de informação, de acesso, de retificação, de apagamento, de limitação do tratamento, de portabilidade e de oposição podem ser limitados por lei, quando tal limitação constitua uma medida necessária e proporcionada, numa sociedade democrática, para assegurar, designadamente: a) A segurança do Estado; b) A defesa; c) A segurança pública; d) A prevenção, investigação, deteção ou repressão de infrações penais ou a execução de sanções penais; e) Outros objetivos importantes de interesse público geral da União ou de um Estado-Membro."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "CAPÍTULO III — Direitos do titular dos dados e do responsável pelo tratamento",
+      "section": "13",
+      "title": "Representante do titular dos dados",
+      "content": "1 — O titular dos dados pode mandatar uma entidade, organização ou associação sem fins lucrativos, constituída nos termos da lei, cujos objetivos estatutários sejam de interesse público e que atue no domínio da proteção dos direitos e liberdades dos titulares dos dados no que respeita à proteção dos respetivos dados pessoais, para que em seu nome exerça os direitos previstos nos artigos 77.º, 78.º e 79.º do RGPD. 2 — A representação referida no número anterior pode abranger a apresentação de reclamações perante a CNPD e o exercício de ações judiciais."
     },
     {
       "provision_ref": "art14",
       "chapter": "CAPÍTULO III — Direitos do titular dos dados e do responsável pelo tratamento",
       "section": "14",
       "title": "Encarregado da proteção de dados",
-      "content": "O encarregado de proteção de dados é designado com base nas suas qualidades profissionais e, em especial, nos seus conhecimentos especializados no domínio do direito e das práticas de proteção de dados."
+      "content": "1 — O encarregado de proteção de dados é designado com base nas suas qualidades profissionais e, em especial, nos seus conhecimentos especializados no domínio do direito e das práticas de proteção de dados. 2 — A designação de encarregado de proteção de dados é obrigatória para as entidades públicas e para os responsáveis pelo tratamento e subcontratantes previstos no artigo 37.º do RGPD. 3 — O encarregado de proteção de dados pode exercer outras funções e tarefas, desde que não deem origem a conflitos de interesses."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "CAPÍTULO III — Direitos do titular dos dados e do responsável pelo tratamento",
+      "section": "15",
+      "title": "Comunicação de violações de dados pessoais",
+      "content": "1 — A comunicação de violações de dados pessoais à CNPD, nos termos do artigo 33.º do RGPD, deve ser efetuada por via eletrónica, através do formulário disponibilizado no sítio eletrónico da CNPD. 2 — A comunicação referida no número anterior deve conter, no mínimo: a) A natureza da violação dos dados pessoais; b) O nome e os contactos do encarregado de proteção de dados; c) As consequências prováveis da violação de dados pessoais; d) As medidas adotadas ou propostas para reparar a violação."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "CAPÍTULO III — Direitos do titular dos dados e do responsável pelo tratamento",
+      "section": "16",
+      "title": "Avaliação de impacto sobre a proteção de dados",
+      "content": "1 — A avaliação de impacto sobre a proteção de dados, prevista no artigo 35.º do RGPD, deve ser efetuada previamente ao início do tratamento de dados pessoais que utilize novas tecnologias e que, tendo em conta a sua natureza, âmbito, contexto e finalidades, seja suscetível de implicar um elevado risco para os direitos e liberdades das pessoas singulares. 2 — A CNPD publica e atualiza periodicamente a lista dos tipos de operações de tratamento sujeitos à avaliação de impacto sobre a proteção de dados."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "17",
+      "title": "Liberdade de expressão e de informação",
+      "content": "1 — Os tratamentos de dados pessoais efetuados para fins jornalísticos ou para fins de expressão académica, artística ou literária beneficiam das derrogações e isenções previstas no presente artigo, nos termos do artigo 85.º do RGPD. 2 — As disposições do RGPD relativas ao direito de apagamento, à limitação do tratamento, à portabilidade dos dados e à oposição não se aplicam aos tratamentos de dados pessoais para fins jornalísticos. 3 — A derrogação prevista no número anterior só se aplica quando o tratamento for necessário para a liberdade de expressão e de informação."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "18",
+      "title": "Tratamento de dados pessoais para fins de informação jornalística",
+      "content": "1 — A publicação de dados pessoais para fins de informação jornalística é lícita quando respeite o princípio da proporcionalidade, ponderando a relevância do interesse público em causa face aos direitos, liberdades e garantias do titular dos dados. 2 — O acesso a dados pessoais para fins de investigação jornalística é permitido quando necessário para o exercício da liberdade de imprensa, nos termos da lei."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "19",
+      "title": "Proteção do sigilo profissional dos jornalistas",
+      "content": "A CNPD não pode, no exercício das suas competências de fiscalização, prejudicar o sigilo das fontes dos jornalistas nem o sigilo profissional."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "20",
+      "title": "Tratamento de dados pessoais no âmbito das relações laborais",
+      "content": "1 — O empregador pode tratar os dados pessoais dos seus trabalhadores para as finalidades e com os limites definidos no Código do Trabalho e respetiva legislação complementar ou noutros regimes setoriais, com as especificidades estabelecidas na presente lei. 2 — O consentimento do trabalhador não constitui requisito de legitimidade do tratamento dos seus dados pessoais: a) Se do tratamento resultar uma vantagem jurídica ou económica para o trabalhador; ou b) Se esse tratamento estiver abrangido pelo disposto na alínea b) do n.º 1 do artigo 6.º do RGPD. 3 — As imagens gravadas e outros dados pessoais registados através da utilização de sistemas de videovigilância nos termos previstos na legislação laboral apenas podem ser utilizadas no âmbito do processo penal."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "21",
+      "title": "Tratamento de dados pessoais para fins de marketing direto",
+      "content": "1 — O tratamento de dados pessoais para fins de marketing direto está sujeito ao consentimento do titular dos dados, nos termos do artigo 7.º do RGPD. 2 — O titular dos dados tem o direito de se opor a qualquer momento ao tratamento dos seus dados pessoais para efeitos de marketing direto, incluindo a definição de perfis na medida em que esteja relacionada com esse marketing direto."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "22",
+      "title": "Videovigilância",
+      "content": "1 — A utilização de sistemas de videovigilância é regulada pela lei que aprova as condições de utilização de câmaras de vídeo pelas forças e serviços de segurança e pela legislação laboral, consoante o caso. 2 — A utilização de câmaras de videovigilância em locais acessíveis ao público deve ser sinalizada de forma visível, incluindo informação sobre o responsável pelo tratamento."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "23",
+      "title": "Natureza e atribuições",
+      "content": "1 — A CNPD é a autoridade de controlo nacional para efeitos do RGPD, funcionando junto da Assembleia da República. 2 — A CNPD é uma entidade administrativa independente, com poderes de autoridade, que funciona com independência no exercício das suas funções e das competências que lhe são atribuídas. 3 — A CNPD dispõe de poderes de investigação, poderes de correção e poderes consultivos e de autorização, nos termos do artigo 58.º do RGPD."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "24",
+      "title": "Composição",
+      "content": "1 — A CNPD é composta por um presidente e por quatro vogais. 2 — O presidente é eleito pela Assembleia da República, nos termos da lei. 3 — Dois vogais são eleitos pela Assembleia da República e dois são designados pelo Governo."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "25",
+      "title": "Mandato",
+      "content": "1 — O mandato dos membros da CNPD é de cinco anos e não é renovável. 2 — Os membros da CNPD são independentes no exercício das suas funções e não solicitam nem recebem instruções de ninguém."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "26",
+      "title": "Competências da CNPD",
+      "content": "1 — Compete à CNPD, no exercício das suas atribuições: a) Controlar e fiscalizar o cumprimento do RGPD e da presente lei; b) Promover a sensibilização do público e a compreensão dos riscos, regras, garantias e direitos associados ao tratamento; c) Emitir pareceres sobre disposições legislativas e regulamentares relacionadas com a proteção de dados pessoais; d) Aprovar a lista de operações de tratamento sujeitas a avaliação de impacto; e) Efetuar investigações sobre a aplicação do RGPD; f) Exercer os poderes de correção previstos no artigo 58.º, n.º 2, do RGPD."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "27",
+      "title": "Poderes de investigação",
+      "content": "1 — A CNPD pode, no exercício dos seus poderes de investigação: a) Ordenar ao responsável pelo tratamento e ao subcontratante que lhe forneçam as informações de que necessite; b) Efetuar investigações sob a forma de auditorias sobre a proteção de dados; c) Efetuar uma análise das certificações emitidas; d) Notificar o responsável pelo tratamento ou o subcontratante de uma alegada violação do RGPD; e) Aceder a todas as instalações do responsável pelo tratamento ou do subcontratante, incluindo a qualquer equipamento e meio de tratamento de dados."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "28",
+      "title": "Poderes de correção",
+      "content": "1 — A CNPD pode, no exercício dos seus poderes de correção: a) Dirigir advertências ao responsável pelo tratamento ou ao subcontratante; b) Dirigir repreensões ao responsável pelo tratamento ou ao subcontratante; c) Ordenar ao responsável pelo tratamento ou ao subcontratante que satisfaça os pedidos de exercício dos direitos do titular dos dados; d) Ordenar ao responsável pelo tratamento ou ao subcontratante que os tratamentos sejam conformes com as disposições do RGPD; e) Impor uma limitação temporária ou definitiva ao tratamento, incluindo a sua proibição; f) Ordenar a retificação ou o apagamento de dados pessoais ou a limitação do tratamento; g) Impor coimas nos termos da presente lei."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "29",
+      "title": "Sigilo profissional",
+      "content": "Os membros e funcionários da CNPD estão sujeitos a dever de sigilo profissional, quer durante quer após o termo do seu mandato ou contrato, sobre as informações confidenciais a que tenham tido acesso no desempenho das suas funções."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "30",
+      "title": "Cooperação com outras autoridades de controlo",
+      "content": "1 — A CNPD coopera com as demais autoridades de controlo da União Europeia, nos termos do capítulo VII do RGPD. 2 — A CNPD participa no Comité Europeu para a Proteção de Dados nos termos do RGPD."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "31",
+      "title": "Relatório de atividades",
+      "content": "A CNPD elabora e apresenta à Assembleia da República um relatório anual das suas atividades, que inclui: a) As atividades desenvolvidas no âmbito das suas atribuições; b) Os dados estatísticos relativos às reclamações recebidas e às investigações efetuadas; c) As coimas aplicadas; d) Os acordos de cooperação celebrados."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "CAPÍTULO VI — Códigos de conduta e certificação",
+      "section": "32",
+      "title": "Códigos de conduta",
+      "content": "1 — A CNPD incentiva a elaboração de códigos de conduta destinados a contribuir para a correta aplicação do RGPD. 2 — A CNPD pode aprovar códigos de conduta e respetivas alterações ou extensões, nos termos do artigo 40.º do RGPD. 3 — Os códigos de conduta aprovados devem conter mecanismos que permitam ao organismo de supervisão efetuar o controlo obrigatório do cumprimento das suas disposições."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "CAPÍTULO VI — Códigos de conduta e certificação",
+      "section": "33",
+      "title": "Certificação",
+      "content": "1 — A CNPD pode estabelecer e publicar critérios de certificação em matéria de proteção de dados pessoais, nos termos do artigo 42.º do RGPD. 2 — A certificação é emitida por organismos de certificação acreditados pelo Instituto Português de Acreditação, I.P. (IPAC). 3 — A certificação tem uma validade máxima de três anos, renovável nas mesmas condições."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "34",
+      "title": "Direito de apresentar reclamação à CNPD",
+      "content": "1 — Qualquer titular de dados tem o direito de apresentar reclamação à CNPD se considerar que o tratamento dos dados pessoais que lhe diga respeito viola o RGPD ou a presente lei. 2 — A CNPD informa o reclamante do andamento e do resultado da reclamação no prazo de três meses. 3 — A reclamação pode ser apresentada por via eletrónica, através de formulário disponibilizado no sítio eletrónico da CNPD."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "35",
+      "title": "Tutela jurisdicional efetiva contra a CNPD",
+      "content": "1 — As pessoas singulares ou coletivas têm o direito à tutela jurisdicional efetiva contra as decisões juridicamente vinculativas da CNPD que lhes digam respeito. 2 — A ação referida no número anterior é intentada nos tribunais administrativos."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "36",
+      "title": "Tutela jurisdicional efetiva contra o responsável pelo tratamento ou o subcontratante",
+      "content": "1 — O titular dos dados tem o direito à tutela jurisdicional efetiva se considerar ter havido violação dos direitos que lhe assistem nos termos do RGPD ou da presente lei. 2 — A ação referida no número anterior pode ser intentada nos tribunais do lugar onde o responsável pelo tratamento ou o subcontratante tenha um estabelecimento ou nos tribunais do lugar em que o titular dos dados resida habitualmente."
     },
     {
       "provision_ref": "art37",
       "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
       "section": "37",
       "title": "Contraordenações",
-      "content": "Constituem contraordenações puníveis com coima: a) A violação das disposições relativas ao consentimento de menores (artigo 4.º); b) A violação das disposições relativas ao tratamento de categorias especiais de dados pessoais (artigos 5.º a 7.º)."
+      "content": "1 — Constituem contraordenações puníveis com coima: a) A violação das disposições relativas ao consentimento de menores (artigo 4.º), punível com coima de 1000 € a 5 000 000 € ou 2% do volume de negócios anual a nível mundial; b) A violação das disposições relativas ao tratamento de categorias especiais de dados pessoais (artigos 5.º a 7.º), punível com coima de 2000 € a 10 000 000 € ou 4% do volume de negócios anual a nível mundial; c) A falta de designação de encarregado de proteção de dados (artigo 14.º), quando obrigatória, punível com coima de 1000 € a 5 000 000 €; d) A não comunicação de violação de dados pessoais à CNPD (artigo 15.º), punível com coima de 1000 € a 5 000 000 €."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "38",
+      "title": "Contraordenações graves",
+      "content": "1 — São puníveis com coima de 5000 € a 20 000 000 € ou até 4% do volume de negócios anual total a nível mundial, consoante o que for mais elevado, tratando-se de pessoa coletiva, as seguintes contraordenações: a) A violação dos princípios básicos do tratamento, incluindo as condições de consentimento, nos termos dos artigos 5.º, 6.º e 9.º do RGPD; b) A violação dos direitos dos titulares dos dados nos termos dos artigos 12.º a 22.º do RGPD; c) A transferência de dados pessoais para um destinatário num país terceiro ou uma organização internacional que viole os artigos 44.º a 49.º do RGPD."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "39",
+      "title": "Contraordenações das entidades públicas",
+      "content": "1 — Às contraordenações praticadas por entidades públicas, a CNPD pode aplicar coimas no valor de 500 € a 1 000 000 €, sem prejuízo da aplicação de outros poderes de correção. 2 — Os limites máximos das coimas aplicáveis a entidades públicas podem ser aumentados nos termos definidos por lei."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "40",
+      "title": "Determinação da medida da coima",
+      "content": "Na determinação da medida da coima, a CNPD atende, em cada caso concreto, a todos os fatores relevantes, designadamente: a) A natureza, a gravidade e a duração da infração; b) O caráter intencional ou negligente da infração; c) A ação desenvolvida pelo responsável para atenuar os danos sofridos pelos titulares dos dados; d) O grau de responsabilidade do responsável pelo tratamento ou do subcontratante; e) Eventuais infrações anteriores; f) O grau de cooperação com a CNPD; g) As categorias de dados pessoais afetadas pela infração; h) A forma como a infração chegou ao conhecimento da CNPD."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "41",
+      "title": "Crimes",
+      "content": "1 — Quem, sem consentimento, utilizar dados pessoais de forma incompatível com a finalidade da recolha é punido com pena de prisão até um ano ou com pena de multa até 120 dias. 2 — A pena é agravada para o dobro nos seus limites quando se tratar de dados pessoais sensíveis, na aceção do artigo 9.º do RGPD."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "42",
+      "title": "Violação do dever de sigilo",
+      "content": "Quem, obrigado a sigilo profissional nos termos da lei, sem justa causa e sem consentimento de quem de direito, revelar ou divulgar, no todo ou em parte, dados pessoais, é punido com pena de prisão até um ano ou com pena de multa até 120 dias."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "43",
+      "title": "Desobediência qualificada",
+      "content": "Quem não cumprir as deliberações da CNPD e, nomeadamente, não cessar o tratamento de dados pessoais quando para tal for notificado, incorre em crime de desobediência qualificada."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "44",
+      "title": "Acesso indevido",
+      "content": "Quem, sem a devida autorização, por qualquer modo, aceder a dados pessoais cujo acesso lhe está vedado é punido com pena de prisão até um ano ou com pena de multa até 120 dias."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "45",
+      "title": "Viciação ou destruição de dados",
+      "content": "Quem, sem a devida autorização, apagar, destruir, danificar, ocultar ou de outra forma tornar não utilizáveis dados pessoais é punido com pena de prisão até dois anos ou com pena de multa até 240 dias."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "46",
+      "title": "Inserção de dados falsos",
+      "content": "Quem inserir ou facilitar a inserção de dados pessoais falsos, com a intenção de obter vantagem indevida para si ou para terceiro ou causar prejuízo, é punido com pena de prisão até dois anos ou com pena de multa até 240 dias."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "47",
+      "title": "Agravação das penas",
+      "content": "As penas previstas nos artigos anteriores são agravadas de um terço nos seus limites quando: a) Os factos forem praticados por funcionário público ou equiparado no exercício das suas funções; b) O agente tiver tido conhecimento dos dados pessoais por força das suas funções ou serviço; c) Os dados pessoais em causa forem de menores."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "48",
+      "title": "Direito de indemnização",
+      "content": "1 — Qualquer pessoa que tenha sofrido danos materiais ou imateriais devido a uma violação do RGPD ou da presente lei tem direito a receber uma indemnização do responsável pelo tratamento ou do subcontratante pelos danos sofridos. 2 — Qualquer responsável pelo tratamento que participe no tratamento é responsável pelos danos causados por um tratamento que viole o RGPD. 3 — O subcontratante é responsável pelos danos causados pelo tratamento apenas se não tiver cumprido as obrigações do RGPD especificamente dirigidas aos subcontratantes ou se tiver agido de forma contrária ou para além das instruções lícitas do responsável pelo tratamento."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "49",
+      "title": "Tratamentos de dados pessoais existentes",
+      "content": "Os tratamentos de dados pessoais existentes à data da entrada em vigor da presente lei devem ser conformes com o RGPD e com a presente lei no prazo de um ano."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "50",
+      "title": "Autorizações anteriores",
+      "content": "As autorizações e os registos junto da CNPD emitidos ao abrigo da legislação anterior mantêm-se válidos até que sejam revistos ou revogados pela CNPD."
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "51",
+      "title": "Processos pendentes",
+      "content": "Os processos pendentes na CNPD à data da entrada em vigor da presente lei são decididos nos termos da lei mais favorável ao arguido."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "52",
+      "title": "Regulamentação complementar",
+      "content": "O Governo regulamenta, no prazo de 120 dias, as matérias que careçam de regulamentação complementar para a aplicação da presente lei."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "53",
+      "title": "Tratamento de dados pessoais para fins de segurança pública",
+      "content": "O tratamento de dados pessoais por autoridades competentes para efeitos de prevenção, investigação, deteção ou repressão de infrações penais ou de execução de sanções penais é regulado por lei própria, que transpõe a Diretiva (UE) 2016/680."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "54",
+      "title": "Transferências internacionais de dados",
+      "content": "1 — As transferências de dados pessoais para países terceiros ou organizações internacionais observam as condições previstas no capítulo V do RGPD. 2 — A CNPD pode autorizar transferências de dados pessoais para países terceiros ao abrigo das cláusulas contratuais tipo aprovadas pela Comissão Europeia."
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "55",
+      "title": "Igrejas e comunidades religiosas",
+      "content": "As igrejas e comunidades religiosas que apliquem um conjunto completo de regras específicas relativas à proteção das pessoas singulares no que diz respeito ao tratamento de dados pessoais ficam sujeitas à fiscalização de uma autoridade de controlo independente própria, nos termos do artigo 91.º do RGPD."
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "56",
+      "title": "Dados pessoais e acesso a documentos administrativos",
+      "content": "O acesso a documentos administrativos que contenham dados pessoais é regulado pela Lei de Acesso aos Documentos Administrativos, sem prejuízo do disposto no RGPD e na presente lei."
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "57",
+      "title": "Taxas",
+      "content": "A CNPD pode cobrar taxas pela prestação de serviços, designadamente pela aprovação de códigos de conduta, pela emissão de pareceres e pela análise de pedidos de autorização prévia, cujo montante é fixado por portaria."
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "58",
+      "title": "Pessoal da CNPD",
+      "content": "1 — A CNPD dispõe do quadro de pessoal necessário ao exercício das suas atribuições. 2 — O pessoal da CNPD é recrutado nos termos da lei geral. 3 — A CNPD pode requisitar funcionários de outros organismos e serviços da Administração Pública."
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "59",
+      "title": "Receitas da CNPD",
+      "content": "São receitas da CNPD: a) As verbas inscritas no Orçamento do Estado; b) O produto das taxas cobradas; c) O produto das coimas aplicadas; d) As receitas provenientes de protocolos e acordos de cooperação."
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "60",
+      "title": "Norma revogatória",
+      "content": "São revogados: a) Os artigos 7.º a 10.º, 12.º a 20.º, 22.º a 32.º, 34.º a 44.º e 45.º a 48.º da Lei n.º 67/98, de 26 de outubro; b) Os demais atos legislativos e regulamentares que contrariem o disposto na presente lei e no RGPD."
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "61",
+      "title": "Referências legais",
+      "content": "As referências feitas em quaisquer disposições legais ou regulamentares à Lei n.º 67/98, de 26 de outubro, consideram-se feitas à presente lei e ao RGPD."
+    },
+    {
+      "provision_ref": "art20A",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "20-A",
+      "title": "Sistemas de videovigilância no contexto laboral",
+      "content": "1 — A utilização de meios de vigilância à distância no local de trabalho é regulada pela legislação laboral, com as especificidades previstas na presente lei. 2 — As imagens gravadas no âmbito de sistemas de videovigilância no local de trabalho apenas podem ser utilizadas no âmbito do processo penal. 3 — A instalação de câmaras de videovigilância nos locais de trabalho deve respeitar os princípios da proporcionalidade e da minimização dos dados."
+    },
+    {
+      "provision_ref": "art20B",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "20-B",
+      "title": "Tratamento de dados no contexto da relação laboral — disposições específicas",
+      "content": "1 — O empregador não pode exigir do candidato a emprego ou do trabalhador que preste informações relativas à sua saúde ou estado de gravidez, salvo quando particulares exigências inerentes à natureza da atividade profissional o justifiquem e seja fornecida por escrito a respetiva fundamentação. 2 — O consentimento do trabalhador não constitui, em regra, fundamento de licitude para o tratamento dos seus dados pessoais no contexto laboral, dada a assimetria de poder entre empregador e trabalhador."
+    },
+    {
+      "provision_ref": "art21A",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "21-A",
+      "title": "Tratamento de dados para fins de marketing direto — consentimento",
+      "content": "1 — O consentimento para o tratamento de dados pessoais para fins de marketing direto deve ser dado de forma livre, específica, informada e inequívoca. 2 — O responsável pelo tratamento deve poder demonstrar que o titular dos dados deu o seu consentimento. 3 — O titular dos dados pode retirar o consentimento a qualquer momento, devendo o responsável cessar imediatamente o tratamento para fins de marketing direto."
+    },
+    {
+      "provision_ref": "art22A",
+      "chapter": "CAPÍTULO IV — Tratamento de dados pessoais para fins específicos",
+      "section": "22-A",
+      "title": "Tratamento de dados no âmbito de sistemas de videovigilância públicos",
+      "content": "1 — A utilização de câmaras de videovigilância pelas forças e serviços de segurança é regulada por lei própria. 2 — A instalação de câmaras de videovigilância em locais públicos de utilização comum está sujeita a autorização da CNPD, exceto quando efetuada no âmbito da manutenção da segurança e ordem públicas pelas autoridades competentes."
+    },
+    {
+      "provision_ref": "art29A",
+      "chapter": "CAPÍTULO V — Comissão Nacional de Proteção de Dados",
+      "section": "29-A",
+      "title": "Acesso às instalações e sistemas",
+      "content": "1 — No exercício das suas funções de fiscalização, a CNPD e os seus funcionários têm acesso: a) Às instalações do responsável pelo tratamento e do subcontratante; b) A todos os documentos relacionados com o tratamento de dados pessoais; c) A todos os sistemas informáticos e bases de dados utilizados no tratamento. 2 — A recusa de acesso constitui crime de desobediência qualificada."
+    },
+    {
+      "provision_ref": "art37A",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "37-A",
+      "title": "Contraordenações — tratamento de dados sensíveis",
+      "content": "O tratamento de dados pessoais sensíveis sem fundamento de licitude válido ou em violação das condições estabelecidas nos artigos 5.º a 9.º constitui contraordenação punível com coima de 5000 € a 20 000 000 € ou até 4% do volume de negócios anual total a nível mundial."
+    },
+    {
+      "provision_ref": "art39A",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "39-A",
+      "title": "Contraordenações das entidades públicas — agravação",
+      "content": "As coimas aplicáveis a entidades públicas podem ser agravadas: a) Em caso de reincidência; b) Quando a violação seja intencional; c) Quando a violação afete um número significativo de titulares de dados; d) Quando a entidade não tenha cooperado com a CNPD."
+    },
+    {
+      "provision_ref": "art44A",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "44-A",
+      "title": "Tentativa",
+      "content": "A tentativa dos crimes previstos nos artigos 41.º a 46.º é punível."
+    },
+    {
+      "provision_ref": "art47A",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "47-A",
+      "title": "Responsabilidade penal das pessoas coletivas",
+      "content": "1 — As pessoas coletivas e entidades equiparadas são penalmente responsáveis pelos crimes previstos na presente lei, quando cometidos em seu nome ou por sua conta por pessoas que nelas exerçam funções de direção. 2 — A responsabilidade das pessoas coletivas não exclui a responsabilidade individual dos respetivos agentes."
+    },
+    {
+      "provision_ref": "art48A",
+      "chapter": "CAPÍTULO VII — Tutela administrativa e jurisdicional",
+      "section": "48-A",
+      "title": "Ações coletivas",
+      "content": "1 — As entidades referidas no artigo 13.º podem intentar ações coletivas em representação dos titulares dos dados. 2 — As ações coletivas podem ter por objeto pedidos de cessação da violação e pedidos de indemnização."
+    },
+    {
+      "provision_ref": "art53A",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "53-A",
+      "title": "Regime especial para investigação criminal",
+      "content": "O tratamento de dados pessoais por autoridades competentes para efeitos de prevenção, investigação, deteção ou repressão de infrações penais, incluindo a salvaguarda e a prevenção de ameaças à segurança pública, é regulado por lei própria que transpõe a Diretiva (UE) 2016/680, do Parlamento Europeu e do Conselho, de 27 de abril de 2016."
+    },
+    {
+      "provision_ref": "art56A",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "56-A",
+      "title": "Proteção de dados e transparência administrativa",
+      "content": "O direito de acesso à informação administrativa previsto na lei não pode ser invocado para obter dados pessoais cujo tratamento não seja permitido nos termos do RGPD e da presente lei, devendo ser garantido o equilíbrio entre o direito de acesso à informação e o direito à proteção de dados pessoais."
+    },
+    {
+      "provision_ref": "art62",
+      "chapter": "CAPÍTULO VIII — Disposições finais e transitórias",
+      "section": "62",
+      "title": "Entrada em vigor",
+      "content": "A presente lei entra em vigor no dia seguinte ao da sua publicação."
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "Autoridade de controlo",
+      "definition": "A Comissão Nacional de Proteção de Dados (CNPD)"
+    },
+    {
+      "term": "Dados de saúde",
+      "definition": "Dados pessoais relativos à saúde física ou mental de uma pessoa singular, incluindo a prestação de serviços de saúde"
+    },
+    {
+      "term": "Dados genéticos",
+      "definition": "Dados pessoais relativos às características genéticas, hereditárias ou adquiridas, de uma pessoa singular"
+    },
+    {
+      "term": "Dados biométricos",
+      "definition": "Dados pessoais resultantes de um tratamento técnico específico relativo às características físicas, fisiológicas ou comportamentais de uma pessoa singular"
+    }
+  ]
 }
