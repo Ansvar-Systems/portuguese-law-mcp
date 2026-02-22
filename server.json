@@ -1,20 +1,22 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "eu.ansvar/portuguese-law-mcp",
-  "description": "Portuguese law database covering Lei 58/2019 (GDPR implementation), Lei 46/2018 (NIS transposition), Codigo das Sociedades Comerciais, Codigo Penal (cybercrime), DL 7/2004 (eCommerce), and Lei 16/2022 (Electronic Communications) with full-text search",
+  "description": "Portuguese legislation via MCP — full-text search across statutes and provisions",
   "repository": {
     "url": "https://github.com/Ansvar-Systems/portuguese-law-mcp",
     "source": "github"
   },
   "homepage": "https://ansvar.eu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@ansvar/portuguese-law-mcp",
       "version": "1.0.0",
-      "transport": { "type": "stdio" }
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
