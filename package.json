@@ -2,7 +2,7 @@
   "name": "@ansvar/portuguese-law-mcp",
   "version": "1.0.1",
   "mcpName": "eu.ansvar/portuguese-law-mcp",
-  "description": "Portuguese law database covering Lei 58/2019 (GDPR implementation), Lei 46/2018 (NIS transposition), Codigo das Sociedades Comerciais, Codigo Penal (cybercrime), DL 7/2004 (eCommerce), and Lei 16/2022 (Electronic Communications) with full-text search",
+  "description": "Portuguese law database with 1,130 statutes and 56,955 provisions covering full Portuguese consolidated legislation (Leis, Decretos-Lei, Codigos, Portarias) with full-text search",
   "author": "Ansvar Systems <hello@ansvar.eu>",
   "license": "Apache-2.0",
   "repository": {
@@ -46,6 +46,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "census": "node --import tsx scripts/census.ts",
     "ingest": "node --import tsx scripts/ingest.ts",
     "test:contract": "vitest run __tests__/contract/",
     "drift:detect": "node --import tsx scripts/drift-detect.ts",

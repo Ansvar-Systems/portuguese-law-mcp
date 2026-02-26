@@ -1,63 +1,89 @@
-# Portuguese Law MCP
+# Portuguese Law MCP Server
 
-[![npm](https://img.shields.io/npm/v/@ansvar/portuguese-law-mcp)](https://www.npmjs.com/package/@ansvar/portuguese-law-mcp)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+**The Diario da Republica alternative for the AI age.**
+
+[![npm version](https://badge.fury.io/js/@ansvar%2Fportuguese-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/portuguese-law-mcp)
+[![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/portuguese-law-mcp?style=social)](https://github.com/Ansvar-Systems/portuguese-law-mcp)
 [![CI](https://github.com/Ansvar-Systems/portuguese-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/portuguese-law-mcp/actions/workflows/ci.yml)
-[![MCP Registry](https://img.shields.io/badge/MCP-Registry-green)](https://registry.modelcontextprotocol.io/)
-[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/Ansvar-Systems/portuguese-law-mcp)](https://securityscorecards.dev/viewer/?uri=github.com/Ansvar-Systems/portuguese-law-mcp)
+[![Daily Data Check](https://github.com/Ansvar-Systems/portuguese-law-mcp/actions/workflows/check-updates.yml/badge.svg)](https://github.com/Ansvar-Systems/portuguese-law-mcp/actions/workflows/check-updates.yml)
+[![Database](https://img.shields.io/badge/database-pre--built-green)](#whats-included)
+[![Provisions](https://img.shields.io/badge/provisions-56%2C955-blue)](#whats-included)
 
-A Model Context Protocol (MCP) server providing comprehensive access to Portuguese legislation, including Lei 58/2019 (GDPR implementation), Lei 46/2018 (NIS transposition -- regime juridico da seguranca do ciberespaco), Codigo das Sociedades Comerciais (CSC), Codigo Penal (cybercrime provisions), Decreto-Lei 7/2004 (eCommerce), and Lei 16/2022 (Electronic Communications). All data sourced from the official Diario da Republica Eletronico (dre.pt) operated by INCM.
+Query **1,130 Portuguese statutes** -- from the Constituicao and Codigo Penal to Lei 58/2019 (GDPR), Lei 46/2018 (NIS), and Lei 109/2009 (Cybercrime) -- directly from Claude, Cursor, or any MCP-compatible client.
 
-## Deployment Tier
+If you're building legal tech, compliance tools, or doing Portuguese legal research, this is your verified reference database.
 
-**SMALL-MEDIUM** -- Dual tier with bundled free database for Vercel deployment.
+Built by [Ansvar Systems](https://ansvar.eu)
 
-**Estimated database size:** ~60-120 MB (free tier, core legislation)
+---
 
-## Key Legislation Covered
+## Why This Exists
 
-| Act | Portuguese Name | Significance |
-|-----|----------------|-------------|
-| **Lei 58/2019 (GDPR Implementation)** | Lei de execucao do RGPD | Portuguese GDPR implementation; age of digital consent set at 13 (one of lowest in EU) |
-| **Lei 46/2018 (NIS Transposition)** | Regime juridico da seguranca do ciberespaco | NIS Directive transposition; CNCS as competent authority |
-| **Codigo das Sociedades Comerciais (CSC)** | Codigo das Sociedades Comerciais | Main commercial company law statute |
-| **Codigo Penal (Cybercrime)** | Codigo Penal, arts. 193-194, 221 | Privacy violations, interception of communications, computer fraud |
-| **DL 7/2004 (eCommerce)** | Lei do Comercio Eletronico | Transposition of EU E-Commerce Directive 2000/31/EC |
-| **Lei 16/2022 (Electronic Communications)** | Lei das Comunicacoes Eletronicas | Transposition of European Electronic Communications Code (EECC) |
-| **Constituicao (Constitution)** | Constituicao da Republica Portuguesa | Art. 35 -- explicit digital rights provision on use of computer data |
+Portuguese legal research requires navigating DRE (Diario da Republica Eletronico), PGDL databases, and EUR-Lex cross-references. Whether you're:
+- A **lawyer** validating citations in a brief or contract
+- A **compliance officer** checking GDPR implementation under Lei 58/2019
+- A **legal tech developer** building tools on Portuguese law
+- A **researcher** tracing EU directive transpositions into Portuguese law
 
-## Regulatory Context
+...you shouldn't need multiple browser tabs and manual cross-referencing. Ask Claude. Get the exact provision. With context.
 
-- **Data Protection Authority:** CNPD (Comissao Nacional de Protecao de Dados), one of Europe's oldest DPAs, established in 1994 under the 1991 Data Protection Law (Lei 10/91)
-- **Cybersecurity Authority:** CNCS (Centro Nacional de Ciberseguranca), designated competent authority under Lei 46/2018
-- **Constitutional Digital Rights:** Portugal's Constitution Art. 35 is notable for explicitly addressing "utilizacao da informatica" (use of computer data), making it one of the few European constitutions with a specific digital rights provision
-- **Legal System:** Civil law system; Portuguese is the sole official language for all legislation
-- **Citation Format:** Diario da Republica references (e.g., Diario da Republica, 1.a serie, N.o 151, de 8 de agosto de 2019); distinction between Lei (Act of Parliament) and Decreto-Lei (Government decree with force of law)
+This MCP server makes Portuguese law **searchable, cross-referenceable, and AI-readable**.
 
-## Data Sources
+---
 
-| Source | Authority | Method | Update Frequency | License | Coverage |
-|--------|-----------|--------|-----------------|---------|----------|
-| [DRE (dre.pt)](https://dre.pt) | INCM | API | Daily | Portuguese Open Data | All legislation published in Diario da Republica |
-| [CNPD (cnpd.pt)](https://www.cnpd.pt) | CNPD | HTML Scrape | Monthly | Government Publication | Deliberations, opinions, guidelines |
+## Quick Start
 
-> Full provenance metadata: [`sources.yml`](./sources.yml)
+### Use Remotely (No Install Needed)
 
-## Installation
+> Connect directly to the hosted version -- zero dependencies, nothing to install.
 
-```bash
-npm install -g @ansvar/portuguese-law-mcp
+**Endpoint:** `https://portuguese-law-mcp.vercel.app/mcp`
+
+| Client | How to Connect |
+|--------|---------------|
+| **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
+| **Claude Code** | `claude mcp add portuguese-law --transport http https://portuguese-law-mcp.vercel.app/mcp` |
+| **Claude Desktop** | Add to config (see below) |
+| **GitHub Copilot** | Add to VS Code settings (see below) |
+
+**Claude Desktop** -- add to `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "portuguese-law": {
+      "type": "url",
+      "url": "https://portuguese-law-mcp.vercel.app/mcp"
+    }
+  }
+}
 ```
 
-## Usage
+**GitHub Copilot** -- add to VS Code `settings.json`:
 
-### As stdio MCP server
-
-```bash
-portuguese-law-mcp
+```json
+{
+  "github.copilot.chat.mcp.servers": {
+    "portuguese-law": {
+      "type": "http",
+      "url": "https://portuguese-law-mcp.vercel.app/mcp"
+    }
+  }
+}
 ```
 
-### In Claude Desktop / MCP client configuration
+### Use Locally (npm)
+
+```bash
+npx @ansvar/portuguese-law-mcp
+```
+
+**Claude Desktop** -- add to `claude_desktop_config.json`:
+
+**macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+**Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
 {
@@ -70,76 +96,221 @@ portuguese-law-mcp
 }
 ```
 
-## Available Tools
+**Cursor / VS Code:**
+
+```json
+{
+  "mcp.servers": {
+    "portuguese-law": {
+      "command": "npx",
+      "args": ["-y", "@ansvar/portuguese-law-mcp"]
+    }
+  }
+}
+```
+
+## Example Queries
+
+Once connected, just ask naturally:
+
+- *"What does Artigo 35 of the Constituicao say about digital rights?"*
+- *"Find provisions about dados pessoais in Portuguese law"*
+- *"What EU directives does Lei 58/2019 implement?"*
+- *"Which Portuguese laws address cybersecurity requirements?"*
+- *"Get Artigo 6 of Lei 109/2009 -- acesso ilegitimo"*
+- *"Is Lei 67/98 (old data protection law) still in force?"*
+- *"What are the penalties for computer fraud under the Codigo Penal?"*
+
+---
+
+## What's Included
+
+| Category | Count | Details |
+|----------|-------|---------|
+| **Statutes** | 1,130 laws | Full Portuguese consolidated legislation |
+| **Provisions** | 56,955 articles | Full-text searchable with FTS5 |
+| **Legal Definitions** | 84 definitions | Extracted from definition articles |
+| **EU Cross-References** | Auto-extracted | Links to EU directives and regulations |
+| **Database Size** | ~76 MB | Optimized SQLite, portable |
+| **Daily Updates** | Automated | Freshness checks against PGDL |
+
+### Legislation Coverage
+
+| Type | Count |
+|------|-------|
+| **Decreto-Lei** (Government Decree-Law) | 493 |
+| **Lei** (Act of Parliament) | 395 |
+| **Portaria** (Ministerial Order) | 138 |
+| **Resolucao** (Resolution) | 46 |
+| **Decreto** (Decree) | 35 |
+| **Regulamento** (Regulation) | 22 |
+| **Despacho** (Dispatch) | 11 |
+
+### Key Legislation
+
+| Act | Portuguese Name | Significance |
+|-----|----------------|-------------|
+| **Lei 58/2019** | Lei de execucao do RGPD | Portuguese GDPR implementation; age of digital consent at 13 |
+| **Lei 46/2018** | Regime juridico da seguranca do ciberespaco | NIS Directive transposition; CNCS as competent authority |
+| **Lei 109/2009** | Lei do Cibercrime | Budapest Convention transposition; cybercrime offences |
+| **Constituicao** | Constituicao da Republica Portuguesa | Art. 35 -- explicit digital rights and data protection |
+| **Codigo Penal** | Codigo Penal | Privacy violations (Art. 193-194), computer fraud (Art. 221) |
+| **CSC** | Codigo das Sociedades Comerciais | Commercial company law, corporate governance |
+| **DL 7/2004** | Lei do Comercio Eletronico | E-Commerce Directive transposition |
+| **Lei 16/2022** | Lei das Comunicacoes Eletronicas | EECC transposition |
+
+**Verified data only** -- every article is ingested from PGDL (Procuradoria-Geral Distrital de Lisboa), the official consolidated legislation database. Zero LLM-generated content.
+
+---
+
+## Available Tools (13)
+
+### Core Legal Research Tools (8)
 
 | Tool | Description |
 |------|-------------|
-| `get_provision` | Retrieve a specific article (Artigo) from a Portuguese law |
-| `search_legislation` | Full-text search across all Portuguese legislation |
-| `get_provision_eu_basis` | Cross-reference lookup for EU directive/regulation relationships (GDPR, NIS, eCommerce, EECC) |
-| `validate_citation` | Validate a legal citation against the database (Diario da Republica references) |
-| `check_statute_currency` | Check whether a law or provision is the current consolidated version |
-| `list_laws` | List all laws in the database with metadata |
+| `search_legislation` | FTS5 search on 56,955 provisions with BM25 ranking |
+| `get_provision` | Retrieve specific article by law identifier + article number |
+| `list_sources` | List all 1,130 laws in the database with metadata |
+| `validate_citation` | Validate citation against database (zero-hallucination check) |
+| `build_legal_stance` | Aggregate citations from multiple statutes |
+| `format_citation` | Format citations per Portuguese conventions (Diario da Republica) |
+| `check_currency` | Check if statute is in force, amended, or repealed |
+| `about` | Server metadata and corpus statistics |
 
-## Deployment Tiers
+### EU Law Integration Tools (5)
 
-| Tier | Content | Database Size | Platform |
-|------|---------|---------------|----------|
-| **Free** | All major statutes + EU cross-references | ~60-120 MB | Vercel (bundled) or local |
-| **Professional** | + CNPD deliberations + historical consolidated versions + regulatory guidance | ~300-500 MB | Azure Container Apps / Docker / local |
+| Tool | Description |
+|------|-------------|
+| `get_eu_basis` | Get EU directives/regulations for Portuguese statute |
+| `get_portuguese_implementations` | Find Portuguese laws implementing EU act |
+| `search_eu_implementations` | Search EU documents with Portuguese implementation counts |
+| `get_provision_eu_basis` | Get EU law references for specific provision |
+| `validate_eu_compliance` | Check implementation status |
 
-### Deployment Strategy: SMALL-MEDIUM - Dual Tier, Bundled Free
+---
 
-The free-tier database containing core legislation is estimated at 60-120 MB, within the Vercel 250 MB bundle limit. The free-tier database is bundled directly with the Vercel deployment. The professional tier with CNPD deliberations and extended historical coverage requires local Docker or Azure Container Apps deployment.
+## Data Sources & Freshness
+
+All content is sourced from authoritative Portuguese legal databases:
+
+- **[PGDL (pgdlisboa.pt)](https://www.pgdlisboa.pt)** -- Procuradoria-Geral Distrital de Lisboa consolidated legislation
+- **[DRE (dre.pt)](https://dre.pt)** -- Official Diario da Republica Eletronico (INCM)
+- **[EUR-Lex](https://eur-lex.europa.eu/)** -- Official EU law database (cross-references)
+
+### Regulatory Context
+
+- **Data Protection Authority:** CNPD (Comissao Nacional de Protecao de Dados), one of Europe's oldest DPAs, established 1994
+- **Cybersecurity Authority:** CNCS (Centro Nacional de Ciberseguranca), designated under Lei 46/2018
+- **Constitutional Digital Rights:** Art. 35 explicitly addresses "utilizacao da informatica" (use of computer data)
+- **Legal System:** Civil law; Portuguese is the sole official language for legislation
+- **Citation Format:** Diario da Republica references; distinction between Lei (Parliament) and Decreto-Lei (Government)
+
+> Full provenance metadata: [`sources.yml`](./sources.yml)
+
+---
+
+## Security
+
+This project uses multiple layers of automated security scanning:
+
+| Scanner | What It Does | Schedule |
+|---------|-------------|----------|
+| **CodeQL** | Static analysis for security vulnerabilities | Weekly + PRs |
+| **Semgrep** | SAST scanning (OWASP top 10, secrets, TypeScript) | Every push |
+| **Gitleaks** | Secret detection across git history | Every push |
+| **Trivy** | CVE scanning on filesystem and npm dependencies | Daily |
+
+See [SECURITY.md](.github/SECURITY.md) for the full policy and vulnerability reporting.
+
+---
+
+## Important Disclaimers
+
+### Legal Advice
+
+> **THIS TOOL IS NOT LEGAL ADVICE**
+>
+> Statute text is sourced from official PGDL/DRE publications. However:
+> - This is a **research tool**, not a substitute for professional legal counsel
+> - **Verify critical citations** against primary sources (dre.pt) for court filings
+> - **EU cross-references** are auto-extracted from statute text, not EUR-Lex full text
+
+**Before using professionally, read:** [DISCLAIMER.md](DISCLAIMER.md) | [PRIVACY.md](PRIVACY.md)
+
+---
 
 ## Development
 
+### Setup
+
 ```bash
-# Install dependencies
+git clone https://github.com/Ansvar-Systems/portuguese-law-mcp
+cd portuguese-law-mcp
 npm install
-
-# Build
 npm run build
-
-# Run tests
 npm test
-
-# Run contract tests
-npm run test:contract
-
-# Run all validation
-npm run validate
-
-# Build database from sources
-npm run build:db
-
-# Start server
-npm start
 ```
+
+### Data Management
+
+```bash
+npm run census                              # Enumerate all laws from PGDL
+npm run ingest                              # Full ingestion from census
+npm run ingest -- --resume                  # Resume interrupted ingestion
+npm run ingest -- --limit 5                 # Test with 5 laws
+npm run build:db                            # Rebuild SQLite database
+npm run check-updates                       # Check for amendments
+npm run drift:detect                        # Detect data drift
+```
+
+### Running Locally
+
+```bash
+npm run dev                                       # Start MCP server
+npx @anthropic/mcp-inspector node dist/index.js   # Test with MCP Inspector
+```
+
+### Performance
+
+- **Search Speed:** <100ms for most FTS5 queries
+- **Database Size:** ~76 MB (efficient, portable)
+- **Reliability:** 99% ingestion success rate (1,130/1,141 laws)
+
+---
 
 ## Contract Tests
 
 This MCP includes 12 golden contract tests covering:
-- 4 article retrieval tests (Lei 58/2019 Art 1, Codigo Penal Art 193, CSC Art 1, Lei 46/2018 Art 1)
+- 4 article retrieval tests (Lei 58/2019, Codigo Penal, CSC, Lei 46/2018)
 - 3 search tests (dados pessoais, ciberseguranca, comercio eletronico)
-- 2 citation roundtrip tests (dre.pt URL patterns, Diario da Republica references)
+- 2 citation roundtrip tests (DRE URL patterns, Diario da Republica references)
 - 1 cross-reference test (Lei 58/2019 to GDPR)
 - 2 negative tests (non-existent law, malformed article)
 
 Run with: `npm run test:contract`
 
-## Security
-
-See [SECURITY.md](./.github/SECURITY.md) for vulnerability disclosure policy.
-
-Report data errors: [Open an issue](https://github.com/Ansvar-Systems/portuguese-law-mcp/issues/new?template=data-error.md)
+---
 
 ## License
 
 Apache-2.0 -- see [LICENSE](./LICENSE)
 
-The law text itself is public domain under Portuguese open data policy. This project's code and database structure are licensed under Apache-2.0.
+### Data Licenses
+
+- **Statute text:** Portuguese Government open data (public domain with attribution)
+- **EU Metadata:** EUR-Lex (EU public domain)
 
 ---
 
-Built by [Ansvar Systems](https://ansvar.eu) -- Cybersecurity compliance through AI-powered analysis.
+## About Ansvar Systems
+
+We build AI-accelerated compliance and legal research tools. This MCP server makes Portuguese law searchable, cross-referenceable, and AI-readable -- so navigating 1,130 statutes doesn't require manual DRE browsing.
+
+**[ansvar.eu](https://ansvar.eu)**
+
+---
+
+<p align="center">
+  <sub>Built with care by Ansvar Systems</sub>
+</p>

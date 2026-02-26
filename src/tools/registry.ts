@@ -39,7 +39,7 @@ const LIST_SOURCES_TOOL: Tool = {
   name: 'list_sources',
   description:
     'Returns detailed provenance metadata for all data sources used by this server, ' +
-    'including the Federal Register of Legislation (Portuguese Government, Office of Parliamentary Counsel). ' +
+    'including PGDL (Procuradoria-Geral Distrital de Lisboa) consolidated legislation. ' +
     'Use this to understand what data is available, its authority, coverage scope, and known limitations. ' +
     'Also returns dataset statistics (document counts, provision counts) and database build timestamp. ' +
     'Call this FIRST when you need to understand what Portuguese legal data this server covers.',
@@ -53,7 +53,7 @@ export const TOOLS: Tool[] = [
       'Search Portuguese statutes and regulations by keyword using full-text search (FTS5 with BM25 ranking). ' +
       'Returns matching provisions with document context, snippets with >>> <<< markers around matched terms, and relevance scores. ' +
       'Supports FTS5 syntax: quoted phrases ("exact match"), boolean operators (AND, OR, NOT), and prefix wildcards (term*). ' +
-      'Results are in English. Default limit is 10 results. For broad topics, increase the limit. ' +
+      'Results are in Portuguese. Default limit is 10 results. For broad topics, increase the limit. ' +
       'Do NOT use this for retrieving a known provision — use get_provision instead.',
     inputSchema: {
       type: 'object',
@@ -61,8 +61,8 @@ export const TOOLS: Tool[] = [
         query: {
           type: 'string',
           description:
-            'Search query in English. Supports FTS5 syntax: ' +
-            '"personal information" for exact phrase, privacy* for prefix.',
+            'Search query in Portuguese. Supports FTS5 syntax: ' +
+            '"dados pessoais" for exact phrase, cibersegurança* for prefix.',
         },
         document_id: {
           type: 'string',
@@ -85,11 +85,11 @@ export const TOOLS: Tool[] = [
   {
     name: 'get_provision',
     description:
-      'Retrieve the full text of a specific provision (section) from an Portuguese statute. ' +
-      'Specify a document_id (Act title, abbreviation, or internal ID) and optionally a section or provision_ref. ' +
-      'Omit section/provision_ref to get ALL provisions in the statute (use sparingly — can be large). ' +
+      'Retrieve the full text of a specific provision (article) from a Portuguese statute. ' +
+      'Specify a document_id (law title, citation, or internal ID) and optionally a section number. ' +
+      'Omit section to get ALL provisions in the statute (use sparingly — can be large). ' +
       'Returns provision text, chapter, section number, and metadata. ' +
-      'Supports Act title references (e.g., "Privacy Act 1988"), abbreviations, and full titles. ' +
+      'Supports references like "Lei 58/2019", "Codigo Penal", "DL 7/2004", "Constituicao". ' +
       'Use this when you know WHICH provision you want. For discovery, use search_legislation instead.',
     inputSchema: {
       type: 'object',
@@ -97,16 +97,16 @@ export const TOOLS: Tool[] = [
         document_id: {
           type: 'string',
           description:
-            'Statute identifier: Act title (e.g., "Privacy Act 1988"), abbreviation, ' +
-            'or internal document ID (e.g., "privacy-act-1988").',
+            'Statute identifier: law title (e.g., "Lei 58/2019"), common name (e.g., "Codigo das Sociedades Comerciais"), ' +
+            'or internal document ID (e.g., "pt-lei-58-").',
         },
         section: {
           type: 'string',
-          description: 'Section number (e.g., "13", "8"). Omit to get all provisions.',
+          description: 'Article number (e.g., "1", "35", "6"). Omit to get all provisions.',
         },
         provision_ref: {
           type: 'string',
-          description: 'Direct provision reference (e.g., "s13"). Alternative to section parameter.',
+          description: 'Direct provision reference (e.g., "art1", "art35"). Alternative to section parameter.',
         },
       },
       required: ['document_id'],
@@ -115,16 +115,16 @@ export const TOOLS: Tool[] = [
   {
     name: 'validate_citation',
     description:
-      'Validate an Portuguese legal citation against the database — zero-hallucination check. ' +
+      'Validate a Portuguese legal citation against the database — zero-hallucination check. ' +
       'Parses the citation, checks that the document and provision exist, and returns warnings about status ' +
       '(repealed, amended). Use this to verify any citation BEFORE including it in a legal analysis. ' +
-      'Supports formats: "Section 13 Privacy Act 1988", "Privacy Act 1988 s 13", "s 13".',
+      'Supports formats: "Artigo 1 Lei 58/2019", "Lei n.º 58/2019 art. 1", "art. 35 Constituição".',
     inputSchema: {
       type: 'object',
       properties: {
         citation: {
           type: 'string',
-          description: 'Citation string to validate. Examples: "Section 13 Privacy Act 1988", "Privacy Act 1988 s 13".',
+          description: 'Citation string to validate. Examples: "Artigo 1 Lei 58/2019", "Lei n.º 46/2018 art. 1".',
         },
       },
       required: ['citation'],
@@ -142,7 +142,7 @@ export const TOOLS: Tool[] = [
       properties: {
         query: {
           type: 'string',
-          description: 'Legal question or topic to research (e.g., "personal information", "critical infrastructure").',
+          description: 'Legal question or topic to research (e.g., "dados pessoais", "cibersegurança", "infraestruturas críticas").',
         },
         document_id: {
           type: 'string',
@@ -160,9 +160,9 @@ export const TOOLS: Tool[] = [
   {
     name: 'format_citation',
     description:
-      'Format an Portuguese legal citation per standard conventions. ' +
-      'Three formats: "full" (formal, e.g., "Section 13, Privacy Act 1988"), ' +
-      '"short" (abbreviated, e.g., "Privacy Act 1988 s 13"), "pinpoint" (section reference only, e.g., "s 13").',
+      'Format a Portuguese legal citation per standard conventions. ' +
+      'Three formats: "full" (formal, e.g., "Artigo 1.º da Lei n.º 58/2019, de 8 de agosto"), ' +
+      '"short" (abbreviated, e.g., "Lei 58/2019, art. 1.º"), "pinpoint" (article reference only, e.g., "art. 1.º").',
     inputSchema: {
       type: 'object',
       properties: {
@@ -180,7 +180,7 @@ export const TOOLS: Tool[] = [
   {
     name: 'check_currency',
     description:
-      'Check whether an Portuguese statute or provision is currently in force, amended, repealed, or not yet in force. ' +
+      'Check whether a Portuguese statute or provision is currently in force, amended, repealed, or not yet in force. ' +
       'Returns the document status, issued date, in-force date, and warnings. ' +
       'Essential before citing any provision — always verify currency.',
     inputSchema: {
@@ -188,11 +188,11 @@ export const TOOLS: Tool[] = [
       properties: {
         document_id: {
           type: 'string',
-          description: 'Statute identifier (Act title, abbreviation, or ID).',
+          description: 'Statute identifier (law title, citation, or ID).',
         },
         provision_ref: {
           type: 'string',
-          description: 'Optional: provision reference to check a specific section.',
+          description: 'Optional: provision reference to check a specific article.',
         },
       },
       required: ['document_id'],
@@ -201,10 +201,10 @@ export const TOOLS: Tool[] = [
   {
     name: 'get_eu_basis',
     description:
-      'Get the EU legal basis that an Portuguese statute references or aligns with. ' +
-      'Portugal is not an EU member but Portuguese laws may reference EU directives/regulations ' +
-      '(e.g., Privacy Act references GDPR concepts, SOCI Act aligns with NIS2 patterns). ' +
-      'Returns EU document identifiers, reference types, and alignment status.',
+      'Get the EU directives and regulations that a Portuguese statute transposes or implements. ' +
+      'Portugal is an EU member state and transposes EU directives into national law ' +
+      '(e.g., Lei 58/2019 implements GDPR, Lei 46/2018 transposes NIS Directive). ' +
+      'Returns EU document identifiers, reference types, and implementation status.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -221,9 +221,9 @@ export const TOOLS: Tool[] = [
   {
     name: 'get_portuguese_implementations',
     description:
-      'Find all Portuguese statutes that reference or align with a specific EU directive or regulation. ' +
+      'Find all Portuguese statutes that transpose or implement a specific EU directive or regulation. ' +
       'Given an EU document ID (e.g., "regulation:2016/679" for GDPR), returns matching Portuguese statutes. ' +
-      'Note: Portugal does not transpose EU law but may reference or align with EU frameworks voluntarily.',
+      'Portugal transposes EU directives into national law through Leis and Decretos-Lei.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -233,7 +233,7 @@ export const TOOLS: Tool[] = [
         },
         primary_only: {
           type: 'boolean',
-          description: 'Return only primary referencing statutes (default: false).',
+          description: 'Return only primary transposing statutes (default: false).',
           default: false,
         },
         in_force_only: {
@@ -248,7 +248,7 @@ export const TOOLS: Tool[] = [
   {
     name: 'search_eu_implementations',
     description:
-      'Search for EU directives and regulations that are referenced by Portuguese legislation. ' +
+      'Search for EU directives and regulations that are transposed by Portuguese legislation. ' +
       'Search by keyword, type (directive/regulation), or year range.',
     inputSchema: {
       type: 'object',
@@ -259,7 +259,7 @@ export const TOOLS: Tool[] = [
         year_to: { type: 'number', description: 'Filter by year (to).' },
         has_portuguese_implementation: {
           type: 'boolean',
-          description: 'If true, only return EU documents referenced by Portuguese legislation.',
+          description: 'If true, only return EU documents transposed by Portuguese legislation.',
         },
         limit: { type: 'number', description: 'Max results (default: 20, max: 100).', default: 20 },
       },
@@ -268,14 +268,14 @@ export const TOOLS: Tool[] = [
   {
     name: 'get_provision_eu_basis',
     description:
-      'Get the EU legal basis for a SPECIFIC provision within an Portuguese statute. ' +
+      'Get the EU legal basis for a SPECIFIC provision within a Portuguese statute. ' +
       'More granular than get_eu_basis (which operates at the statute level). ' +
-      'Use this for pinpoint EU alignment checks at the provision level.',
+      'Use this for pinpoint EU transposition checks at the provision level.',
     inputSchema: {
       type: 'object',
       properties: {
         document_id: { type: 'string', description: 'Portuguese statute identifier.' },
-        provision_ref: { type: 'string', description: 'Provision reference (e.g., "s13" or "13").' },
+        provision_ref: { type: 'string', description: 'Provision reference (e.g., "art1" or "1").' },
       },
       required: ['document_id', 'provision_ref'],
     },
@@ -283,10 +283,10 @@ export const TOOLS: Tool[] = [
   {
     name: 'validate_eu_compliance',
     description:
-      'Check EU alignment status for an Portuguese statute or provision. ' +
-      'Detects references to EU directives, alignment status, and cross-references. ' +
+      'Check EU transposition status for a Portuguese statute or provision. ' +
+      'Detects references to EU directives, transposition status, and cross-references. ' +
       'Returns compliance status (compliant, partial, unclear, not_applicable) with warnings. ' +
-      'Note: Portugal is not bound by EU law; this checks voluntary alignment and cross-references.',
+      'Portugal is an EU member state bound by EU law; this checks transposition completeness.',
     inputSchema: {
       type: 'object',
       properties: {
