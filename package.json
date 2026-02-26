@@ -1,6 +1,6 @@
 {
   "name": "@ansvar/portuguese-law-mcp",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "mcpName": "eu.ansvar/portuguese-law-mcp",
   "description": "Portuguese law database with 1,130 statutes and 56,955 provisions covering full Portuguese consolidated legislation (Leis, Decretos-Lei, Codigos, Portarias) with full-text search",
   "author": "Ansvar Systems <hello@ansvar.eu>",
