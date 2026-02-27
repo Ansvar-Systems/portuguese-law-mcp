@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-26T05:27:50.535Z",
+  "generated_at": "2026-02-27T06:05:19.407Z",
   "source": "pgdlisboa.pt (Procuradoria-Geral Distrital de Lisboa — Consolidated Legislation Database)",
   "description": "Full census of Portuguese consolidated legislation (Leis, Decretos-Lei, Códigos, Portarias, Regulamentos, etc.)",
   "stats": {
     "total": 1151,
-    "class_ingestable": 1131,
+    "class_ingestable": 1130,
     "class_inaccessible": 20,
     "class_metadata_only": 0,
     "by_type": {
@@ -16,7 +16,8 @@
       "Portaria": 138,
       "Outro": 11,
       "Despacho": 11
-    }
+    },
+    "class_not_ingestable": 1
   },
   "laws": [
     {
@@ -897,7 +898,8 @@
       "legislationType": "Resolução",
       "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=318&tabela=leis&ficha=101",
       "category": "",
-      "classification": "ingestable"
+      "classification": "not_ingestable",
+      "not_ingestable_reason": "International treaty (Rome Statute of the ICC) — not Portuguese national legislation; source page structure incompatible with automated ingestion"
     },
     {
       "id": "pt-lei-23-",
