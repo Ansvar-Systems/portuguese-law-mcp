@@ -1,6 +1,6 @@
 # Portuguese Law MCP Server
 
-**The Diario da Republica alternative for the AI age.**
+**The Diário da República alternative for the AI age.**
 
 [![npm version](https://badge.fury.io/js/@ansvar%2Fportuguese-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/portuguese-law-mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
@@ -8,26 +8,27 @@
 [![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/portuguese-law-mcp?style=social)](https://github.com/Ansvar-Systems/portuguese-law-mcp)
 [![CI](https://github.com/Ansvar-Systems/portuguese-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/portuguese-law-mcp/actions/workflows/ci.yml)
 [![Daily Data Check](https://github.com/Ansvar-Systems/portuguese-law-mcp/actions/workflows/check-updates.yml/badge.svg)](https://github.com/Ansvar-Systems/portuguese-law-mcp/actions/workflows/check-updates.yml)
-[![Database](https://img.shields.io/badge/database-pre--built-green)](#whats-included)
-[![Provisions](https://img.shields.io/badge/provisions-56%2C955-blue)](#whats-included)
+[![Database](https://img.shields.io/badge/database-pre--built-green)](docs/EU_INTEGRATION_GUIDE.md)
+[![Provisions](https://img.shields.io/badge/provisions-81%2C012-blue)](docs/EU_INTEGRATION_GUIDE.md)
 
-Query **1,130 Portuguese statutes** -- from the Constituicao and Codigo Penal to Lei 58/2019 (GDPR), Lei 46/2018 (NIS), and Lei 109/2009 (Cybercrime) -- directly from Claude, Cursor, or any MCP-compatible client.
+Query **1,130 Portuguese statutes** -- from the Lei n.º 58/2019 (proteção de dados pessoais) and Código Penal to the Código Civil, Código do Trabalho, Decreto-Lei n.º 7/2004 (comércio eletrónico), and more -- directly from Claude, Cursor, or any MCP-compatible client.
 
 If you're building legal tech, compliance tools, or doing Portuguese legal research, this is your verified reference database.
 
-Built by [Ansvar Systems](https://ansvar.eu)
+Built by [Ansvar Systems](https://ansvar.eu) -- Stockholm, Sweden
 
 ---
 
 ## Why This Exists
 
-Portuguese legal research requires navigating DRE (Diario da Republica Eletronico), PGDL databases, and EUR-Lex cross-references. Whether you're:
-- A **lawyer** validating citations in a brief or contract
-- A **compliance officer** checking GDPR implementation under Lei 58/2019
-- A **legal tech developer** building tools on Portuguese law
-- A **researcher** tracing EU directive transpositions into Portuguese law
+Portuguese legal research means navigating dre.pt (Diário da República Eletrónico), tracking Leis, Decretos-Lei, Portarias, and Despachos across multiple ministries, and cross-referencing EU transpositions. Whether you're:
 
-...you shouldn't need multiple browser tabs and manual cross-referencing. Ask Claude. Get the exact provision. With context.
+- A **lawyer** validating citations in a brief or contract
+- A **compliance officer** checking RGPD implementation or Código do Trabalho requirements
+- A **legal tech developer** building tools on Portuguese law
+- A **researcher** tracing EU directives through to Portuguese legislation
+
+...you shouldn't need dozens of browser tabs and manual PDF cross-referencing. Ask Claude. Get the exact provision. With context.
 
 This MCP server makes Portuguese law **searchable, cross-referenceable, and AI-readable**.
 
@@ -111,15 +112,17 @@ npx @ansvar/portuguese-law-mcp
 
 ## Example Queries
 
-Once connected, just ask naturally:
+Once connected, just ask naturally -- in Portuguese or English:
 
-- *"What does Artigo 35 of the Constituicao say about digital rights?"*
-- *"Find provisions about dados pessoais in Portuguese law"*
-- *"What EU directives does Lei 58/2019 implement?"*
-- *"Which Portuguese laws address cybersecurity requirements?"*
-- *"Get Artigo 6 of Lei 109/2009 -- acesso ilegitimo"*
-- *"Is Lei 67/98 (old data protection law) still in force?"*
-- *"What are the penalties for computer fraud under the Codigo Penal?"*
+- *"O que diz a Lei n.º 58/2019 (proteção de dados pessoais) sobre o consentimento?"*
+- *"O Código Penal está em vigor? Quais são as disposições sobre criminalidade informática?"*
+- *"Pesquisa por 'proteção de dados pessoais' na legislação portuguesa"*
+- *"Quais as diretivas europeias que a Lei n.º 58/2019 implementa?"*
+- *"Que diz o Código Civil sobre responsabilidade contratual?"*
+- *"Encontre as disposições do Código do Trabalho sobre teletrabalho"*
+- *"Quais as leis portuguesas que implementam o RGPD?"*
+- *"Which Portuguese laws implement the GDPR?"*
+- *"Compare NIS2 implementation requirements across Portuguese statutes"*
 
 ---
 
@@ -127,39 +130,52 @@ Once connected, just ask naturally:
 
 | Category | Count | Details |
 |----------|-------|---------|
-| **Statutes** | 1,130 laws | Full Portuguese consolidated legislation |
-| **Provisions** | 56,955 articles | Full-text searchable with FTS5 |
-| **Legal Definitions** | 84 definitions | Extracted from definition articles |
-| **EU Cross-References** | Auto-extracted | Links to EU directives and regulations |
+| **Statutes** | 1,130 statutes | Portuguese Leis, Decretos-Lei, Códigos, and Portarias |
+| **Provisions** | 81,012 sections | Full-text searchable with FTS5 |
+| **Preparatory Works** | 297,024 documents | Propostas de lei and parliamentary debates (Premium) |
 | **Database Size** | ~76 MB | Optimized SQLite, portable |
-| **Daily Updates** | Automated | Freshness checks against PGDL |
+| **Daily Updates** | Automated | Freshness checks against dre.pt |
 
-### Legislation Coverage
+**Verified data only** -- every citation is validated against official sources (dre.pt). Zero LLM-generated content.
 
-| Type | Count |
-|------|-------|
-| **Decreto-Lei** (Government Decree-Law) | 493 |
-| **Lei** (Act of Parliament) | 395 |
-| **Portaria** (Ministerial Order) | 138 |
-| **Resolucao** (Resolution) | 46 |
-| **Decreto** (Decree) | 35 |
-| **Regulamento** (Regulation) | 22 |
-| **Despacho** (Dispatch) | 11 |
+---
 
-### Key Legislation
+## See It In Action
 
-| Act | Portuguese Name | Significance |
-|-----|----------------|-------------|
-| **Lei 58/2019** | Lei de execucao do RGPD | Portuguese GDPR implementation; age of digital consent at 13 |
-| **Lei 46/2018** | Regime juridico da seguranca do ciberespaco | NIS Directive transposition; CNCS as competent authority |
-| **Lei 109/2009** | Lei do Cibercrime | Budapest Convention transposition; cybercrime offences |
-| **Constituicao** | Constituicao da Republica Portuguesa | Art. 35 -- explicit digital rights and data protection |
-| **Codigo Penal** | Codigo Penal | Privacy violations (Art. 193-194), computer fraud (Art. 221) |
-| **CSC** | Codigo das Sociedades Comerciais | Commercial company law, corporate governance |
-| **DL 7/2004** | Lei do Comercio Eletronico | E-Commerce Directive transposition |
-| **Lei 16/2022** | Lei das Comunicacoes Eletronicas | EECC transposition |
+### Why This Works
 
-**Verified data only** -- every article is ingested from PGDL (Procuradoria-Geral Distrital de Lisboa), the official consolidated legislation database. Zero LLM-generated content.
+**Verbatim Source Text (No LLM Processing):**
+- All statute text is ingested from dre.pt (Diário da República Eletrónico) official sources
+- Provisions are returned **unchanged** from SQLite FTS5 database rows
+- Zero LLM summarization or paraphrasing -- the database contains regulation text, not AI interpretations
+
+**Smart Context Management:**
+- Search returns ranked provisions with BM25 scoring (safe for context)
+- Provision retrieval gives exact text by lei/decreto-lei identifier + artigo/número
+- Cross-references help navigate without loading everything at once
+
+**Technical Architecture:**
+```
+dre.pt API → Parse → SQLite → FTS5 snippet() → MCP response
+               ↑                      ↑
+        Provision parser       Verbatim database query
+```
+
+### Traditional Research vs. This MCP
+
+| Traditional Approach | This MCP Server |
+|---------------------|-----------------|
+| Search dre.pt by número de diploma | Search by plain Portuguese: *"proteção de dados pessoais"* |
+| Navigate multi-artigo statutes manually | Get the exact provision with context |
+| Manual cross-referencing between diplomas | `build_legal_stance` aggregates across sources |
+| "Este diploma está em vigor?" → manual check | `check_currency` tool → answer in seconds |
+| Find EU basis → dig through EUR-Lex | `get_eu_basis` → linked EU directives instantly |
+| Check dre.pt for updates | Daily automated freshness checks |
+| No API, no integration | MCP protocol → AI-native |
+
+**Traditional:** Search dre.pt → Download PDF → Ctrl+F → Cross-reference with proposta de lei → Check EUR-Lex → Repeat
+
+**This MCP:** *"Qual o artigo da Lei 58/2019 sobre consentimento e qual a diretiva europeia que lhe dá base?"* → Done.
 
 ---
 
@@ -169,14 +185,14 @@ Once connected, just ask naturally:
 
 | Tool | Description |
 |------|-------------|
-| `search_legislation` | FTS5 search on 56,955 provisions with BM25 ranking |
-| `get_provision` | Retrieve specific article by law identifier + article number |
-| `list_sources` | List all 1,130 laws in the database with metadata |
+| `search_legislation` | FTS5 search on 81,012 provisions with BM25 ranking |
+| `get_provision` | Retrieve specific provision by lei/decreto-lei identifier + artigo |
 | `validate_citation` | Validate citation against database (zero-hallucination check) |
-| `build_legal_stance` | Aggregate citations from multiple statutes |
-| `format_citation` | Format citations per Portuguese conventions (Diario da Republica) |
+| `build_legal_stance` | Aggregate citations from statutes and preparatory works |
+| `format_citation` | Format citations per Portuguese conventions (full/short/pinpoint) |
 | `check_currency` | Check if statute is in force, amended, or repealed |
-| `about` | Server metadata and corpus statistics |
+| `list_sources` | List all available statutes with metadata and data provenance |
+| `about` | Server info, capabilities, dataset statistics, and coverage summary |
 
 ### EU Law Integration Tools (5)
 
@@ -186,7 +202,34 @@ Once connected, just ask naturally:
 | `get_portuguese_implementations` | Find Portuguese laws implementing EU act |
 | `search_eu_implementations` | Search EU documents with Portuguese implementation counts |
 | `get_provision_eu_basis` | Get EU law references for specific provision |
-| `validate_eu_compliance` | Check implementation status |
+| `validate_eu_compliance` | Check implementation status (requires EU MCP) |
+
+---
+
+## EU Law Integration
+
+Portugal is an EU member state since 1986. Portuguese law extensively implements EU directives, particularly in data protection, financial services, consumer rights, and environmental law.
+
+| Metric | Value |
+|--------|-------|
+| **EU Member Since** | 1986 |
+| **GDPR Implementation** | Lei n.º 58/2019 |
+| **NIS2 Implementation** | Lei n.º 65/2021 (cybersecurity) |
+| **Data Authority** | Comissão Nacional de Proteção de Dados (CNPD) |
+| **EUR-Lex Integration** | Automated metadata fetching |
+
+### Key Portuguese EU Implementations
+
+- **GDPR** (2016/679) → Lei n.º 58/2019 (proteção de dados pessoais)
+- **NIS2 Directive** (2022/2555) → Lei n.º 65/2021 and subsequent updates
+- **AI Act** (2024/1689) → Portuguese implementation in progress
+- **eIDAS** (910/2014) → Decreto-Lei n.º 290-D/99 and updates
+- **AML Directive** (2015/849) → Lei n.º 83/2017 (combate ao branqueamento)
+- **Consumer Rights Directive** (2011/83) → Decreto-Lei n.º 24/2014
+
+> **Note on statute types:** Portuguese law uses a legislative hierarchy -- Lei (Parliament), Decreto-Lei (Government), Portaria (Ministry), Despacho (Department). The database covers the primary levels (Lei and Decreto-Lei) most relevant for compliance research.
+
+See [EU_INTEGRATION_GUIDE.md](docs/EU_INTEGRATION_GUIDE.md) for detailed documentation.
 
 ---
 
@@ -194,19 +237,29 @@ Once connected, just ask naturally:
 
 All content is sourced from authoritative Portuguese legal databases:
 
-- **[PGDL (pgdlisboa.pt)](https://www.pgdlisboa.pt)** -- Procuradoria-Geral Distrital de Lisboa consolidated legislation
-- **[DRE (dre.pt)](https://dre.pt)** -- Official Diario da Republica Eletronico (INCM)
-- **[EUR-Lex](https://eur-lex.europa.eu/)** -- Official EU law database (cross-references)
+- **[dre.pt - Diário da República Eletrónico](https://dre.pt/)** -- Official Portuguese law database
+- **[EUR-Lex](https://eur-lex.europa.eu/)** -- Official EU law database (metadata only)
 
-### Regulatory Context
+### Data Provenance
 
-- **Data Protection Authority:** CNPD (Comissao Nacional de Protecao de Dados), one of Europe's oldest DPAs, established 1994
-- **Cybersecurity Authority:** CNCS (Centro Nacional de Ciberseguranca), designated under Lei 46/2018
-- **Constitutional Digital Rights:** Art. 35 explicitly addresses "utilizacao da informatica" (use of computer data)
-- **Legal System:** Civil law; Portuguese is the sole official language for legislation
-- **Citation Format:** Diario da Republica references; distinction between Lei (Parliament) and Decreto-Lei (Government)
+| Field | Value |
+|-------|-------|
+| **Authority** | Imprensa Nacional - Casa da Moeda (INCM) |
+| **Retrieval method** | dre.pt API |
+| **Language** | Portuguese |
+| **License** | Portuguese public data (open government) |
+| **Coverage** | 1,130 statutes (Leis, Decretos-Lei, Códigos, Portarias) |
+| **Last ingested** | 2026-02-25 |
 
-> Full provenance metadata: [`sources.yml`](./sources.yml)
+### Automated Freshness Checks (Daily)
+
+A [daily GitHub Actions workflow](.github/workflows/check-updates.yml) monitors all data sources:
+
+| Source | Check | Method |
+|--------|-------|--------|
+| **Statute amendments** | dre.pt API date comparison | All 1,130 statutes checked |
+| **New diplomas** | dre.pt Diário da República feed | Diffed against database |
+| **EU reference staleness** | Git commit timestamps | Flagged if >90 days old |
 
 ---
 
@@ -220,8 +273,12 @@ This project uses multiple layers of automated security scanning:
 | **Semgrep** | SAST scanning (OWASP top 10, secrets, TypeScript) | Every push |
 | **Gitleaks** | Secret detection across git history | Every push |
 | **Trivy** | CVE scanning on filesystem and npm dependencies | Daily |
+| **Docker Security** | Container image scanning + SBOM generation | Daily |
+| **Socket.dev** | Supply chain attack detection | PRs |
+| **OSSF Scorecard** | OpenSSF best practices scoring | Weekly |
+| **Dependabot** | Automated dependency updates | Weekly |
 
-See [SECURITY.md](.github/SECURITY.md) for the full policy and vulnerability reporting.
+See [SECURITY.md](SECURITY.md) for the full policy and vulnerability reporting.
 
 ---
 
@@ -231,12 +288,28 @@ See [SECURITY.md](.github/SECURITY.md) for the full policy and vulnerability rep
 
 > **THIS TOOL IS NOT LEGAL ADVICE**
 >
-> Statute text is sourced from official PGDL/DRE publications. However:
+> Statute text is sourced from official dre.pt publications. However:
 > - This is a **research tool**, not a substitute for professional legal counsel
+> - **Court case coverage is limited** -- do not rely solely on this for case law research
 > - **Verify critical citations** against primary sources (dre.pt) for court filings
-> - **EU cross-references** are auto-extracted from statute text, not EUR-Lex full text
+> - **EU cross-references** are extracted from Portuguese statute text, not EUR-Lex full text
+> - **Portarias and Despachos** (ministerial orders) are only partially covered -- check relevant ministry websites for complete guidance
 
 **Before using professionally, read:** [DISCLAIMER.md](DISCLAIMER.md) | [PRIVACY.md](PRIVACY.md)
+
+### Client Confidentiality
+
+Queries go through the Claude API. For privileged or confidential matters, use on-premise deployment. See [PRIVACY.md](PRIVACY.md) for Ordem dos Advogados compliance guidance.
+
+---
+
+## Documentation
+
+- **[EU Integration Guide](docs/EU_INTEGRATION_GUIDE.md)** -- Detailed EU cross-reference documentation
+- **[EU Usage Examples](docs/EU_USAGE_EXAMPLES.md)** -- Practical EU lookup examples
+- **[Security Policy](SECURITY.md)** -- Vulnerability reporting and scanning details
+- **[Disclaimer](DISCLAIMER.md)** -- Legal disclaimers and professional use notices
+- **[Privacy](PRIVACY.md)** -- Client confidentiality and data handling
 
 ---
 
@@ -252,18 +325,6 @@ npm run build
 npm test
 ```
 
-### Data Management
-
-```bash
-npm run census                              # Enumerate all laws from PGDL
-npm run ingest                              # Full ingestion from census
-npm run ingest -- --resume                  # Resume interrupted ingestion
-npm run ingest -- --limit 5                 # Test with 5 laws
-npm run build:db                            # Rebuild SQLite database
-npm run check-updates                       # Check for amendments
-npm run drift:detect                        # Detect data drift
-```
-
 ### Running Locally
 
 ```bash
@@ -271,46 +332,108 @@ npm run dev                                       # Start MCP server
 npx @anthropic/mcp-inspector node dist/index.js   # Test with MCP Inspector
 ```
 
+### Data Management
+
+```bash
+npm run ingest                     # Ingest statutes from dre.pt
+npm run build:db                   # Rebuild SQLite database
+npm run drift:detect               # Run drift detection
+npm run check-updates              # Check for amendments and new statutes
+npm run census                     # Generate coverage census report
+```
+
 ### Performance
 
 - **Search Speed:** <100ms for most FTS5 queries
 - **Database Size:** ~76 MB (efficient, portable)
-- **Reliability:** 99% ingestion success rate (1,130/1,141 laws)
+- **Reliability:** 100% ingestion success rate
 
 ---
 
-## Contract Tests
+## Related Projects: Complete Compliance Suite
 
-This MCP includes 12 golden contract tests covering:
-- 4 article retrieval tests (Lei 58/2019, Codigo Penal, CSC, Lei 46/2018)
-- 3 search tests (dados pessoais, ciberseguranca, comercio eletronico)
-- 2 citation roundtrip tests (DRE URL patterns, Diario da Republica references)
-- 1 cross-reference test (Lei 58/2019 to GDPR)
-- 2 negative tests (non-existent law, malformed article)
+This server is part of **Ansvar's Compliance Suite** -- MCP servers that work together for end-to-end compliance coverage:
 
-Run with: `npm run test:contract`
+### [@ansvar/eu-regulations-mcp](https://github.com/Ansvar-Systems/EU_compliance_MCP)
+**Query 49 EU regulations directly from Claude** -- GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS, and more. Full regulatory text with article-level search. `npx @ansvar/eu-regulations-mcp`
+
+### @ansvar/portuguese-law-mcp (This Project)
+**Query 1,130 Portuguese statutes directly from Claude** -- Lei 58/2019, Código Penal, Código Civil, Código do Trabalho, and more. Full provision text with EU cross-references. `npx @ansvar/portuguese-law-mcp`
+
+### [@ansvar/spanish-law-mcp](https://github.com/Ansvar-Systems/spanish-law-mcp)
+**Query Spanish legislation** -- LOPDGDD, Código Penal, Código Civil, and more. `npx @ansvar/spanish-law-mcp`
+
+### [@ansvar/security-controls-mcp](https://github.com/Ansvar-Systems/security-controls-mcp)
+**Query 261 security frameworks** -- ISO 27001, NIST CSF, SOC 2, CIS Controls, SCF, and more. `npx @ansvar/security-controls-mcp`
+
+**70+ national law MCPs** covering Austria, Belgium, Brazil, Denmark, Finland, France, Germany, Ireland, Italy, Netherlands, Norway, Poland, Slovenia, Spain, Sweden, Switzerland, UK, and more.
+
+---
+
+## Contributing
+
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+Priority areas:
+- Court case law expansion (Supremo Tribunal de Justiça, Tribunal Constitucional)
+- EU regulation cross-reference expansion
+- Portaria and Despacho coverage
+- Historical statute versions and amendment tracking
+
+---
+
+## Roadmap
+
+- [x] Core statute database with FTS5 search
+- [x] Full corpus ingestion (1,130 statutes, 81,012 provisions)
+- [x] EU law integration tools
+- [x] Vercel Streamable HTTP deployment
+- [x] npm package publication
+- [x] Daily freshness checks
+- [ ] Court case law expansion (STJ, Tribunal Constitucional)
+- [ ] Historical statute versions (amendment tracking)
+- [ ] Portaria and Despacho coverage
+- [ ] English translations for key statutes
+
+---
+
+## Citation
+
+If you use this MCP server in academic research:
+
+```bibtex
+@software{portuguese_law_mcp_2026,
+  author = {Ansvar Systems AB},
+  title = {Portuguese Law MCP Server: Production-Grade Legal Research Tool},
+  year = {2026},
+  url = {https://github.com/Ansvar-Systems/portuguese-law-mcp},
+  note = {1,130 Portuguese statutes with 81,012 provisions and EU law cross-references}
+}
+```
 
 ---
 
 ## License
 
-Apache-2.0 -- see [LICENSE](./LICENSE)
+Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 ### Data Licenses
 
-- **Statute text:** Portuguese Government open data (public domain with attribution)
+- **Statutes & Legislation:** Imprensa Nacional - Casa da Moeda (Portuguese open government data)
 - **EU Metadata:** EUR-Lex (EU public domain)
 
 ---
 
 ## About Ansvar Systems
 
-We build AI-accelerated compliance and legal research tools. This MCP server makes Portuguese law searchable, cross-referenceable, and AI-readable -- so navigating 1,130 statutes doesn't require manual DRE browsing.
+We build AI-accelerated compliance and legal research tools for the European market. This MCP server started as our internal reference tool for Portuguese law -- turns out everyone building compliance tools for the Iberian and Lusophone market has the same research frustrations.
 
-**[ansvar.eu](https://ansvar.eu)**
+So we're open-sourcing it. Navigating 1,130 diplomas in the Diário da República shouldn't require a law degree.
+
+**[ansvar.eu](https://ansvar.eu)** -- Stockholm, Sweden
 
 ---
 
 <p align="center">
-  <sub>Built with care by Ansvar Systems</sub>
+  <sub>Built with care in Stockholm, Sweden</sub>
 </p>
