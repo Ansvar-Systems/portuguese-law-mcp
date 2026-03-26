@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "eu.ansvar/portuguese-law-mcp",
+  "description": "Portuguese legislation via MCP — full-text search across statutes and provisions",
+  "repository": {
+    "url": "https://github.com/Ansvar-Systems/portuguese-law-mcp",
+    "source": "github"
+  },
+  "homepage": "https://ansvar.eu",
+  "version": "2.0.0",
+  "license": "Apache-2.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ansvar/portuguese-law-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
