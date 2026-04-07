@@ -40,12 +40,12 @@ This MCP server makes Portuguese law **searchable, cross-referenceable, and AI-r
 
 > Connect directly to the hosted version -- zero dependencies, nothing to install.
 
-**Endpoint:** `https://mcp.ansvar.eu/law-portuguese-law-mcp/mcp`
+**Endpoint:** `https://mcp.ansvar.eu/law-pt/mcp`
 
 | Client | How to Connect |
 |--------|---------------|
 | **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add portuguese-law --transport http https://mcp.ansvar.eu/law-portuguese-law-mcp/mcp` |
+| **Claude Code** | `claude mcp add portuguese-law --transport http https://mcp.ansvar.eu/law-pt/mcp` |
 | **Claude Desktop** | Add to config (see below) |
 | **GitHub Copilot** | Add to VS Code settings (see below) |
 
@@ -56,7 +56,7 @@ This MCP server makes Portuguese law **searchable, cross-referenceable, and AI-r
   "mcpServers": {
     "portuguese-law": {
       "type": "url",
-      "url": "https://mcp.ansvar.eu/law-portuguese-law-mcp/mcp"
+      "url": "https://mcp.ansvar.eu/law-pt/mcp"
     }
   }
 }
@@ -69,7 +69,7 @@ This MCP server makes Portuguese law **searchable, cross-referenceable, and AI-r
   "github.copilot.chat.mcp.servers": {
     "portuguese-law": {
       "type": "http",
-      "url": "https://mcp.ansvar.eu/law-portuguese-law-mcp/mcp"
+      "url": "https://mcp.ansvar.eu/law-pt/mcp"
     }
   }
 }
