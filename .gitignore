@@ -12,3 +12,5 @@ coverage/
 .vercel
 .claude/
 .serena/
+*-e
+*.bak
