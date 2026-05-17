@@ -372,8 +372,34 @@ Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 ### Data Licenses
 
-- **Statutes & Legislation:** Imprensa Nacional - Casa da Moeda (Portuguese open government data)
-- **EU Metadata:** EUR-Lex (EU public domain)
+Ansvar attribution code: **`Portuguese-CDADC-Art-7-and-8`**. Basis:
+**cross-reference** between CDADC (Codigo do Direito de Autor e dos
+Direitos Conexos) Art. 8 and Art. 3(1)(c).
+
+- **Statutes & Legislation:** Imprensa Nacional - Casa da Moeda via
+  Diario da Republica (`dre.pt` / `diariodarepublica.pt`). Reused under
+  CDADC Art. 8 + Art. 3(1)(c).
+- **EU Metadata:** EUR-Lex (EU public-domain notice).
+
+### Coverage scope (cross-reference construction)
+
+Portugal's statutory-PD basis is a **cross-reference** — it requires two
+articles read together:
+
+- **Art. 8 (CDADC):** carves official documents from copyright protection.
+- **Art. 3(1)(c) (CDADC):** defines what counts as an "official document"
+  for the carve-out — legislative acts, administrative regulations,
+  court decisions, and other official texts.
+
+**Why this is NOT Art. 7 alone:** Art. 7 covers only news reports
+(`notícias do dia`), petitions (`petições`), and discourses
+(`discursos`). It does NOT cover statutes. Treating Art. 7 as the
+statutory-PD basis is a common misreading. The correct construction is
+Art. 8 + Art. 3(1)(c).
+
+See `docs/audits/2026-05-17-eu-copyright-statutory-works-batch-2-HU-LU-PT-RO-GR.md`
+in the Ansvar architecture-documentation repo for the verbatim Art. 8
+and Art. 3(1)(c) text and the cross-reference analysis.
 
 ---
 

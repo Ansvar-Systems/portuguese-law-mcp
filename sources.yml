@@ -13,9 +13,12 @@ sources:
     update_frequency: "daily"
     last_ingested: "PENDING_FIRST_INGEST"
     license_or_terms:
-      type: "Government Open Data (Portuguese Open Data)"
+      type: "Portuguese-CDADC-Art-7-and-8"
+      ansvar_code: "Portuguese-CDADC-Art-7-and-8"
+      statute_ref: "CDADC Art. 8 + Art. 3(1)(c) cross-reference"
       url: "https://dre.pt/termos-de-utilizacao"
-      summary: "DRE is the official electronic journal of the Portuguese Republic, operated by INCM; provides free public access to all legislation published in the Diario da Republica; content is available under Portuguese open data terms for reuse with attribution; structured API available for programmatic access"
+      url_pattern: '^https?://(?:www\.)?diariodarepublica\.pt/.+'
+      summary: "Portuguese statutory-PD carve-out via CDADC (Codigo do Direito de Autor e dos Direitos Conexos) Art. 8 + Art. 3(1)(c) CROSS-REFERENCE. Art. 8 carves official documents from copyright; Art. 3(1)(c) defines the categories. NOT Art. 7 alone — Art. 7 covers only news/petitions/discourses, not statutes. The arch-docs manifest publisher is diariodarepublica.pt (canonical official-gazette mirror of dre.pt). See infrastructure/attribution-licenses.json Portuguese-CDADC-Art-7-and-8."
     coverage:
       scope: "All Portuguese legislation published in the Diario da Republica including Lei 58/2019 (GDPR implementation), Lei 46/2018 (NIS transposition - regime juridico da seguranca do ciberespaco), Codigo das Sociedades Comerciais (CSC), Codigo Penal (cybercrime provisions arts. 193-194, 221), Lei do Comercio Eletronico (DL 7/2004), Lei das Comunicacoes Eletronicas (Lei 16/2022), and Constituicao da Republica Portuguesa"
       limitations: "Some very recent publications may have a short delay before appearing in the API; historical legislation predating digitization may not have fully structured text; consolidated versions of frequently amended laws may lag slightly behind gazette publication"
